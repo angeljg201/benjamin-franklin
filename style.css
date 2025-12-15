@@ -214,7 +214,7 @@ nav a:hover::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, rgba(12,13,80,0.9) 0%, rgba(12,13,80,0.7) 50%, rgba(12,13,80,0.3) 100%);
+    background: linear-gradient(90deg, rgba(12, 13, 80, 0.9) 0%, rgba(12, 13, 80, 0.7) 50%, rgba(12, 13, 80, 0.3) 100%);
     z-index: 2;
 }
 
@@ -227,7 +227,7 @@ nav a:hover::after {
 .hero-tagline {
     display: inline-block;
     padding: 6px 12px;
-    background: rgba(194,82,16,0.08);
+    background: rgba(194, 82, 16, 0.08);
     border: 1px solid var(--secondary-color);
     color: var(--secondary-color);
     font-size: 0.85rem;
@@ -294,10 +294,12 @@ section {
     background: var(--bg-light);
     padding: 60px 0;
 }
+
 .por-que-estudiar .pq-header {
     text-align: left;
     margin-bottom: 20px;
 }
+
 .por-que-estudiar .pq-header h2 {
     display: inline-block;
     background: var(--bg-light);
@@ -305,14 +307,16 @@ section {
     padding: 6px 12px;
     border-radius: 4px;
     font-size: 1.5rem;
-    border: 2px solid rgba(12,13,80,0.06);
+    border: 2px solid rgba(12, 13, 80, 0.06);
 }
+
 .pq-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 28px;
     margin-top: 18px;
 }
+
 .pq-card {
     border: 3px solid #111;
     padding: 22px;
@@ -322,6 +326,7 @@ section {
     align-items: flex-start;
     min-height: 140px;
 }
+
 .pq-icon {
     width: 64px;
     height: 64px;
@@ -333,12 +338,14 @@ section {
     color: var(--secondary-color);
     background: transparent;
 }
+
 .pq-content h3 {
     font-size: 0.95rem;
     text-transform: uppercase;
     margin-bottom: 8px;
     color: var(--text-dark);
 }
+
 .pq-content p {
     color: #4a4a4a;
     margin: 0;
@@ -348,6 +355,7 @@ section {
     .por-que-estudiar .pq-header h2 {
         font-size: 1.25rem;
     }
+
     .pq-card {
         flex-direction: row;
         align-items: flex-start;
@@ -552,6 +560,7 @@ section {
         order: -1;
     }
 }
+
 /* Footer Redesign */
 footer {
     background-color: var(--primary-color);
@@ -623,7 +632,8 @@ footer {
 }
 
 .mensaje-box {
-    background-color: #1a237e; /* Slightly lighter blue or distinct tone */
+    background-color: #1a237e;
+    /* Slightly lighter blue or distinct tone */
     background: linear-gradient(135deg, #151b54 0%, #1a237e 100%);
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: #fff;
@@ -699,7 +709,7 @@ footer {
     margin-top: 25px;
     display: flex;
     flex-direction: column;
-    gap: 0; 
+    gap: 0;
 }
 
 .footer-nav li a {
@@ -719,7 +729,8 @@ footer {
 
 /* Footer Bottom */
 .footer-bottom {
-    background-color: #070830; /* Darker shade */
+    background-color: #070830;
+    /* Darker shade */
     padding: 20px 0;
     margin-top: 20px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -753,7 +764,8 @@ footer {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background-color: #3b3c75; /* Lighter navy for social circles */
+    background-color: #3b3c75;
+    /* Lighter navy for social circles */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -779,10 +791,327 @@ footer {
         grid-template-columns: 1fr;
         gap: 40px;
     }
-    
+
     .bottom-content {
         flex-direction: column;
         gap: 20px;
         text-align: center;
+    }
+}
+
+/* Lead Generation Banner Styles */
+.banner-contacto {
+    background-color: var(--primary-color);
+    padding: 80px 0;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Optional background pattern or gradient */
+.banner-contacto::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 70% 50%, rgba(194, 82, 16, 0.15) 0%, transparent 60%);
+    pointer-events: none;
+}
+
+.banner-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.banner-text h2 {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.banner-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+    max-width: 450px;
+}
+
+.banner-features {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.b-feature {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.b-feature i {
+    color: var(--secondary-color);
+    background: rgba(255, 255, 255, 0.1);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+
+/* Form Card */
+.banner-form-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    color: var(--text-dark);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    transition: 0.3s;
+    background: #f9f9f9;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    background: #fff;
+    box-shadow: 0 0 0 3px rgba(12, 13, 80, 0.1);
+}
+
+.form-check {
+    margin-bottom: 20px;
+}
+
+/* Custom Checkbox */
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    user-select: none;
+}
+
+.custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #eee;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+.custom-checkbox:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+.custom-checkbox input:checked~.checkmark {
+    background-color: var(--primary-color);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.custom-checkbox input:checked~.checkmark:after {
+    display: block;
+}
+
+.custom-checkbox .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 4px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.check-text {
+    line-height: 1.4;
+    color: #666;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    padding: 14px;
+    font-weight: 700;
+}
+
+/* Responsive Banner */
+@media (max-width: 992px) {
+    .banner-grid {
+        grid-template-columns: 1fr;
+        /* Stack */
+        gap: 40px;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    .banner-features {
+        align-items: center;
+    }
+
+    .banner-text h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .banner-form-card {
+        padding: 20px;
+    }
+}
+
+/* Dropdown Menu Styles */
+nav ul li {
+    position: relative;
+}
+
+.has-submenu>a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.has-submenu>a i {
+    font-size: 0.8rem;
+    transition: transform 0.3s ease;
+}
+
+.has-submenu:hover>a i {
+    transform: rotate(180deg);
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 240px;
+    background-color: var(--primary-color);
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 15px 0;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    z-index: 1000;
+}
+
+.has-submenu:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.submenu li {
+    width: 100%;
+    padding: 0;
+}
+
+.submenu li a {
+    color: #fff !important;
+    display: block;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.submenu li a:hover {
+    background-color: var(--secondary-color);
+    padding-left: 25px;
+    /* Slight movement effect */
+}
+
+.submenu li a::after {
+    display: none;
+    /* Remove the underline effect from parent links */
+}
+
+/* Ensure navbar items don't break on resize if possible, but minimal check */
+@media (max-width: 768px) {
+    .submenu {
+        position: static;
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+        transform: none;
+        background: rgba(0, 0, 0, 0.05);
+        /* Lighter bg for mobile nested */
+        box-shadow: none;
+        display: none;
+        /* Hidden by default on mobile, could use JS toggle */
+    }
+
+    .has-submenu:hover .submenu {
+        display: block;
+        /* Basic hover for mobile or need JS click */
+    }
+
+    .submenu li a {
+        color: var(--primary-color) !important;
+        padding-left: 40px;
     }
 }
