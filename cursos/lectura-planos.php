@@ -5,13 +5,48 @@ include '../includes/header.php';
 ?>
 
     <main class="course-page-wrapper">
+            <aside class="course-sidebar">
+                <div class="sticky-card">
+                    <div class="card-image-header">
+                        <img src="<?php echo $rootPath; ?>assets/img/program-card.jpg" alt="Lectura de Planos">
+                         <span class="live-badge"><i class="fa-solid fa-circle-play"></i> En vivo</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-course-title">Lectura de Planos</h3>
+                        <div class="card-price"><span class="currency">S/</span> 300 <span class="modality">- Virtual</span></div>
+                        <div class="card-actions">
+                            <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Comprar ahora</a>
+                            <a href="https://wa.me/51999999999" target="_blank" class="btn btn-whatsapp full-width">Solicitar información por <br> <strong>WHATSAPP</strong> <i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
         <section class="course-hero">
             <div class="container">
                 <div class="hero-content">
-                    <span class="hero-badge">Capacitación Construcción</span>
+                    <div class="hero-breadcrumb">INICIO • CURSOS • CONSTRUCCIÓN • LECTURA DE PLANOS</div>
+                    <span class="hero-badge">CURSO</span>
                     <h1>Lectura de Planos</h1>
                     <p>Domina la interpretación de simbología, escalas y especificaciones técnicas en planos de arquitectura, estructura, instalaciones sanitarias y eléctricas para una correcta ejecución de obra.</p>
-                    <a href="#" class="btn btn-light-outline"><i class="fa-solid fa-download"></i> DESCARGAR BROCHURE</a>
+                    
+                    <div class="hero-stats-bar">
+                        <div class="hero-stats-left">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+                            <span class="rating-text">4.6 Calificaciones</span>
+                        </div>
+                        <div class="hero-stats-right">
+                            <i class="fa-solid fa-user-group"></i> 180 Alumnos capacitados en este curso
+                        </div>
+                    </div>
+
+                    <div class="hero-share">
+                        <span>Compartir:</span>
+                        <div class="hero-share-icons">
+                            <a href="#" class="share-icon"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="share-icon"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="#" class="share-icon"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -54,22 +89,9 @@ include '../includes/header.php';
                     </div>
                 </section>
             </div>
-            <aside class="course-sidebar">
-                <div class="sticky-card">
-                    <div class="card-image-header">
-                        <img src="<?php echo $rootPath; ?>assets/img/program-card.jpg" alt="Lectura de Planos">
-                         <span class="live-badge"><i class="fa-solid fa-circle-play"></i> En vivo</span>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-course-title">Lectura de Planos</h3>
-                        <div class="card-price"><span class="currency">S/</span> 300 <span class="modality">- Virtual</span></div>
-                        <div class="card-actions">
-                            <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Comprar ahora</a>
-                            <a href="https://wa.me/51999999999" target="_blank" class="btn btn-whatsapp full-width">Solicitar información por <br> <strong>WHATSAPP</strong> <i class="fa-brands fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </aside>
+            
+
+
         </div>
     </main>
     <script>document.querySelectorAll('.accordion-header').forEach(b=>{b.addEventListener('click',()=>{b.classList.toggle('active');const c=b.nextElementSibling;c.style.maxHeight=b.classList.contains('active')?c.scrollHeight+"px":0;b.querySelector('i').style.transform=b.classList.contains('active')?"rotate(180deg)":"rotate(0deg)";});});</script>

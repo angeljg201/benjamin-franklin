@@ -5,13 +5,49 @@ include '../includes/header.php';
 ?>
 
     <main class="course-page-wrapper">
+            <aside class="course-sidebar">
+                <div class="sticky-card">
+                    <div class="card-image-header">
+                        <img src="<?php echo $rootPath; ?>assets/img/program-card.jpg" alt="Ambiental">
+                        <span class="live-badge"><i class="fa-solid fa-graduation-cap"></i> Diploma</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-course-title">Especialización en Gestión Ambiental</h3>
+                        <div class="card-price"><span class="currency">S/</span> 450 <span class="modality">x Mensualidad</span></div>
+                        <p style="font-size: 0.9rem; color: #666; margin-bottom: 20px;">Matrícula: S/ 100.00</p>
+                        <div class="card-actions">
+                            <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Inscribirme</a>
+                            <a href="https://wa.me/51999999999" target="_blank" class="btn btn-whatsapp full-width">Hablar con Asesor <i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
         <section class="course-hero">
             <div class="container">
                 <div class="hero-content">
-                    <span class="hero-badge">Programa de Especialización</span>
+                    <div class="hero-breadcrumb">INICIO • PROGRAMAS • GESTIÓN AMBIENTAL</div>
+                    <span class="hero-badge">DIPLOMA</span>
                     <h1>Gestión Ambiental</h1>
                     <p>Adquiere competencias para implementar sistemas de gestión ambiental bajo la norma ISO 14001, evaluar impactos ambientales y promover el desarrollo sostenible en las organizaciones.</p>
-                    <a href="#" class="btn btn-light-outline"><i class="fa-solid fa-download"></i> DESCARGAR BROCHURE</a>
+                    
+                    <div class="hero-stats-bar">
+                        <div class="hero-stats-left">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+                            <span class="rating-text">4.8 Calificaciones</span>
+                        </div>
+                        <div class="hero-stats-right">
+                            <i class="fa-solid fa-user-group"></i> 310 Alumnos capacitados en este programa
+                        </div>
+                    </div>
+
+                    <div class="hero-share">
+                        <span>Compartir:</span>
+                        <div class="hero-share-icons">
+                            <a href="#" class="share-icon"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="share-icon"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="#" class="share-icon"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -36,23 +72,9 @@ include '../includes/header.php';
                     </div>
                 </section>
             </div>
-            <aside class="course-sidebar">
-                <div class="sticky-card">
-                    <div class="card-image-header">
-                        <img src="<?php echo $rootPath; ?>assets/img/program-card.jpg" alt="Ambiental">
-                        <span class="live-badge"><i class="fa-solid fa-graduation-cap"></i> Diploma</span>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-course-title">Especialización en Gestión Ambiental</h3>
-                        <div class="card-price"><span class="currency">S/</span> 450 <span class="modality">x Mensualidad</span></div>
-                        <p style="font-size: 0.9rem; color: #666; margin-bottom: 20px;">Matrícula: S/ 100.00</p>
-                        <div class="card-actions">
-                            <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Inscribirme</a>
-                            <a href="https://wa.me/51999999999" target="_blank" class="btn btn-whatsapp full-width">Hablar con Asesor <i class="fa-brands fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </aside>
+            
+
+
         </div>
     </main>
     <script>document.querySelectorAll('.accordion-header').forEach(b=>{b.addEventListener('click',()=>{b.classList.toggle('active');const c=b.nextElementSibling;c.style.maxHeight=b.classList.contains('active')?c.scrollHeight+"px":0;b.querySelector('i').style.transform=b.classList.contains('active')?"rotate(180deg)":"rotate(0deg)";});});</script>

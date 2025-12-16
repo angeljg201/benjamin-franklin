@@ -5,13 +5,48 @@ include '../includes/header.php';
 ?>
 
     <main class="course-page-wrapper">
+            <aside class="course-sidebar">
+                <div class="sticky-card">
+                    <div class="card-image-header">
+                        <img src="<?php echo $rootPath; ?>assets/img/program-card.jpg" alt="Instalaciones Eléctricas">
+                         <span class="live-badge"><i class="fa-solid fa-circle-play"></i> En vivo</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-course-title">Instalaciones Eléctricas</h3>
+                        <div class="card-price"><span class="currency">S/</span> 300 <span class="modality">- Virtual</span></div>
+                        <div class="card-actions">
+                            <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Comprar ahora</a>
+                            <a href="https://wa.me/51999999999" target="_blank" class="btn btn-whatsapp full-width">Solicitar información por <br> <strong>WHATSAPP</strong> <i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
         <section class="course-hero">
             <div class="container">
                 <div class="hero-content">
-                    <span class="hero-badge">Capacitación Técnica</span>
+                    <div class="hero-breadcrumb">INICIO • CURSOS • CONSTRUCCIÓN • ELECTRICIDAD</div>
+                    <span class="hero-badge">CURSO</span>
                     <h1>Instalaciones Eléctricas</h1>
-                    <p>Capacítate para diseñar, ejecutar y mantener instalaciones eléctricas en viviendas, cumpliendo con el Código Nacional de Electricidad y normas de seguridad.</p>
-                    <a href="#" class="btn btn-light-outline"><i class="fa-solid fa-download"></i> DESCARGAR BROCHURE</a>
+                    <p>Domina los fundamentos de instalaciones residenciales y comerciales, lectura de planos eléctricos y normas de seguridad vigentes.</p>
+                    
+                    <div class="hero-stats-bar">
+                        <div class="hero-stats-left">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+                            <span class="rating-text">4.7 Calificaciones</span>
+                        </div>
+                        <div class="hero-stats-right">
+                            <i class="fa-solid fa-user-group"></i> 256 Alumnos capacitados en este curso
+                        </div>
+                    </div>
+
+                    <div class="hero-share">
+                        <span>Compartir:</span>
+                        <div class="hero-share-icons">
+                            <a href="#" class="share-icon"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="share-icon"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="#" class="share-icon"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -36,22 +71,9 @@ include '../includes/header.php';
                     </div>
                 </section>
             </div>
-            <aside class="course-sidebar">
-                <div class="sticky-card">
-                    <div class="card-image-header">
-                        <img src="<?php echo $rootPath; ?>assets/img/program-card.jpg" alt="Instalaciones Eléctricas">
-                         <span class="live-badge"><i class="fa-solid fa-circle-play"></i> En vivo</span>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-course-title">Instalaciones Eléctricas</h3>
-                        <div class="card-price"><span class="currency">S/</span> 300 <span class="modality">- Virtual</span></div>
-                        <div class="card-actions">
-                            <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Comprar ahora</a>
-                            <a href="https://wa.me/51999999999" target="_blank" class="btn btn-whatsapp full-width">Solicitar información por <br> <strong>WHATSAPP</strong> <i class="fa-brands fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </aside>
+            
+
+
         </div>
     </main>
     <script>document.querySelectorAll('.accordion-header').forEach(b=>{b.addEventListener('click',()=>{b.classList.toggle('active');const c=b.nextElementSibling;c.style.maxHeight=b.classList.contains('active')?c.scrollHeight+"px":0;b.querySelector('i').style.transform=b.classList.contains('active')?"rotate(180deg)":"rotate(0deg)";});});</script>

@@ -6,18 +6,56 @@ include '../includes/header.php';
 
     <!-- Course Page Container -->
     <main class="course-page-wrapper">
+            <aside class="course-sidebar">
+                <div class="sticky-card">
+                    <div class="card-image-header">
+                        <img src="<?php echo $rootPath; ?>assets/img/program-card.jpg" alt="Curso Power BI">
+                        <span class="live-badge"><i class="fa-solid fa-circle-play"></i> En vivo</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-course-title">Análisis de Datos con POWER BI</h3>
+                        
+                        <div class="card-price">
+                            <span class="currency">S/</span> 350 <span class="modality">- Virtual</span>
+                        </div>
+
+                        <div class="card-actions">
+                            <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Comprar ahora</a>
+                            <a href="https://wa.me/51999999999" target="_blank" class="btn btn-whatsapp full-width">
+                                Solicitar información por <br> <strong>WHATSAPP</strong> <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
         
         <!-- Hero Section -->
         <section class="course-hero">
             <div class="container">
                 <div class="hero-content">
-                    <span class="hero-badge">Capacitación Continua</span>
+                    <div class="hero-breadcrumb">INICIO • CURSOS • TECNOLOGÍA • POWER BI</div>
+                    <span class="hero-badge">CURSO</span>
                     <h1>Análisis de Datos con POWER BI</h1>
                     <p>El participante desarrollará habilidades para transformar datos en visualizaciones interactivas y reportes dinámicos, integrando información de distintas fuentes y creando dashboards actualizados en tiempo real.</p>
                     
-                    <a href="#" class="btn btn-light-outline">
-                        <i class="fa-solid fa-download"></i> DESCARGAR BROCHURE
-                    </a>
+                    <div class="hero-stats-bar">
+                        <div class="hero-stats-left">
+                            <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                            <span class="rating-text">4.9 Calificaciones</span>
+                        </div>
+                        <div class="hero-stats-right">
+                            <i class="fa-solid fa-user-group"></i> 510 Alumnos capacitados en este curso
+                        </div>
+                    </div>
+
+                    <div class="hero-share">
+                        <span>Compartir:</span>
+                        <div class="hero-share-icons">
+                            <a href="#" class="share-icon"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="share-icon"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="#" class="share-icon"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -162,30 +200,10 @@ include '../includes/header.php';
                 </section>
 
             </div>
+            
 
-            <!-- Right Column: Sticky Sidebar -->
-            <aside class="course-sidebar">
-                <div class="sticky-card">
-                    <div class="card-image-header">
-                        <img src="<?php echo $rootPath; ?>assets/img/program-card.jpg" alt="Curso Power BI">
-                        <span class="live-badge"><i class="fa-solid fa-circle-play"></i> En vivo</span>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-course-title">Análisis de Datos con POWER BI</h3>
-                        
-                        <div class="card-price">
-                            <span class="currency">S/</span> 350 <span class="modality">- Virtual</span>
-                        </div>
 
-                        <div class="card-actions">
-                            <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Comprar ahora</a>
-                            <a href="https://wa.me/51999999999" target="_blank" class="btn btn-whatsapp full-width">
-                                Solicitar información por <br> <strong>WHATSAPP</strong> <i class="fa-brands fa-whatsapp"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </aside>
+
 
         </div>
 
