@@ -38,16 +38,17 @@ document.addEventListener('DOMContentLoaded', () => {
     // Dynamic Options Data
     const optionsData = {
         'cursos': [
-            { value: 'excel', text: 'Excel Empresarial' },
-            { value: 'marketing-digital', text: 'Marketing Digital' },
-            { value: 'ux-ui', text: 'Diseño UX/UI' },
-            { value: 'ingles', text: 'Inglés Técnico' }
+            { value: 'power-bi', text: 'Análisis de Datos con POWER BI' },
+            { value: 'lectura-planos', text: 'LECTURA DE PLANOS' },
+            { value: 'maestro-obras', text: 'MAESTRO DE OBRAS' },
+            { value: 'drywall', text: 'DRYWALL' },
+            { value: 'instalaciones-electricas', text: 'INSTALACIONES ELÉCTRICAS' }
         ],
         'programas': [
-            { value: 'diseno', text: 'Diseño Gráfico Digital' },
-            { value: 'marketing', text: 'Marketing y Gestión Comercial' },
-            { value: 'sistemas', text: 'Desarrollo de Sistemas' },
-            { value: 'administracion', text: 'Administración de Empresas' }
+            { value: 'seguridad-salud', text: 'Seguridad y Salud en el Trabajo' },
+            { value: 'gestion-ambiental', text: 'Gestión Ambiental' },
+            { value: 'gestion-publica', text: 'Gestión Pública' },
+            { value: 'gestion-proyectos', text: 'Gestión de Proyectos' }
         ]
     };
 
