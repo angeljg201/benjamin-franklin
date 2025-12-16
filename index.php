@@ -1,83 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instituto Profesional | Formación de Excelencia</title>
-    <meta name="description"
-        content="Institución educativa privada con más de 15 años de trayectoria. Formando profesionales para el mundo real.">
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap"
-        rel="stylesheet">
-
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <a href="#" class="logo">
-                <img src="assets/img/logo.png" alt="Corporación Educativa Benjamin Franklin" style="height: 60px;">
-            </a>
-
-            <div class="mobile-menu-btn">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-
-            <nav>
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-
-                    <li class="has-submenu">
-                        <a href="#nosotros">Nosotros <i class="fa-solid fa-chevron-down"></i></a>
-                        <ul class="submenu">
-                            <li><a href="#">Nuestra Historia</a></li>
-                            <li><a href="#">Misión y Visión</a></li>
-                            <li><a href="#">Plana Docente</a></li>
-                            <li><a href="#">Infraestructura</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="has-submenu">
-                        <a href="#especializaciones">Especializaciones <i class="fa-solid fa-chevron-down"></i></a>
-                        <ul class="submenu">
-                            <li><a href="#">Seguridad y Salud en el Trabajo</a></li>
-                            <li><a href="#">Gestión Ambiental</a></li>
-                            <li><a href="#">Gestión Pública</a></li>
-                            <li><a href="#">Gestión de Proyectos</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="has-submenu">
-                        <a href="#cursos">Cursos <i class="fa-solid fa-chevron-down"></i></a>
-                        <ul class="submenu">
-                            <li><a href="#">Análisis de Datos con POWER BI</a></li>
-                            <li><a href="#">Lectura de Planos</a></li>
-                            <li><a href="#">Maestro de Obras</a></li>
-                            <li><a href="#">Drywall</a></li>
-                            <li><a href="#">Instalaciones Eléctricas</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a href="#convenios">Convenios</a></li>
-                    <li><a href="#vida">Vida Académica</a></li>
-                    <li><a href="#contacto" class="btn btn-secondary"
-                            style="padding: 8px 20px; color: var(--primary-color);">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<?php
+$pageTitle = "Instituto Profesional | Formación de Excelencia";
+$rootPath = "./";
+include 'includes/header.php';
+?>
 
     <!-- Hero Section -->
     <section id="inicio" class="hero">
@@ -97,7 +22,6 @@
         </div>
     </section>
 
-    <!-- Main Content Placeholders (To be implemented) -->
     <!-- Main Content -->
     <main>
         <!-- Sección: Por qué estudiar en UPN (añadida) -->
@@ -274,7 +198,7 @@
                     <!-- Card 1 -->
                     <article class="program-card">
                         <div class="program-img">
-                            <img src="assets/img/program-card.png" alt="Diseño Gráfico">
+                            <img src="assets/img/program-card.jpg" alt="Diseño Gráfico">
                         </div>
                         <div class="program-info">
                             <h3>Seguridad y Salud en el Trabajo</h3>
@@ -284,7 +208,7 @@
                                 <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
                             </ul>
                             <div class="card-footer">
-                                <a href="#" class="btn btn-primary" style="width: 100%; text-align: center;">Ver Malla
+                                <a href="programas/seguridad-salud.php" class="btn btn-primary" style="width: 100%; text-align: center;">Ver Malla
                                     Curricular</a>
                             </div>
                         </div>
@@ -293,7 +217,7 @@
                     <!-- Card 2 -->
                     <article class="program-card">
                         <div class="program-img">
-                            <img src="assets/img/program-card.png" alt="Marketing">
+                            <img src="assets/img/program-card.jpg" alt="Marketing">
                         </div>
                         <div class="program-info">
                             <h3>Gestión Ambiental</h3>
@@ -303,7 +227,7 @@
                                 <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
                             </ul>
                             <div class="card-footer">
-                                <a href="#" class="btn btn-primary" style="width: 100%; text-align: center;">Ver Malla
+                                <a href="programas/gestion-ambiental.php" class="btn btn-primary" style="width: 100%; text-align: center;">Ver Malla
                                     Curricular</a>
                             </div>
                         </div>
@@ -312,7 +236,7 @@
                     <!-- Card 3 -->
                     <article class="program-card">
                         <div class="program-img">
-                            <img src="assets/img/program-card.png" alt="Desarrollo de Software">
+                            <img src="assets/img/program-card.jpg" alt="Desarrollo de Software">
                         </div>
                         <div class="program-info">
                             <h3>Gestión Pública</h3>
@@ -322,7 +246,7 @@
                                 <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
                             </ul>
                             <div class="card-footer">
-                                <a href="#" class="btn btn-primary" style="width: 100%; text-align: center;">Ver Malla
+                                <a href="programas/gestion-publica.php" class="btn btn-primary" style="width: 100%; text-align: center;">Ver Malla
                                     Curricular</a>
                             </div>
                         </div>
@@ -330,7 +254,7 @@
                     <!-- Card 4 -->
                     <article class="program-card">
                         <div class="program-img">
-                            <img src="assets/img/program-card.png" alt="Gestión de Proyectos">
+                            <img src="assets/img/program-card.jpg" alt="Gestión de Proyectos">
                         </div>
                         <div class="program-info">
                             <h3>Gestión de Proyectos</h3>
@@ -340,7 +264,7 @@
                                 <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
                             </ul>
                             <div class="card-footer">
-                                <a href="#" class="btn btn-primary" style="width: 100%; text-align: center;">Ver Malla
+                                <a href="programas/gestion-proyectos.php" class="btn btn-primary" style="width: 100%; text-align: center;">Ver Malla
                                     Curricular</a>
                             </div>
                         </div>
@@ -390,11 +314,11 @@
                         </div>
 
                         <div class="course-tags">
-                            <span class="course-tag">Análisis de Datos con POWER BI</span>
-                            <span class="course-tag">LECTURA DE PLANOS</span>
-                            <span class="course-tag">MAESTRO DE OBRAS</span>
-                            <span class="course-tag">DRYWALL</span>
-                            <span class="course-tag">INSTALACIONES ELÉCTRICAS</span>
+                            <a href="cursos/power-bi.php" class="course-tag">Análisis de Datos con POWER BI</a>
+                            <a href="cursos/lectura-planos.php" class="course-tag">LECTURA DE PLANOS</a>
+                            <a href="cursos/maestro-obras.php" class="course-tag">MAESTRO DE OBRAS</a>
+                            <a href="cursos/drywall.php" class="course-tag">DRYWALL</a>
+                            <a href="cursos/instalaciones-electricas.php" class="course-tag">INSTALACIONES ELÉCTRICAS</a>
                         </div>
 
                         <div style="margin-top: 50px;">
@@ -535,96 +459,4 @@
                 </section>
     </main>
 
-    <!-- Footer -->
-    <footer id="contacto">
-        <div class="container">
-            <div class="footer-grid">
-                <!-- Columna 1: Ubicación -->
-                <div class="footer-col">
-                    <h3>UBICACIÓN</h3>
-
-                    <div class="location-info">
-                        <p>Campus principal</p>
-                        <p>Av. Universitaria 1234, Lima 1</p>
-                        <p>15088, Perú</p>
-                    </div>
-
-                    <div class="location-links">
-                        <a href="#" class="location-link">
-                            <i class="fa-solid fa-location-dot"></i>
-                            Cómo llegar
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </a>
-                        <a href="#" class="location-link">
-                            Ver mapa del campus
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Columna 2: Contacto -->
-                <div class="footer-col">
-                    <h3>CONTACTO</h3>
-
-                    <div class="contact-details">
-                        <p>Central telefónica 626-2000</p>
-                        <p>Desde provincias 0800-1-7827 (servicio gratuito)</p>
-                    </div>
-
-                    <div class="contact-actions">
-                        <a href="#" class="mensaje-box">
-                            <span>Enviar mensaje</span>
-                            <i class="fa-regular fa-envelope"></i>
-                        </a>
-
-                        <a href="#" class="reclamaciones-box">
-                            <span class="top-text">Libro de</span>
-                            <span class="bot-text">Reclamaciones</span>
-                            <div class="book-icon"><i class="fa-solid fa-book-open"></i></div>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Columna 3: Sobre la Institución -->
-                <div class="footer-col">
-                    <h3>SOBRE BENJAMIN FRANKLIN</h3> <!-- Nombre genérico o específico según contexto -->
-
-                    <div class="institution-details">
-                        <p>INSTITUTO DE EDUCACIÓN SUPERIOR</p>
-                        <p>RUC: 20155945860</p>
-                    </div>
-
-                    <ul class="footer-nav">
-                        <li><a href="#">Mapa del sitio <i class="fa-solid fa-chevron-right"></i></a></li>
-                        <li><a href="#">Términos y condiciones de uso <i class="fa-solid fa-chevron-right"></i></a></li>
-                        <li><a href="#">Política de privacidad <i class="fa-solid fa-chevron-right"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="bottom-content">
-                    <p>&copy; Instituto Superior Benjamin Franklin - Todos los derechos reservados</p>
-                    <div class="social-links-circle">
-                        <span>SÍGUENOS EN:</span>
-                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <!-- X logo might be needed, using twitter for now or x-twitter in fa6 -->
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-spotify"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="script.js"></script>
-</body>
-
-</html>
+<?php include 'includes/footer.php'; ?>
