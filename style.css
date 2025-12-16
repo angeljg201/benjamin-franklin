@@ -128,9 +128,12 @@ header {
 
 header .container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+
+nav {
+    margin: 0 auto;
 }
 
 .logo {
@@ -152,6 +155,7 @@ header .container {
 nav ul {
     display: flex;
     gap: 30px;
+    align-items: center;
 }
 
 nav a {
