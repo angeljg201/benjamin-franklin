@@ -9,7 +9,7 @@ include '../includes/header.php';
                 <div class="sticky-card">
                     <div class="card-image-header">
                         <img src="<?php echo $rootPath; ?>assets/img/program-card.jpg" alt="Gestión Pública">
-                        <span class="live-badge"><i class="fa-solid fa-graduation-cap"></i> Diploma</span>
+
                     </div>
                     <div class="card-body">
                         <h3 class="card-course-title">Especialización en Gestión Pública</h3>

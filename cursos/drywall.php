@@ -9,7 +9,7 @@ include '../includes/header.php';
                 <div class="sticky-card">
                     <div class="card-image-header">
                         <img src="<?php echo $rootPath; ?>assets/img/program-card.jpg" alt="Drywall">
-                         <span class="live-badge"><i class="fa-solid fa-circle-play"></i> En vivo</span>
+
                     </div>
                     <div class="card-body">
                         <h3 class="card-course-title">Drywall y Construcción en Seco</h3>
