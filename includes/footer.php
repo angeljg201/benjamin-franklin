@@ -86,6 +86,19 @@
         </div>
     </footer>
 
+    <div class="floating-container">
+        <!-- Floating WhatsApp (Global) -->
+        <a href="https://wa.me/51956704678?text=Buen%20día,%20estoy%20en%20la%20pagina%20web%20y%20estoy%20interesado%20en%20inscribirme%20en%20la%20Corporación%20Educativa%20Benjamin%20Franklin.%20¿Podrían%20proporcionarme%20más%20información?" 
+           class="floating-btn btn-float-whatsapp" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           title="Escríbenos por WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        
+        <?php if (isset($floatingExtra)) echo $floatingExtra; ?>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="<?php echo $rootPath; ?>assets/js/script.js"></script>
     <?php if (isset($extraScripts)) echo $extraScripts; ?>

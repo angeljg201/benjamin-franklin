@@ -1,6 +1,11 @@
 <?php
 $pageTitle = "Instituto Profesional | Formación de Excelencia";
 $rootPath = "./";
+$floatingExtra = '
+    <a href="#banner-contacto" class="floating-btn btn-float-form" title="Ir al Formulario">
+        <i class="fa-solid fa-clipboard-user"></i>
+    </a>
+';
 include 'includes/header.php';
 ?>
 
@@ -268,7 +273,7 @@ include 'includes/header.php';
                         <div class="program-info">
                             <h3>Gestión Ambiental</h3>
                             <ul class="program-details">
-                                <li><i class="fa-solid fa-calendar-days"></i> Inicio: 27 de Enero</li>
+                                <li><i class="fa-solid fa-calendar-days"></i> Inicio: 24 de Enero</li>
                                 <li><i class="fa-regular fa-clock"></i> 4 Meses</li>
                                 <li><i class="fa-solid fa-chalkboard-user"></i> 100% Virtual</li>
                                 <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
