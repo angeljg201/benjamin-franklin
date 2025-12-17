@@ -296,11 +296,7 @@ include 'includes/header.php';
                     </article>
                 </div>
 
-                <div style="text-align: center; margin-top: 50px;">
-                    <a href="#contacto" class="btn btn-outline"
-                        style="border-color: var(--primary-color); color: var(--primary-color);">Solicitar
-                        Información</a>
-                </div>
+               
 
                 <!-- Infinite Scroll Slider -->
                 <div class="slider-container"
@@ -311,22 +307,20 @@ include 'includes/header.php';
                     <div class="logo-slider">
                         <div class="slide-track">
                             <!-- Slides -->
-                            <div class="slide"><img src="assets/img/logos/logo_UNAP_convenio.png" alt="Prada"></div>
-                            <div class="slide"><img src="assets/img/logos/logo_nintendo.png" alt="Nintendo"></div>
-                            <div class="slide"><img src="assets/img/logos/logo_apple.png" alt="Apple"></div>
-                            <div class="slide"><img src="assets/img/logos/logo_stripe.png" alt="Stripe"></div>
-                            <div class="slide"><img src="assets/img/logos/logo_prada.png" alt="Prada"></div>
-                            <div class="slide"><img src="assets/img/logos/logo_nintendo.png" alt="Nintendo"></div>
-                            <div class="slide"><img src="assets/img/logos/logo_apple.png" alt="Apple"></div>
+                            <div class="slide"><img src="assets/img/logos/logo_certificacion-minedu.png" alt="Minedu"></div>
+                            <div class="slide"><img src="assets/img/logos/logo_uni.png" alt="UNI"></div>
+                            <div class="slide"><img src="assets/img/logos/logo_UNAP_convenio.png" alt="UNAP"></div>
+                            <div class="slide"><img src="assets/img/logos/logo_ciiebf.png" alt="CIIEBF"></div>
+                            <div class="slide"><img src="assets/img/logos/logo_cetpro.jpg" alt="CETPRO"></div>
+                            <div class="slide"><img src="assets/img/logos/logo_abet.png" alt="ABET"></div>
 
                             <!-- Duplicates for infinite loop -->
-                            <div class="slide"><img src="assets/img/logos/logo_stripe.png" alt="Stripe"></div>
-                            <div class="slide"><img src="assets/img/logos/logo_prada.png" alt="Prada"></div>
-                            <div class="slide"><img src="assets/img/logos/logo_nintendo.png" alt="Nintendo"></div>
-                            <div class="slide"><img src="assets/img/logos/logo_apple.png" alt="Apple"></div>
-                            <div class="slide"><img src="assets/img/logos/logo_stripe.png" alt="Stripe"></div>
-                            <div class="slide"><img src="assets/img/logos/logo_prada.png" alt="Prada"></div>
-                            <div class="slide"><img src="assets/img/logos/logo_nintendo.png" alt="Nintendo"></div>
+                            <div class="slide"><img src="assets/img/logos/logo_certificacion-minedu.png" alt="Minedu"></div>
+                            <div class="slide"><img src="assets/img/logos/logo_uni.png" alt="UNI"></div>
+                            <div class="slide"><img src="assets/img/logos/logo_UNAP_convenio.png" alt="UNAP"></div>
+                            <div class="slide"><img src="assets/img/logos/logo_ciiebf.png" alt="CIIEBF"></div>
+                            <div class="slide"><img src="assets/img/logos/logo_cetpro.jpg" alt="CETPRO"></div>
+                            <div class="slide"><img src="assets/img/logos/logo_abet.png" alt="ABET"></div>
                         </div>
                     </div>
                 </div>

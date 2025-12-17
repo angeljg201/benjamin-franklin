@@ -1176,20 +1176,13 @@ nav ul li {
 }
 
 .slide img {
-    max-width: 100%;
-    max-height: 80%;
-    /* Ensure they don't touch edges */
-    object-fit: contain;
+    height: 60px;
+    /* Fixed uniform height */
+    width: auto;
     /* Maintain aspect ratio */
-    filter: grayscale(100%);
-    /* Optional: makes them look uniform */
-    transition: filter 0.3s;
-    opacity: 0.7;
-}
-
-.slide img:hover {
-    filter: grayscale(0%);
-    opacity: 1;
+    max-width: 100%;
+    object-fit: contain;
+    /* Prevent distortion */
 }
 
 @keyframes scroll {

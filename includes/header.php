@@ -72,7 +72,6 @@
                     </li>
 
                     <li><a href="<?php echo $rootPath; ?>index.php#convenios">Convenios</a></li>
-                    <li><a href="<?php echo $rootPath; ?>index.php#vida">Vida Académica</a></li>
                     <li><a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-secondary"
                             style="padding: 8px 20px; color: var(--primary-color);">Contacto</a></li>
                 </ul>
