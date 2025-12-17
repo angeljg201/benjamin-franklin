@@ -9,7 +9,7 @@ include '../includes/header.php';
             <aside class="course-sidebar">
                 <div class="sticky-card">
                     <div class="card-image-header">
-                        <img src="<?php echo $rootPath; ?>assets/img/program-card.jpg" alt="Curso Power BI">
+                        <img src="<?php echo $rootPath; ?>assets/img/cursos/curso-power-bi.jpg" alt="Curso Power BI">
 
                     </div>
                     <div class="card-body">

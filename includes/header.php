@@ -63,8 +63,8 @@
                         <a href="<?php echo $rootPath; ?>index.php#cursos">Cursos <i class="fa-solid fa-chevron-down"></i></a>
                         <ul class="submenu">
                             <li><a href="<?php echo $rootPath; ?>cursos/power-bi.php">Análisis de Datos con POWER BI</a></li>
-                            <li><a href="<?php echo $rootPath; ?>cursos/lectura-planos.php">Lectura de Planos</a></li>
-                            <li><a href="<?php echo $rootPath; ?>cursos/maestro-obras.php">Maestro de Obras</a></li>
+
+
                             <li><a href="<?php echo $rootPath; ?>cursos/drywall.php">Drywall</a></li>
                             <li><a href="<?php echo $rootPath; ?>cursos/instalaciones-electricas.php">Instalaciones Eléctricas</a></li>
                         </ul>

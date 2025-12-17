@@ -198,7 +198,7 @@ include 'includes/header.php';
                     <!-- Card 1 -->
                     <article class="program-card">
                         <div class="program-img">
-                            <img src="assets/img/program-card.jpg" alt="Diseño Gráfico">
+                            <img src="assets/img/programas/programa-seguridad-salud.jpg" alt="Diseño Gráfico">
                         </div>
                         <div class="program-info">
                             <h3>Seguridad y Salud en el Trabajo</h3>
@@ -217,7 +217,7 @@ include 'includes/header.php';
                     <!-- Card 2 -->
                     <article class="program-card">
                         <div class="program-img">
-                            <img src="assets/img/program-card.jpg" alt="Marketing">
+                            <img src="assets/img/programas/programa-gestion-ambiental.jpg" alt="Marketing">
                         </div>
                         <div class="program-info">
                             <h3>Gestión Ambiental</h3>
@@ -236,7 +236,7 @@ include 'includes/header.php';
                     <!-- Card 3 -->
                     <article class="program-card">
                         <div class="program-img">
-                            <img src="assets/img/program-card.jpg" alt="Desarrollo de Software">
+                            <img src="assets/img/programas/programa-gestion-publica.jpg" alt="Desarrollo de Software">
                         </div>
                         <div class="program-info">
                             <h3>Gestión Pública</h3>
@@ -254,7 +254,7 @@ include 'includes/header.php';
                     <!-- Card 4 -->
                     <article class="program-card">
                         <div class="program-img">
-                            <img src="assets/img/program-card.jpg" alt="Gestión de Proyectos">
+                            <img src="assets/img/programas/programa-gestion-proyectos.jpg" alt="Gestión de Proyectos">
                         </div>
                         <div class="program-info">
                             <h3>Gestión de Proyectos</h3>

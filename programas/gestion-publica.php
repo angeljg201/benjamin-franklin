@@ -8,7 +8,7 @@ include '../includes/header.php';
             <aside class="course-sidebar">
                 <div class="sticky-card">
                     <div class="card-image-header">
-                        <img src="<?php echo $rootPath; ?>assets/img/program-card.jpg" alt="Gestión Pública">
+                        <img src="<?php echo $rootPath; ?>assets/img/programas/programa-gestion-publica.jpg" alt="Gestión Pública">
 
                     </div>
                     <div class="card-body">

@@ -39,8 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const optionsData = {
         'cursos': [
             { value: 'power-bi', text: 'Análisis de Datos con POWER BI' },
-            { value: 'lectura-planos', text: 'LECTURA DE PLANOS' },
-            { value: 'maestro-obras', text: 'MAESTRO DE OBRAS' },
+
+
             { value: 'drywall', text: 'DRYWALL' },
             { value: 'instalaciones-electricas', text: 'INSTALACIONES ELÉCTRICAS' }
         ],
