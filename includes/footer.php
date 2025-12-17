@@ -8,8 +8,8 @@
 
                     <div class="location-info">
                         <p>Campus principal</p>
-                        <p>Av. Universitaria 1234, Lima 1</p>
-                        <p>15088, Perú</p>
+                        <p>Av. Aviación 2484 - San Borja Lima Perú</p>
+                        <p>A una cuadra de la Av. Javier Prado Este</p>
                     </div>
 
                     <div class="location-links">
@@ -30,8 +30,8 @@
                     <h3>CONTACTO</h3>
 
                     <div class="contact-details">
-                        <p>Central telefónica 626-2000</p>
-                        <p>Desde provincias 0800-1-7827 (servicio gratuito)</p>
+                        <p>Central telefónica: 01 254-0591</p>
+                        <p>Correo electrónico: informes@bf.edu.pe</p>
                     </div>
 
                     <div class="contact-actions">
@@ -54,7 +54,7 @@
 
                     <div class="institution-details">
                         <p>INSTITUTO DE EDUCACIÓN SUPERIOR</p>
-                        <p>RUC: 20155945860</p>
+                        <p>RUC: 20518638956</p>
                     </div>
 
                     <ul class="footer-nav">
