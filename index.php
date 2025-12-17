@@ -16,7 +16,7 @@ include 'includes/header.php';
                 al siguiente nivel.</p>
 
             <div class="hero-buttons">
-                <a href="#carreras" class="btn btn-secondary">Ver Carreras</a>
+                <a href="#carreras" class="btn btn-secondary">Ver Programas</a>
                 <a href="#cursos" class="btn btn-outline">Conoce Nuestros Cursos</a>
             </div>
         </div>
@@ -91,7 +91,7 @@ include 'includes/header.php';
                     <form action="#" class="lead-form" id="submit-to-google-sheet">
                         <div class="form-row">
                             <div class="form-group">
-                                <label>Nombre/s</label>
+                                <label>Nombres</label>
                                 <input type="text" name="first_name" placeholder="Ingresa tu nombre" required>
                             </div>
                             <div class="form-group">
@@ -190,34 +190,37 @@ include 'includes/header.php';
         <section id="carreras" class="programs">
             <div class="container">
                 <div class="section-header">
-                    <h2>Nuestros Programas</h2>
+                    <h2>Programas de Especialización</h2>
                     <p>Programas de especialización para impulsar tu carrera</p>
                 </div>
 
                 <div class="programs-grid">
-                    <!-- Card 1 -->
+                    <!-- Card 1: Economía Aplicada -->
                     <article class="program-card">
                         <div class="program-img">
-                            <img src="assets/img/programas/programa-seguridad-salud.jpg" alt="Diseño Gráfico">
+                            <a href="programas/economia-aplicada.php">
+                                <img src="assets/img/programas/programa-economia-aplicada.jpg" alt="Economía Aplicada">
+                            </a>
                         </div>
                         <div class="program-info">
-                            <h3>Seguridad y Salud en el Trabajo</h3>
+                            <h3>Economía Aplicada</h3>
                             <ul class="program-details">
                                 <li><i class="fa-regular fa-clock"></i> 6 Meses</li>
                                 <li><i class="fa-solid fa-chalkboard-user"></i> Presencial / Híbrido</li>
                                 <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
                             </ul>
                             <div class="card-footer">
-                                <a href="programas/seguridad-salud.php" class="btn btn-primary" style="width: 100%; text-align: center;">Ver Malla
-                                    Curricular</a>
+                                <a href="programas/economia-aplicada.php" class="btn btn-primary" style="width: 100%; text-align: center;">Descubre el Programa</a>
                             </div>
                         </div>
                     </article>
 
-                    <!-- Card 2 -->
+                    <!-- Card 2: Gestión Ambiental -->
                     <article class="program-card">
                         <div class="program-img">
-                            <img src="assets/img/programas/programa-gestion-ambiental.jpg" alt="Marketing">
+                            <a href="programas/gestion-ambiental.php">
+                                <img src="assets/img/programas/programa-gestion-ambiental.jpg" alt="Gestión Ambiental">
+                            </a>
                         </div>
                         <div class="program-info">
                             <h3>Gestión Ambiental</h3>
@@ -227,34 +230,17 @@ include 'includes/header.php';
                                 <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
                             </ul>
                             <div class="card-footer">
-                                <a href="programas/gestion-ambiental.php" class="btn btn-primary" style="width: 100%; text-align: center;">Ver Malla
-                                    Curricular</a>
+                                <a href="programas/gestion-ambiental.php" class="btn btn-primary" style="width: 100%; text-align: center;">Descubre el Programa</a>
                             </div>
                         </div>
                     </article>
 
-                    <!-- Card 3 -->
+                    <!-- Card 3: Gestión de Proyectos -->
                     <article class="program-card">
                         <div class="program-img">
-                            <img src="assets/img/programas/programa-gestion-publica.jpg" alt="Desarrollo de Software">
-                        </div>
-                        <div class="program-info">
-                            <h3>Gestión Pública</h3>
-                            <ul class="program-details">
-                                <li><i class="fa-regular fa-clock"></i> 6 Meses</li>
-                                <li><i class="fa-solid fa-chalkboard-user"></i> Presencial / Híbrido</li>
-                                <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
-                            </ul>
-                            <div class="card-footer">
-                                <a href="programas/gestion-publica.php" class="btn btn-primary" style="width: 100%; text-align: center;">Ver Malla
-                                    Curricular</a>
-                            </div>
-                        </div>
-                    </article>
-                    <!-- Card 4 -->
-                    <article class="program-card">
-                        <div class="program-img">
-                            <img src="assets/img/programas/programa-gestion-proyectos.jpg" alt="Gestión de Proyectos">
+                            <a href="programas/gestion-proyectos.php">
+                                <img src="assets/img/programas/programa-gestion-proyectos.jpg" alt="Gestión de Proyectos">
+                            </a>
                         </div>
                         <div class="program-info">
                             <h3>Gestión de Proyectos</h3>
@@ -264,8 +250,47 @@ include 'includes/header.php';
                                 <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
                             </ul>
                             <div class="card-footer">
-                                <a href="programas/gestion-proyectos.php" class="btn btn-primary" style="width: 100%; text-align: center;">Ver Malla
-                                    Curricular</a>
+                                <a href="programas/gestion-proyectos.php" class="btn btn-primary" style="width: 100%; text-align: center;">Descubre el Programa</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 4: Gestión Pública -->
+                    <article class="program-card">
+                        <div class="program-img">
+                            <a href="programas/gestion-publica.php">
+                                <img src="assets/img/programas/programa-gestion-publica.jpg" alt="Gestión Pública">
+                            </a>
+                        </div>
+                        <div class="program-info">
+                            <h3>Gestión Pública</h3>
+                            <ul class="program-details">
+                                <li><i class="fa-regular fa-clock"></i> 6 Meses</li>
+                                <li><i class="fa-solid fa-chalkboard-user"></i> Presencial / Híbrido</li>
+                                <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
+                            </ul>
+                            <div class="card-footer">
+                                <a href="programas/gestion-publica.php" class="btn btn-primary" style="width: 100%; text-align: center;">Descubre el Programa</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 5: Seguridad y Salud -->
+                    <article class="program-card">
+                        <div class="program-img">
+                            <a href="programas/seguridad-salud.php">
+                                <img src="assets/img/programas/programa-seguridad-salud.jpg" alt="Seguridad y Salud">
+                            </a>
+                        </div>
+                        <div class="program-info">
+                            <h3>Seguridad y Salud</h3>
+                            <ul class="program-details">
+                                <li><i class="fa-regular fa-clock"></i> 6 Meses</li>
+                                <li><i class="fa-solid fa-chalkboard-user"></i> Presencial / Híbrido</li>
+                                <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
+                            </ul>
+                            <div class="card-footer">
+                                <a href="programas/seguridad-salud.php" class="btn btn-primary" style="width: 100%; text-align: center;">Descubre el Programa</a>
                             </div>
                         </div>
                     </article>
@@ -281,12 +306,12 @@ include 'includes/header.php';
                 <div class="slider-container"
                     style="margin-top: 60px; overflow: hidden; background: #fff; padding: 20px 0;">
                     <div class="section-header" style="margin-bottom: 30px;">
-                        <h2>Nuestras Certificaciones</h2>
+                        <h2>Nuestros Convenios</h2>
                     </div>
                     <div class="logo-slider">
                         <div class="slide-track">
                             <!-- Slides -->
-                            <div class="slide"><img src="assets/img/logos/logo_prada.png" alt="Prada"></div>
+                            <div class="slide"><img src="assets/img/logos/logo_UNAP_convenio.png" alt="Prada"></div>
                             <div class="slide"><img src="assets/img/logos/logo_nintendo.png" alt="Nintendo"></div>
                             <div class="slide"><img src="assets/img/logos/logo_apple.png" alt="Apple"></div>
                             <div class="slide"><img src="assets/img/logos/logo_stripe.png" alt="Stripe"></div>

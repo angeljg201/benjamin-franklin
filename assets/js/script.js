@@ -45,7 +45,8 @@ document.addEventListener('DOMContentLoaded', () => {
             { value: 'instalaciones-electricas', text: 'INSTALACIONES ELÉCTRICAS' }
         ],
         'programas': [
-            { value: 'seguridad-salud', text: 'Seguridad y Salud en el Trabajo' },
+            { value: 'economia-aplicada', text: 'Economía Aplicada' },
+            { value: 'seguridad-salud', text: 'Seguridad y Salud' },
             { value: 'gestion-ambiental', text: 'Gestión Ambiental' },
             { value: 'gestion-publica', text: 'Gestión Pública' },
             { value: 'gestion-proyectos', text: 'Gestión de Proyectos' }

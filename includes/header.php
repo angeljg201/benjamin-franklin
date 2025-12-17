@@ -50,9 +50,10 @@
                     </li>
 
                     <li class="has-submenu">
-                        <a href="<?php echo $rootPath; ?>index.php#especializaciones">Especializaciones <i class="fa-solid fa-chevron-down"></i></a>
+                        <a href="<?php echo $rootPath; ?>index.php#carreras">Programas <i class="fa-solid fa-chevron-down"></i></a>
                         <ul class="submenu">
-                            <li><a href="<?php echo $rootPath; ?>programas/seguridad-salud.php">Seguridad y Salud en el Trabajo</a></li>
+                            <li><a href="<?php echo $rootPath; ?>programas/economia-aplicada.php">Economía Aplicada</a></li>
+                            <li><a href="<?php echo $rootPath; ?>programas/seguridad-salud.php">Seguridad y Salud</a></li>
                             <li><a href="<?php echo $rootPath; ?>programas/gestion-ambiental.php">Gestión Ambiental</a></li>
                             <li><a href="<?php echo $rootPath; ?>programas/gestion-publica.php">Gestión Pública</a></li>
                             <li><a href="<?php echo $rootPath; ?>programas/gestion-proyectos.php">Gestión de Proyectos</a></li>
