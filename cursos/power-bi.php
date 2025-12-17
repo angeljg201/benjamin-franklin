@@ -68,27 +68,10 @@ include '../includes/header.php';
                 
                 <!-- Info Bar (Icons) -->
                 <div class="course-info-bar">
-                    <div class="info-item">
-                        <i class="fa-regular fa-calendar"></i>
-                        <div>
-                            <strong>Inicio</strong>
-                            <span>¡Inicios mensuales!</span>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fa-regular fa-clock"></i>
-                        <div>
-                            <strong>Modalidad</strong>
-                            <span>Virtual</span>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fa-regular fa-file"></i>
-                        <div>
-                            <strong>Certificado</strong>
-                            <span>Digital y Físico</span>
-                        </div>
-                    </div>
+                    <div class="info-item"><i class="fa-regular fa-calendar"></i><div><strong>Inicio</strong><span>13 de Enero</span></div></div>
+                    <div class="info-item"><i class="fa-regular fa-clock"></i><div><strong>Duración</strong><span>4 Semanas</span></div></div>
+                    <div class="info-item"><i class="fa-solid fa-chalkboard-user"></i><div><strong>Modalidad</strong><span>100% Virtual</span></div></div>
+                    <div class="info-item"><i class="fa-solid fa-certificate"></i><div><strong>Certificación</strong><span>Oficial</span></div></div>
                 </div>
 
                 <!-- Syllabus (Temario) -->

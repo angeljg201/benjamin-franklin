@@ -195,47 +195,7 @@ include 'includes/header.php';
                 </div>
 
                 <div class="programs-grid">
-                    <!-- Card 1: Economía Aplicada -->
-                    <article class="program-card">
-                        <div class="program-img">
-                            <a href="programas/economia-aplicada.php">
-                                <img src="assets/img/programas/programa-economia-aplicada.jpg" alt="Economía Aplicada">
-                            </a>
-                        </div>
-                        <div class="program-info">
-                            <h3>Economía Aplicada</h3>
-                            <ul class="program-details">
-                                <li><i class="fa-regular fa-clock"></i> 6 Meses</li>
-                                <li><i class="fa-solid fa-chalkboard-user"></i> Presencial / Híbrido</li>
-                                <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
-                            </ul>
-                            <div class="card-footer">
-                                <a href="programas/economia-aplicada.php" class="btn btn-primary" style="width: 100%; text-align: center;">Descubre el Programa</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Card 2: Gestión Ambiental -->
-                    <article class="program-card">
-                        <div class="program-img">
-                            <a href="programas/gestion-ambiental.php">
-                                <img src="assets/img/programas/programa-gestion-ambiental.jpg" alt="Gestión Ambiental">
-                            </a>
-                        </div>
-                        <div class="program-info">
-                            <h3>Gestión Ambiental</h3>
-                            <ul class="program-details">
-                                <li><i class="fa-regular fa-clock"></i> 6 Meses</li>
-                                <li><i class="fa-solid fa-chalkboard-user"></i> Presencial / Híbrido</li>
-                                <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
-                            </ul>
-                            <div class="card-footer">
-                                <a href="programas/gestion-ambiental.php" class="btn btn-primary" style="width: 100%; text-align: center;">Descubre el Programa</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Card 3: Gestión de Proyectos -->
+                    <!-- Card 1: Gestión de Proyectos -->
                     <article class="program-card">
                         <div class="program-img">
                             <a href="programas/gestion-proyectos.php">
@@ -245,8 +205,9 @@ include 'includes/header.php';
                         <div class="program-info">
                             <h3>Gestión de Proyectos</h3>
                             <ul class="program-details">
-                                <li><i class="fa-regular fa-clock"></i> 6 Meses</li>
-                                <li><i class="fa-solid fa-chalkboard-user"></i> Presencial / Híbrido</li>
+                                <li><i class="fa-solid fa-calendar-days"></i> Inicio: 24 de Enero</li>
+                                <li><i class="fa-regular fa-clock"></i> 4 Meses</li>
+                                <li><i class="fa-solid fa-chalkboard-user"></i> 100% Virtual</li>
                                 <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
                             </ul>
                             <div class="card-footer">
@@ -255,7 +216,7 @@ include 'includes/header.php';
                         </div>
                     </article>
 
-                    <!-- Card 4: Gestión Pública -->
+                    <!-- Card 2: Gestión Pública -->
                     <article class="program-card">
                         <div class="program-img">
                             <a href="programas/gestion-publica.php">
@@ -265,8 +226,9 @@ include 'includes/header.php';
                         <div class="program-info">
                             <h3>Gestión Pública</h3>
                             <ul class="program-details">
-                                <li><i class="fa-regular fa-clock"></i> 6 Meses</li>
-                                <li><i class="fa-solid fa-chalkboard-user"></i> Presencial / Híbrido</li>
+                                <li><i class="fa-solid fa-calendar-days"></i> Inicio: 27 de Enero</li>
+                                <li><i class="fa-regular fa-clock"></i> 4 Meses</li>
+                                <li><i class="fa-solid fa-chalkboard-user"></i> 100% Virtual</li>
                                 <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
                             </ul>
                             <div class="card-footer">
@@ -275,7 +237,28 @@ include 'includes/header.php';
                         </div>
                     </article>
 
-                    <!-- Card 5: Seguridad y Salud -->
+                    <!-- Card 3: Economía Aplicada -->
+                    <article class="program-card">
+                        <div class="program-img">
+                            <a href="programas/economia-aplicada.php">
+                                <img src="assets/img/programas/programa-economia-aplicada.jpg" alt="Economía Aplicada">
+                            </a>
+                        </div>
+                        <div class="program-info">
+                            <h3>Economía Aplicada</h3>
+                            <ul class="program-details">
+                                <li><i class="fa-solid fa-calendar-days"></i> Inicio: 27 de Enero</li>
+                                <li><i class="fa-regular fa-clock"></i> 4 Meses</li>
+                                <li><i class="fa-solid fa-chalkboard-user"></i> 100% Virtual</li>
+                                <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
+                            </ul>
+                            <div class="card-footer">
+                                <a href="programas/economia-aplicada.php" class="btn btn-primary" style="width: 100%; text-align: center;">Descubre el Programa</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 4: Seguridad y Salud -->
                     <article class="program-card">
                         <div class="program-img">
                             <a href="programas/seguridad-salud.php">
@@ -285,12 +268,41 @@ include 'includes/header.php';
                         <div class="program-info">
                             <h3>Seguridad y Salud</h3>
                             <ul class="program-details">
-                                <li><i class="fa-regular fa-clock"></i> 6 Meses</li>
-                                <li><i class="fa-solid fa-chalkboard-user"></i> Presencial / Híbrido</li>
+                                <li><i class="fa-solid fa-calendar-days"></i> Inicio: 26 de Enero</li>
+                                <li><i class="fa-regular fa-clock"></i> 4 Meses</li>
+                                <li><i class="fa-solid fa-chalkboard-user"></i> 100% Virtual</li>
                                 <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
                             </ul>
                             <div class="card-footer">
                                 <a href="programas/seguridad-salud.php" class="btn btn-primary" style="width: 100%; text-align: center;">Descubre el Programa</a>
+                            </div>
+                        </div>
+                </div>
+
+                <!-- Cursos Section -->
+                <div class="section-header" id="cursos" style="margin-top: 80px;">
+                    <h2>Cursos de Especialización</h2>
+                    <p>Potencia tus habilidades técnicas con nuestros cursos intensivos</p>
+                </div>
+
+                <div class="programs-grid">
+                    <!-- Card: Power BI -->
+                    <article class="program-card">
+                        <div class="program-img">
+                            <a href="cursos/power-bi.php">
+                                <img src="assets/img/cursos/curso-power-bi.jpg" alt="Power BI">
+                            </a>
+                        </div>
+                        <div class="program-info">
+                            <h3>Análisis de Datos con Power BI</h3>
+                            <ul class="program-details">
+                                <li><i class="fa-solid fa-calendar-days"></i> Inicio: 13 de Enero</li>
+                                <li><i class="fa-regular fa-clock"></i> 4 Semanas</li>
+                                <li><i class="fa-solid fa-chalkboard-user"></i> 100% Virtual</li>
+                                <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
+                            </ul>
+                            <div class="card-footer">
+                                <a href="cursos/power-bi.php" class="btn btn-primary" style="width: 100%; text-align: center;">Ver Detalles del Curso</a>
                             </div>
                         </div>
                     </article>
@@ -299,7 +311,7 @@ include 'includes/header.php';
                
 
                 <!-- Infinite Scroll Slider -->
-                <div class="slider-container"
+                <div class="slider-container" id="convenios"
                     style="margin-top: 60px; overflow: hidden; background: #fff; padding: 20px 0;">
                     <div class="section-header" style="margin-bottom: 30px;">
                         <h2>Nuestros Convenios</h2>

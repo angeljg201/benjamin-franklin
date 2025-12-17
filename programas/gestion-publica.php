@@ -13,7 +13,7 @@ include '../includes/header.php';
                     </div>
                     <div class="card-body">
                         <h3 class="card-course-title">Especialización en Gestión Pública</h3>
-                        <div class="card-price"><span class="currency">S/</span> 450 <span class="modality">x Mensualidad</span></div>
+                        <div class="card-price"><span class="currency">S/</span> 450 <span class="modality">- Virtual</span></div>
                         <p style="font-size: 0.9rem; color: #666; margin-bottom: 20px;">Matrícula: S/ 100.00</p>
                         <div class="card-actions">
                             <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Inscribirme</a>
@@ -55,20 +55,19 @@ include '../includes/header.php';
         <div class="container course-grid">
             <div class="course-content">
                 <div class="course-info-bar">
-                    <div class="info-item"><i class="fa-regular fa-clock"></i><div><strong>Duración</strong><span>6 Meses</span></div></div>
-                    <div class="info-item"><i class="fa-solid fa-chalkboard-user"></i><div><strong>Modalidad</strong><span>Híbrido</span></div></div>
-                    <div class="info-item"><i class="fa-solid fa-certificate"></i><div><strong>Créditos</strong><span>24 Académicos</span></div></div>
+                    <div class="info-item"><i class="fa-regular fa-calendar"></i><div><strong>Inicio</strong><span>27 de Enero</span></div></div>
+                    <div class="info-item"><i class="fa-regular fa-clock"></i><div><strong>Duración</strong><span>4 Meses</span></div></div>
+                    <div class="info-item"><i class="fa-solid fa-chalkboard-user"></i><div><strong>Modalidad</strong><span>100% Virtual</span></div></div>
+                    <div class="info-item"><i class="fa-solid fa-certificate"></i><div><strong>Certificación</strong><span>Oficial</span></div></div>
                 </div>
 
                 <section class="syllabus-section">
                     <h2 class="section-title">Plan de Estudios</h2>
                     <div class="accordion">
-                        <div class="accordion-item"><button class="accordion-header">Mes 1: Modernización del Estado <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Política nacional de modernización.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 2: Planeamiento Estratégico <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>CEPLAN y POI.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 3: Presupuesto Público <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Programación multianual.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 4: Contrataciones del Estado (OSCE) <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Ley 30225 y modificaciones.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 5: Inversión Pública (Invierte.pe) <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Ciclo de inversiones.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 6: Control Gubernamental <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Contraloría General de la República.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">Mes 1: Modernización y Planeamiento <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Modernización del Estado.</li><li>Planeamiento Estratégico (CEPLAN).</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">Mes 2: Administración Financiera <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Presupuesto Público.</li><li>Tesorería y Contabilidad Gubernamental.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">Mes 3: Gestión de Inversiones y Compras <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Inversión Pública (Invierte.pe).</li><li>Contrataciones del Estado (OSCE).</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">Mes 4: Control y Ética Pública <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Control Gubernamental.</li><li>Ética y transparencia en la gestión pública.</li></ul></div></div>
                     </div>
                 </section>
             </div>

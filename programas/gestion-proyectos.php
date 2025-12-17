@@ -13,7 +13,7 @@ include '../includes/header.php';
                     </div>
                     <div class="card-body">
                         <h3 class="card-course-title">Especialización en Gestión de Proyectos</h3>
-                        <div class="card-price"><span class="currency">S/</span> 450 <span class="modality">x Mensualidad</span></div>
+                        <div class="card-price"><span class="currency">S/</span> 450 <span class="modality">- Virtual</span></div>
                         <p style="font-size: 0.9rem; color: #666; margin-bottom: 20px;">Matrícula: S/ 100.00</p>
                         <div class="card-actions">
                             <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Inscribirme</a>
@@ -55,20 +55,19 @@ include '../includes/header.php';
         <div class="container course-grid">
             <div class="course-content">
                 <div class="course-info-bar">
-                    <div class="info-item"><i class="fa-regular fa-clock"></i><div><strong>Duración</strong><span>6 Meses</span></div></div>
-                    <div class="info-item"><i class="fa-solid fa-chalkboard-user"></i><div><strong>Modalidad</strong><span>Híbrido</span></div></div>
-                    <div class="info-item"><i class="fa-solid fa-certificate"></i><div><strong>Créditos</strong><span>24 Académicos</span></div></div>
+                    <div class="info-item"><i class="fa-regular fa-calendar"></i><div><strong>Inicio</strong><span>24 de Enero</span></div></div>
+                    <div class="info-item"><i class="fa-regular fa-clock"></i><div><strong>Duración</strong><span>4 Meses</span></div></div>
+                    <div class="info-item"><i class="fa-solid fa-chalkboard-user"></i><div><strong>Modalidad</strong><span>100% Virtual</span></div></div>
+                    <div class="info-item"><i class="fa-solid fa-certificate"></i><div><strong>Certificación</strong><span>Oficial</span></div></div>
                 </div>
 
                 <section class="syllabus-section">
                     <h2 class="section-title">Plan de Estudios</h2>
                     <div class="accordion">
-                        <div class="accordion-item"><button class="accordion-header">Mes 1: Fundamentos de la Gestión de Proyectos <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Ciclo de vida del proyecto.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 2: Planificación del Alcance y Cronograma <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>WBS y MS Project.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 3: Gestión de Costos y Calidad <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Presupuesto y curva S.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 4: Gestión de Riesgos y Adquisiciones <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Matriz de riesgos.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 5: Metodologías Ágiles <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Scrum Framework.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 6: Taller de Preparación PMP/CAPM <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Simulador de examen.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">Mes 1: Fundamentos y Planificación <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Ciclo de vida del proyecto.</li><li>Planificación del alcance y cronograma.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">Mes 2: Ejecución y Control <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Gestión de costos y calidad.</li><li>Seguimiento y control de proyectos.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">Mes 3: Gestión de Riesgos y Personas <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Gestión de riesgos y adquisiciones.</li><li>Gestión de interesados y comunicaciones.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">Mes 4: Metodologías Ágiles <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Scrum Framework y Kanban.</li><li>Cierre del proyecto y lecciones aprendidas.</li></ul></div></div>
                     </div>
                 </section>
             </div>

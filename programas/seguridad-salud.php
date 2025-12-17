@@ -12,8 +12,8 @@ include '../includes/header.php';
 
                     </div>
                     <div class="card-body">
-                        <h3 class="card-course-title">Especialización en SST</h3>
-                        <div class="card-price"><span class="currency">S/</span> 450 <span class="modality">x Mensualidad</span></div>
+                        <h3 class="card-course-title">Especialización en Seguridad y Salud</h3>
+                        <div class="card-price"><span class="currency">S/</span> 450 <span class="modality">- Virtual</span></div>
                          <p style="font-size: 0.9rem; color: #666; margin-bottom: 20px;">Matrícula: S/ 100.00</p>
                         <div class="card-actions">
                             <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Inscribirme</a>
@@ -55,20 +55,19 @@ include '../includes/header.php';
         <div class="container course-grid">
             <div class="course-content">
                 <div class="course-info-bar">
-                    <div class="info-item"><i class="fa-regular fa-clock"></i><div><strong>Duración</strong><span>6 Meses</span></div></div>
-                    <div class="info-item"><i class="fa-solid fa-chalkboard-user"></i><div><strong>Modalidad</strong><span>Híbrido</span></div></div>
-                    <div class="info-item"><i class="fa-solid fa-certificate"></i><div><strong>Créditos</strong><span>24 Académicos</span></div></div>
+                    <div class="info-item"><i class="fa-regular fa-calendar"></i><div><strong>Inicio</strong><span>26 de Enero</span></div></div>
+                    <div class="info-item"><i class="fa-regular fa-clock"></i><div><strong>Duración</strong><span>4 Meses</span></div></div>
+                    <div class="info-item"><i class="fa-solid fa-chalkboard-user"></i><div><strong>Modalidad</strong><span>100% Virtual</span></div></div>
+                    <div class="info-item"><i class="fa-solid fa-certificate"></i><div><strong>Certificación</strong><span>Oficial</span></div></div>
                 </div>
 
                 <section class="syllabus-section">
                     <h2 class="section-title">Plan de Estudios</h2>
                     <div class="accordion">
-                        <div class="accordion-item"><button class="accordion-header">Mes 1: Marco Legal y Normativa <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Ley 29783 y su reglamento.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 2: Identificación de Peligros y Riesgos (IPERC) <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Matriz IPERC.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 3: Higiene y Ergonomía Ocupacional <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Monitoreos ocupacionales.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 4: Investigación de Accidentes <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Metodologías de investigación.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 5: Respuesta a Emergencias <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Brigadas y primeros auxilios.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 6: Auditoría del Sistema de Gestión <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Proceso de auditoría interna.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">Mes 1: Marco Legal e IPERC <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Ley 29783 y su reglamento.</li><li>Identificación de Peligros y Riesgos (IPERC).</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">Mes 2: Higiene y Ergonomía <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Higiene y Ergonomía Ocupacional.</li><li>Monitoreos ocupacionales.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">Mes 3: Investigación y Emergencias <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Investigación de Accidentes.</li><li>Respuesta a Emergencias y Primeros Auxilios.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">Mes 4: Auditoría y Mejora Continua <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Auditoría del Sistema de Gestión.</li><li>Implementación de la norma ISO 45001.</li></ul></div></div>
                     </div>
                 </section>
             </div>
