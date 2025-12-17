@@ -56,6 +56,7 @@
                             <li><a href="<?php echo $rootPath; ?>programas/gestion-publica.php">Gestión Pública</a></li>
                             <li><a href="<?php echo $rootPath; ?>programas/economia-aplicada.php">Economía Aplicada</a></li>
                             <li><a href="<?php echo $rootPath; ?>programas/seguridad-salud.php">Seguridad y Salud</a></li>
+                            <li><a href="<?php echo $rootPath; ?>programas/gestion-ambiental.php">Gestión Ambiental</a></li>
                         </ul>
                     </li>
 
