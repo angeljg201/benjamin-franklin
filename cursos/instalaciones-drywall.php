@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Drywall y Construcción en Seco - Benjamin Franklin";
+$pageTitle = "Instalaciones de Drywall - Benjamin Franklin";
 $rootPath = "../";
 include '../includes/header.php';
 ?>
@@ -8,11 +8,11 @@ include '../includes/header.php';
             <aside class="course-sidebar">
                 <div class="sticky-card">
                     <div class="card-image-header">
-                        <img src="<?php echo $rootPath; ?>assets/img/program-card.jpg" alt="Drywall">
+                        <img src="<?php echo $rootPath; ?>assets/img/cursos/curso-instalaciones-drywall.jpg" alt="Instalaciones de Drywall">
 
                     </div>
                     <div class="card-body">
-                        <h3 class="card-course-title">Drywall y Construcción en Seco</h3>
+                        <h3 class="card-course-title">Instalaciones de Drywall</h3>
                         <div class="card-price"><span class="currency">S/</span> 300 <span class="modality">- Virtual</span></div>
                         <div class="card-actions">
                             <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Comprar ahora</a>
@@ -26,7 +26,7 @@ include '../includes/header.php';
                 <div class="hero-content">
                     <div class="hero-breadcrumb">INICIO • CURSOS • CONSTRUCCIÓN • DRYWALL</div>
                     <span class="hero-badge">CURSO</span>
-                    <h1>Drywall y Construcción en Seco</h1>
+                    <h1>Instalaciones de Drywall</h1>
                     <p>Aprende las técnicas de armado, estructuras metálicas, tabiquería curva y cielorrasos con el sistema Drywall, una de las especialidades más demandadas.</p>
                     
                     <div class="hero-stats-bar">
