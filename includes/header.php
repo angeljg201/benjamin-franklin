@@ -40,7 +40,7 @@
                     <li><a href="<?php echo $rootPath; ?>index.php#inicio">Inicio</a></li>
 
                     <li class="has-submenu">
-                        <a href="<?php echo $rootPath; ?>index.php#nosotros">Nosotros <i class="fa-solid fa-chevron-down"></i></a>
+                        <a href="<?php echo $rootPath; ?>/nosotros/index.php">Nosotros <i class="fa-solid fa-chevron-down"></i></a>
                         <ul class="submenu">
                             <li><a href="<?php echo $rootPath; ?>nosotros/index.php#quienes-somos">¿Quiénes somos?</a></li>
                             <li><a href="<?php echo $rootPath; ?>nosotros/index.php#resena-historica">Reseña histórica</a></li>

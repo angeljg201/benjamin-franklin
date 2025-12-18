@@ -4,148 +4,239 @@ $rootPath = "../";
 include '../includes/header.php';
 ?>
 
-    <style>
-        /* Unique styles for this page to Ensure separation */
-        .nosotros-section {
-            padding: 80px 0;
-            scroll-margin-top: 80px; /* Header offset */
-            border-bottom: 1px solid #f0f0f0;
-        }
+<style>
+    /* Unique styles for this page to Ensure separation */
+    .nosotros-section {
+        padding: 80px 0;
+        scroll-margin-top: 80px; /* Header offset */
+        border-bottom: 1px solid #f0f0f0;
+    }
 
-        .nosotros-section:last-child {
-            border-bottom: none;
-        }
+    .nosotros-section:last-child {
+        border-bottom: none;
+    }
 
+    .nosotros-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 60px;
+        width: 100%;
+    }
+
+    @media (max-width: 900px) {
         .nosotros-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            align-items: center;
-            gap: 60px;
-            width: 100%;
+            grid-template-columns: 1fr !important;
+            gap: 40px !important;
         }
+        .nosotros-grid.reverse-mobile {
+             direction: ltr !important;
+        }
+    }
 
-        @media (max-width: 900px) {
-            .nosotros-grid {
-                grid-template-columns: 1fr !important;
-                gap: 40px !important;
-            }
-            .nosotros-grid.reverse-mobile {
-                 direction: ltr !important;
-            }
-        }
+    .section-title {
+        color: var(--primary-color);
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .section-title::after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 4px;
+        background: var(--secondary-color);
+        margin-top: 10px;
+    }
 
-        .section-title {
-            color: var(--primary-color);
-            font-size: 2.5rem;
-            margin-bottom: 30px;
-            position: relative;
-            display: inline-block;
-        }
-        
-        .section-title::after {
-            content: '';
-            display: block;
-            width: 60px;
-            height: 4px;
-            background: var(--secondary-color);
-            margin-top: 10px;
-        }
+    .mv-card {
+        padding: 40px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        transition: transform 0.3s;
+        height: 100%;
+        border-top: 5px solid var(--secondary-color);
+    }
 
-        .mv-card {
-            padding: 40px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-            transition: transform 0.3s;
-            height: 100%;
-            border-top: 5px solid var(--secondary-color);
-        }
+    .mv-card:hover {
+        transform: translateY(-5px);
+    }
+    
+    .mv-card.vision {
+        border-top-color: var(--primary-color);
+    }
 
-        .mv-card:hover {
-            transform: translateY(-5px);
-        }
-        
-        .mv-card.vision {
-            border-top-color: var(--primary-color);
-        }
+    .value-card {
+        padding: 30px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        text-align: center;
+        transition: all 0.3s;
+    }
 
-        .value-card {
-            padding: 30px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            text-align: center;
-            transition: all 0.3s;
-        }
+    .value-card:hover {
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        transform: translateY(-5px);
+    }
+    
+    /* Alliance Card Redesign */
+    .alliance-card {
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        display: flex;
+        align-items: stretch;
+        border: 1px solid #eaeaea;
+        transition: transform 0.3s;
+    }
 
-        .value-card:hover {
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-            transform: translateY(-5px);
-        }
-        
+    .alliance-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+    }
+
+    .alliance-image {
+        width: 45%;
+        position: relative;
+        min-height: 300px;
+    }
+
+    .alliance-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .alliance-badge {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: white;
+        color: #00044c; /* Dark Navy from reference */
+        padding: 8px 20px;
+        border-radius: 50px;
+        font-weight: 800;
+        font-size: 0.85rem;
+        letter-spacing: 0.5px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        text-transform: uppercase;
+    }
+
+    .alliance-content {
+        flex: 1;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .alliance-content h3 {
+        color: #8B1A1A; /* Deep Maroon/Red from reference */
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+        line-height: 1.3;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    .alliance-content p {
+        color: #333;
+        font-size: 1.1rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+    }
+    
+    .btn-alliance {
+        border: 2px solid #000;
+        color: #000;
+        background: transparent;
+        padding: 10px 25px;
+        font-weight: 700;
+        text-transform: none; /* Reference shows "+ Información" */
+        border-radius: 5px;
+        font-size: 1rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        transition: all 0.3s;
+    }
+    
+    .btn-alliance:hover {
+        background: #000;
+        color: #fff;
+    }
+
+    @media (max-width: 900px) {
         .alliance-card {
-            background: white;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            display: flex;
-            align-items: center;
-            padding: 20px;
-            gap: 20px;
-            border: 1px solid #eee;
+            flex-direction: column;
         }
-    </style>
+        .alliance-image {
+            width: 100%;
+            min-height: 250px;
+        }
+        .alliance-content {
+            padding: 30px;
+        }
+    }
+</style>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="programs" style="padding: 140px 0 60px; background: linear-gradient(rgba(12, 13, 80, 0.9), rgba(12, 13, 80, 0.7)), url('<?php echo $rootPath; ?>assets/img/hero-bg.jpg'); background-size: cover; background-position: center; color: white;">
-            <div class="container">
-                <div class="section-header" style="text-align: left;">
-                    <span style="color: var(--secondary-color); font-weight: 700; font-size: 1.2rem; display: block; margin-bottom: 20px;">Institucional</span>
-                    <h1 style="color: white; font-size: 3.5rem; margin-bottom: 20px; line-height: 1.1;">Nosotros</h1>
+<main>
+    <!-- Hero Section -->
+    <section class="programs" style="padding: 140px 0 60px; background: linear-gradient(rgba(12, 13, 80, 0.9), rgba(12, 13, 80, 0.7)), url('<?php echo $rootPath; ?>assets/img/hero-bg.jpg'); background-size: cover; background-position: center; color: white;">
+        <div class="container">
+            <div class="section-header" style="text-align: left;">
+                <span style="color: var(--secondary-color); font-weight: 700; font-size: 1.2rem; display: block; margin-bottom: 20px;">Institucional</span>
+                <h1 style="color: white; font-size: 3.5rem; margin-bottom: 20px; line-height: 1.1;">Nosotros</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quienes Somos -->
+    <section id="quienes-somos" class="nosotros-section">
+        <div class="container">
+            <div class="nosotros-grid">
+                <div class="text">
+                    <h2 class="section-title">¿Quiénes somos?</h2>
+                    <p style="font-size: 1.1rem; line-height: 1.8; color: #4b5563; margin-bottom: 20px;">
+                        La Corporación Educativa “Benjamin Franklin” es una institución educativa con filosofía empresarial, cuya misión fundamental es la formación, capacitación y especialización profesional de estudiantes.
+                    </p>
+                    <p style="font-size: 1.1rem; line-height: 1.8; color: #4b5563;">
+                        Promueve el liderazgo personal, profesional y empresarial a través de las diversas actividades educativas que brinda, preparando a nuestros alumnos para enfrentar los desafíos de un mercado laboral globalizado.
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="<?php echo $rootPath; ?>assets/img/about-us.png" alt="Estudiantes Benjamin Franklin" style="width: 100%; border-radius: 10px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Quienes Somos -->
-        <section id="quienes-somos" class="nosotros-section">
-            <div class="container">
-                <div class="nosotros-grid">
-                    <div class="text">
-                        <h2 class="section-title">¿Quiénes somos?</h2>
-                        <p style="font-size: 1.1rem; line-height: 1.8; color: #4b5563; margin-bottom: 20px;">
-                            La Corporación Educativa “Benjamin Franklin” es una institución educativa con filosofía empresarial, cuya misión fundamental es la formación, capacitación y especialización profesional de estudiantes.
-                        </p>
-                        <p style="font-size: 1.1rem; line-height: 1.8; color: #4b5563;">
-                            Promueve el liderazgo personal, profesional y empresarial a través de las diversas actividades educativas que brinda, preparando a nuestros alumnos para enfrentar los desafíos de un mercado laboral globalizado.
-                        </p>
-                    </div>
-                    <div class="image">
-                        <img src="<?php echo $rootPath; ?>assets/img/about-us.png" alt="Estudiantes Benjamin Franklin" style="width: 100%; border-radius: 10px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
-                    </div>
+    <!-- Resena Historica -->
+    <section id="resena-historica" class="nosotros-section" style="background-color: var(--bg-off-white);">
+        <div class="container">
+            <div class="nosotros-grid reverse-mobile" style="direction: rtl;"> <!-- Using direction rtl to swap visual order effectively for desktop -->
+                <div class="text" style="direction: ltr;">
+                    <h2 class="section-title">Reseña Histórica</h2>
+                    <p style="font-size: 1.1rem; line-height: 1.8; color: #4b5563; margin-bottom: 20px;">
+                        Desde nuestro establecimiento el 1 de enero del año 2000, nos hemos comprometido a ofrecer una educación de calidad adaptada a las necesidades cambiantes del mercado y de nuestros estudiantes. 
+                    </p>
+                    <p style="font-size: 1.1rem; line-height: 1.8; color: #4b5563;">
+                        Mantenemos un enfoque constante en la excelencia académica y trabajamos de manera continua para fortalecer nuestra presencia digital y la comunicación con la comunidad educativa, consolidándonos como un referente en educación técnica superior.
+                    </p>
+                </div>
+                <div class="image" style="direction: ltr;">
+                    <img src="<?php echo $rootPath; ?>assets/img/hero-students.png" alt="Historia Institucional" style="width: 100%; border-radius: 10px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
                 </div>
             </div>
-        </section>
-
-        <!-- Resena Historica -->
-        <section id="resena-historica" class="nosotros-section" style="background-color: var(--bg-off-white);">
-            <div class="container">
-                <div class="nosotros-grid reverse-mobile" style="direction: rtl;"> <!-- Using direction rtl to swap visual order effectively for desktop -->
-                    <div class="text" style="direction: ltr;">
-                        <h2 class="section-title">Reseña Histórica</h2>
-                        <p style="font-size: 1.1rem; line-height: 1.8; color: #4b5563; margin-bottom: 20px;">
-                            Desde nuestro establecimiento el 1 de enero del año 2000, nos hemos comprometido a ofrecer una educación de calidad adaptada a las necesidades cambiantes del mercado y de nuestros estudiantes. 
-                        </p>
-                        <p style="font-size: 1.1rem; line-height: 1.8; color: #4b5563;">
-                            Mantenemos un enfoque constante en la excelencia académica y trabajamos de manera continua para fortalecer nuestra presencia digital y la comunicación con la comunidad educativa, consolidándonos como un referente en educación técnica superior.
-                        </p>
-                    </div>
-                    <div class="image" style="direction: ltr;">
-                        <img src="<?php echo $rootPath; ?>assets/img/hero-students.png" alt="Historia Institucional" style="width: 100%; border-radius: 10px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
+    </section>
 
     <!-- Mision y Vision -->
     <section id="mision-vision" class="nosotros-section">
@@ -226,34 +317,36 @@ include '../includes/header.php';
     <!-- Alianzas -->
     <section id="alianzas-convenios" class="nosotros-section">
         <div class="container">
-            <div style="text-align: center; margin-bottom: 50px;">
+            <div style="text-align: center; margin-bottom: 60px;">
                 <h2 class="section-title" style="margin: 0 auto;">Alianzas y Convenios</h2>
                 <p style="margin-top: 20px; font-size: 1.1rem; color: #666;">Respaldamos tu educación con convenios estratégicos de primer nivel.</p>
             </div>
             
-            <div style="display: flex; flex-direction: column; gap: 30px; max-width: 900px; margin: 0 auto;">
+            <div style="display: flex; flex-direction: column; gap: 50px; max-width: 100%; margin: 0 auto;">
                 
-                <!-- Alliance 1 -->
+                <!-- Alliance 1: UNI -->
                 <div class="alliance-card">
-                    <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background: #fff;">
-                       <img src="<?php echo $rootPath; ?>assets/img/gestion-uni.png" alt="UNI" style="max-width: 100%; max-height: 100%;">
+                    <div class="alliance-image">
+                        <span class="alliance-badge">Alianza</span>
+                        <img src="<?php echo $rootPath; ?>assets/img/gestion-uni.png" alt="Facultad de Ingeniería Química y Textil – UNI">
                     </div>
-                    <div style="flex: 1;">
-                        <h3 style="color: var(--primary-color); font-size: 1.4rem; margin-bottom: 10px;">FACULTAD DE INGENIERÍA QUÍMICA Y TEXTIL – UNI</h3>
-                        <p style="color: #666; font-size: 1.1rem; margin-bottom: 15px;">Gestión en comercialización en Servicios Educativos.</p>
-                        <a href="#" class="btn btn-outline" style="font-size: 0.9rem; padding: 8px 20px;">+ Información</a>
+                    <div class="alliance-content">
+                        <h3>Facultad de Ingeniería Química y Textil de la UNI</h3>
+                        <p>Gestión en comercialización en Servicios Educativos.</p>
+                        <a href="#" class="btn-alliance">+ Información</a>
                     </div>
                 </div>
 
-                <!-- Alliance 2 -->
+                <!-- Alliance 2: UNAP -->
                 <div class="alliance-card">
-                    <div style="width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background: #fff;">
-                       <img src="<?php echo $rootPath; ?>assets/img/unap-image.jpg" alt="UNAP" style="max-width: 100%; max-height: 100%;">
+                     <div class="alliance-image">
+                        <span class="alliance-badge">Alianza</span>
+                        <img src="<?php echo $rootPath; ?>assets/img/unap-image.jpg" alt="Universidad Nacional de la Amazonía Peruana">
                     </div>
-                    <div style="flex: 1;">
-                        <h3 style="color: var(--primary-color); font-size: 1.4rem; margin-bottom: 10px;">UNIVERSIDAD NACIONAL DE LA AMAZONÍA PERUANA</h3>
-                        <p style="color: #666; font-size: 1.1rem; margin-bottom: 15px;">Desarrollo de Programas de Especialización.</p>
-                        <a href="#" class="btn btn-outline" style="font-size: 0.9rem; padding: 8px 20px;">+ Información</a>
+                    <div class="alliance-content">
+                        <h3>Universidad Nacional de la Amazonía Peruana</h3>
+                        <p>Desarrollo de Programas de Especialización.</p>
+                        <a href="#" class="btn-alliance">+ Información</a>
                     </div>
                 </div>
 
