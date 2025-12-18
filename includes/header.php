@@ -71,7 +71,7 @@
                     </li>
 
                     <li><a href="<?php echo $rootPath; ?>index.php#convenios">Convenios</a></li>
-                    <li><a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-secondary"
+                    <li><a href="<?php echo $rootPath; ?>contacto/index.php" class="btn btn-secondary"
                             style="padding: 8px 20px; color: var(--primary-color);">Contacto</a></li>
                 </ul>
             </nav>
