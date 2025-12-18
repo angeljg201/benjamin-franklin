@@ -15,11 +15,15 @@ include '../includes/header.php';
                     <div class="card-body">
                         <h3 class="card-course-title">Análisis de Datos con POWER BI</h3>
                         
+                        <div style="display: flex; gap: 8px; align-items: flex-start; margin-bottom: 8px;">
+                            <i class="fa-solid fa-circle-check" style="color: #5b4efe; font-size: 1.1rem; margin-top: 3px;"></i>
+                            <p style="margin: 0; font-size: 0.9rem; color: #4b5563; line-height: 1.4;">
+                                Incluye materiales, prácticas, sesiones en vivo y certificación oficial UNI.
+                            </p>
+                        </div>
+                        
                         <div class="card-price">
                             <span class="currency">S/</span> 350 <span class="modality">- Virtual</span>
-                            <div style="font-size: 0.85em; color: #555; margin-top: 5px; line-height: 1.4;">
-                                Incluye materiales, prácticas, sesiones en vivo y certificación oficial UNI.
-                            </div>
                         </div>
 
                         <div class="card-actions">
