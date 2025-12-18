@@ -61,7 +61,7 @@
                     </li>
 
                     <li class="has-submenu">
-                        <a href="<?php echo $rootPath; ?>index.php#cursos">Cursos <i class="fa-solid fa-chevron-down"></i></a>
+                        <a href="<?php echo $rootPath; ?>cursos/index.php">Cursos <i class="fa-solid fa-chevron-down"></i></a>
                         <ul class="submenu">
                             <li><a href="<?php echo $rootPath; ?>cursos/instalaciones-electricas.php">Instalaciones Eléctricas</a></li>
                             <li><a href="<?php echo $rootPath; ?>cursos/instalaciones-drywall.php">Instalaciones de Drywall</a></li>

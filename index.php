@@ -22,7 +22,7 @@ include 'includes/header.php';
 
             <div class="hero-buttons">
                 <a href="#carreras" class="btn btn-secondary">Ver Programas</a>
-                <a href="#cursos" class="btn btn-outline">Conoce Nuestros Cursos</a>
+                <a href="cursos/index.php" class="btn btn-outline">Conoce Nuestros Cursos</a>
             </div>
         </div>
     </section>
