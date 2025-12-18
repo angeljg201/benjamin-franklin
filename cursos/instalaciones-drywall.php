@@ -60,7 +60,7 @@ include '../includes/header.php';
                 </div>
 
                 <section class="syllabus-section">
-                    <h2 class="section-title">Temario</h2>
+                    <h2 class="section-title">Plan de Estudios</h2>
                     <div class="accordion">
                         <div class="accordion-item"><button class="accordion-header">Módulo I: Herramientas y Materiales <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Perfiles, placas y tornillería.</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">Módulo II: Estructuración de Tabiques <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Parantes y rieles.</li></ul></div></div>

@@ -60,7 +60,7 @@ include '../includes/header.php';
                 </div>
 
                 <section class="syllabus-section">
-                    <h2 class="section-title">Temario</h2>
+                    <h2 class="section-title">Plan de Estudios</h2>
                     <div class="accordion">
                         <div class="accordion-item"><button class="accordion-header">Módulo I: Fundamentos de Electricidad <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Voltaje, corriente y resistencia (Ley de Ohm).</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">Módulo II: Instrumentos de Medición <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Uso del multímetro y pinza amperimétrica.</li></ul></div></div>

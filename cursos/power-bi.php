@@ -17,6 +17,9 @@ include '../includes/header.php';
                         
                         <div class="card-price">
                             <span class="currency">S/</span> 350 <span class="modality">- Virtual</span>
+                            <div style="font-size: 0.85em; color: #555; margin-top: 5px; line-height: 1.4;">
+                                Incluye materiales, prácticas, sesiones en vivo y certificación oficial UNI.
+                            </div>
                         </div>
 
                         <div class="card-actions">
@@ -36,7 +39,8 @@ include '../includes/header.php';
                     <div class="hero-breadcrumb">INICIO • CURSOS • TECNOLOGÍA • POWER BI</div>
                     <span class="hero-badge">CURSO</span>
                     <h1>Análisis de Datos con POWER BI</h1>
-                    <p>El participante desarrollará habilidades para transformar datos en visualizaciones interactivas y reportes dinámicos, integrando información de distintas fuentes y creando dashboards actualizados en tiempo real.</p>
+                    <p>El participante desarrollará habilidades para transformar datos en visualizaciones interactivas, construir dashboards profesionales, integrar múltiples fuentes de información y crear reportes dinámicos que impulsen la toma de decisiones.
+Incluye manejo de Power Query, modelado de datos, DAX básico e intermedio, inteligencia artificial integrada y proyecto final.</p>
                     
                     <div class="hero-stats-bar">
                         <div class="hero-stats-left">
@@ -76,90 +80,110 @@ include '../includes/header.php';
 
                 <!-- Syllabus (Temario) -->
                 <section class="syllabus-section">
-                    <h2 class="section-title">Temario</h2>
+                    <h2 class="section-title">Plan de Estudios</h2>
                     <p class="section-subtitle">Lo que aprenderás en este curso</p>
 
                     <div class="accordion">
+                        <!-- Módulo 1 -->
                         <div class="accordion-item">
                             <button class="accordion-header">
-                                Módulo I: Introducción a Power BI y Conexión de Datos <i class="fa-solid fa-chevron-down"></i>
+                                MÓDULO 1 – Introducción a Power BI y Conceptos de BI <i class="fa-solid fa-chevron-down"></i>
                             </button>
                             <div class="accordion-body">
                                 <ul>
-                                    <li>¿Qué es Power BI? Componentes y arquitectura.</li>
-                                    <li>Descarga e instalación de Power BI Desktop.</li>
-                                    <li>Conexión a diferentes fuentes de datos (Excel, Web, CSV, etc.).</li>
-                                    <li>Limpieza y transformación básica de datos con Power Query.</li>
+                                    <li>Componentes de Power BI.</li>
+                                    <li>Ecosistema de Business Intelligence.</li>
                                 </ul>
                             </div>
                         </div>
 
+                        <!-- Módulo 2 -->
                         <div class="accordion-item">
                             <button class="accordion-header">
-                                Módulo II: Modelado de Datos <i class="fa-solid fa-chevron-down"></i>
+                                MÓDULO 2 – Transformación y Limpieza de Datos (Power Query) <i class="fa-solid fa-chevron-down"></i>
                             </button>
                             <div class="accordion-body">
                                 <ul>
-                                    <li>Conceptos de modelado: Tablas de hechos y dimensiones.</li>
-                                    <li>Relaciones entre tablas (uno a uno, uno a muchos).</li>
-                                    <li>Creación de columnas calculadas y medidas básicas.</li>
-                                    <li>Introducción al lenguaje DAX.</li>
+                                    <li>ETL.</li>
+                                    <li>Eliminación de errores y transformación avanzada.</li>
                                 </ul>
                             </div>
                         </div>
 
+                        <!-- Módulo 3 -->
                         <div class="accordion-item">
                             <button class="accordion-header">
-                                Módulo III: Visualización de Datos I <i class="fa-solid fa-chevron-down"></i>
+                                MÓDULO 3 – Modelado de Datos (I): Diseño y Relaciones <i class="fa-solid fa-chevron-down"></i>
                             </button>
                             <div class="accordion-body">
                                 <ul>
-                                    <li>Tipos de gráficos: Barras, columnas, líneas y circulares.</li>
-                                    <li>Uso de tarjetas y filtros (slicers).</li>
-                                    <li>Formato y personalización de visualizaciones.</li>
-                                    <li>Creación de jerarquías para análisis drill-down.</li>
+                                    <li>Modelos estrella.</li>
+                                    <li>Relaciones uno-a-muchos y muchos-a-muchos.</li>
                                 </ul>
                             </div>
                         </div>
 
+                        <!-- Módulo 4 -->
                         <div class="accordion-item">
                             <button class="accordion-header">
-                                Módulo IV: Visualización de Datos II <i class="fa-solid fa-chevron-down"></i>
+                                MÓDULO 4 – Introducción a DAX <i class="fa-solid fa-chevron-down"></i>
                             </button>
                             <div class="accordion-body">
                                 <ul>
-                                    <li>Gráficos de dispersión y mapas geográficos.</li>
-                                    <li>Uso de matrices y tablas dinámicas.</li>
-                                    <li>Interacciones entre visualizaciones.</li>
-                                    <li>Importación de objetos visuales personalizados.</li>
+                                    <li>Medidas.</li>
+                                    <li>Columnas calculadas.</li>
                                 </ul>
                             </div>
                         </div>
 
+                        <!-- Módulo 5 -->
                         <div class="accordion-item">
                             <button class="accordion-header">
-                                Módulo V: Publicación y Dashboards <i class="fa-solid fa-chevron-down"></i>
+                                MÓDULO 5 – Visualización y Diseño de Informes <i class="fa-solid fa-chevron-down"></i>
                             </button>
                             <div class="accordion-body">
                                 <ul>
-                                    <li>Publicación de reportes en Power BI Service.</li>
-                                    <li>Creación de paneles (Dashboards) en la nube.</li>
-                                    <li>Compartir reportes y configuración de seguridad básica.</li>
-                                    <li>Actualización programada de datos.</li>
+                                    <li>Gráficos, KPIs, segmentadores.</li>
+                                    <li>Mejores prácticas de diseño.</li>
                                 </ul>
                             </div>
                         </div>
 
+                        <!-- Módulo 6 -->
                         <div class="accordion-item">
                             <button class="accordion-header">
-                                Módulo VI: Proyecto Final Integrador <i class="fa-solid fa-chevron-down"></i>
+                                MÓDULO 6 – DAX Intermedio y Time Intelligence <i class="fa-solid fa-chevron-down"></i>
                             </button>
                             <div class="accordion-body">
                                 <ul>
-                                    <li>Definición del problema de negocio.</li>
-                                    <li>Importación y limpieza de datos reales.</li>
-                                    <li>Desarrollo del modelo de datos y medidas DAX.</li>
-                                    <li>Diseño y presentación del Dashboard final.</li>
+                                    <li>Cálculos dinámicos.</li>
+                                    <li>Medidas de comparación temporal.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Módulo 7 -->
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                MÓDULO 7 – Funcionalidades Avanzadas e Inteligencia Artificial <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Predicciones.</li>
+                                    <li>Integración con IA.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Módulo 8 -->
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                MÓDULO 8 – Proyecto Integrador <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Construcción de dashboard profesional.</li>
+                                    <li>Retroalimentación final.</li>
                                 </ul>
                             </div>
                         </div>
