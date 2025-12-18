@@ -194,21 +194,8 @@ Incluye manejo de Power Query, modelado de datos, DAX básico e intermedio, inte
                     </div>
                 </section>
 
-                <!-- Certification Preview -->
-                <section class="certification-section" style="margin-top: 60px;">
-                    <div class="section-header" style="text-align: left; margin-bottom: 30px;">
-                        <h2>Obtén tu Certificado</h2>
-                    </div>
-                    <div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: center;">
-                         <div style="flex: 1; min-width: 300px;">
-                            <p>Nuestro Certificado de Capacitación es reconocido por el Ministerio de Educación - MINEDU y el Ministerio de Trabajo y Promoción del Empleo – MTPE.</p>
-                            <ul style="margin-top: 20px; list-style: none;">
-                                <li style="margin-bottom: 10px;"><i class="fa-solid fa-check-circle" style="color: var(--secondary-color);"></i> Válido para concursos públicos y privados.</li>
-                                <li style="margin-bottom: 10px;"><i class="fa-solid fa-check-circle" style="color: var(--secondary-color);"></i> Código QR de verificación.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
+                <?php include '../includes/benefits_section.php'; ?>
+                <?php include '../includes/payment_methods.php'; ?>
 
             </div>
             
