@@ -15,7 +15,7 @@ include 'includes/header.php';
         <div class="overlay"></div>
 
         <div class="container hero-content">
-            <span class="hero-tagline">Más de 15 años de excelencia</span>
+            <span class="hero-tagline">Más de 25 años de excelencia</span>
             <h1>Formando profesionales para el mundo real</h1>
             <p>Descubre tu potencial con nuestra metodología práctica y convenios universitarios que impulsan tu carrera
                 al siguiente nivel.</p>
