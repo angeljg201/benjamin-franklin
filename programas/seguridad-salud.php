@@ -70,6 +70,8 @@ include '../includes/header.php';
                         <div class="accordion-item"><button class="accordion-header">Mes 4: Auditoría y Mejora Continua <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Auditoría del Sistema de Gestión.</li><li>Implementación de la norma ISO 45001.</li></ul></div></div>
                     </div>
                 </section>
+                
+                <?php include '../includes/benefits_section.php'; ?>
             </div>
             
 

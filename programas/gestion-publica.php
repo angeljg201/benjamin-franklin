@@ -70,6 +70,8 @@ include '../includes/header.php';
                         <div class="accordion-item"><button class="accordion-header">Mes 4: Control y Ética Pública <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Control Gubernamental.</li><li>Ética y transparencia en la gestión pública.</li></ul></div></div>
                     </div>
                 </section>
+                
+                <?php include '../includes/benefits_section.php'; ?>
             </div>
             
 

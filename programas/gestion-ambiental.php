@@ -71,6 +71,8 @@ include '../includes/header.php';
                         <div class="accordion-item"><button class="accordion-header">Mes 6: Norma ISO 14001:2015 <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Implementación y auditoría.</li></ul></div></div>
                     </div>
                 </section>
+                
+                <?php include '../includes/benefits_section.php'; ?>
             </div>
             
 

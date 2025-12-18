@@ -70,6 +70,8 @@ include '../includes/header.php';
                         <div class="accordion-item"><button class="accordion-header">Mes 4: Toma de Decisiones Estratégicas <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Modelos de optimización.</li><li>Estrategias económicas en sectores clave.</li></ul></div></div>
                     </div>
                 </section>
+                
+                <?php include '../includes/benefits_section.php'; ?>
             </div>
             
 

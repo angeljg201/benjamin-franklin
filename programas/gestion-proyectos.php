@@ -79,6 +79,8 @@ include '../includes/header.php';
                         <div class="accordion-item"><button class="accordion-header">MÓDULO 6 – Proyecto Final <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Taller práctico (simulación)</li><li>Aplicación de metodologías híbridas</li><li>Presentación y evaluación del proyecto final</li></ul></div></div>
                     </div>
                 </section>
+                
+                <?php include '../includes/benefits_section.php'; ?>
             </div>
             
 

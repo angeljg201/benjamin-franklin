@@ -76,6 +76,8 @@ include '../includes/header.php';
                         <div class="accordion-item"><button class="accordion-header">Módulo VIII: Buenas prácticas y evaluación final del curso <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Evaluación final.</li></ul></div></div>
                     </div>
                 </section>
+                
+                <?php include '../includes/benefits_section.php'; ?>
             </div>
             
 
