@@ -1,6 +1,8 @@
 <style>
     .benefits-wrapper {
         margin-top: 60px;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
         font-family: 'Outfit', sans-serif;
     }
 
@@ -187,7 +189,7 @@
             </div>
             <div class="benefit-content">
                 <h4>CERTIFICACIÓN DE PRESTIGIO</h4>
-                <p>Al completar con éxito nuestro programa, recibirás un certificado oficial con respaldo institucional. ¡Acredita tu experiencia con nosotros!</p>
+                <p>Al completar con éxito nuestro programa, recibirás un certificado oficial de la UNI. ¡Acredita tu experiencia con nosotros!</p>
             </div>
         </div>
     </div>
