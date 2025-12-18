@@ -42,10 +42,11 @@
                     <li class="has-submenu">
                         <a href="<?php echo $rootPath; ?>index.php#nosotros">Nosotros <i class="fa-solid fa-chevron-down"></i></a>
                         <ul class="submenu">
-                            <li><a href="#">Nuestra Historia</a></li>
-                            <li><a href="#">Misión y Visión</a></li>
-                            <li><a href="#">Plana Docente</a></li>
-                            <li><a href="#">Infraestructura</a></li>
+                            <li><a href="<?php echo $rootPath; ?>nosotros/index.php#quienes-somos">¿Quiénes somos?</a></li>
+                            <li><a href="<?php echo $rootPath; ?>nosotros/index.php#resena-historica">Reseña histórica</a></li>
+                            <li><a href="<?php echo $rootPath; ?>nosotros/index.php#mision-vision">Misión y Visión</a></li>
+                            <li><a href="<?php echo $rootPath; ?>nosotros/index.php#valores">Valores</a></li>
+                            <li><a href="<?php echo $rootPath; ?>nosotros/index.php#alianzas-convenios">Alianzas y Convenios</a></li>
                         </ul>
                     </li>
 
