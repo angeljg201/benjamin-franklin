@@ -73,13 +73,10 @@
                     <p>&copy; Instituto Superior Benjamin Franklin - Todos los derechos reservados</p>
                     <div class="social-links-circle">
                         <span>SÍGUENOS EN:</span>
-                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <!-- X logo might be needed, using twitter for now or x-twitter in fa6 -->
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-spotify"></i></a>
+                        <a href="https://www.facebook.com/corporacioneducativabenjaminfranklin" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/corporacion_bf/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@corporacionbf" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.youtube.com/@corporacionbf" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
             </div>

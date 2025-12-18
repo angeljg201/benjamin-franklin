@@ -78,6 +78,7 @@ include '../includes/header.php';
                 </section>
                 
                 <?php include '../includes/benefits_section.php'; ?>
+                <?php include '../includes/payment_methods.php'; ?>
             </div>
             
 
