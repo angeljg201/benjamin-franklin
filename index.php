@@ -150,47 +150,6 @@ include 'includes/header.php';
             </div>
         </section>
 
-        <!-- Nosotros Section -->
-        <section id="nosotros" class="about">
-            <div class="container about-content">
-                <div class="about-text">
-                    <div class="section-header" style="text-align: left; margin: 0 0 30px 0;">
-                        <h2>Nuestra Historia</h2>
-                        <p>15 años construyendo futuro</p>
-                    </div>
-                    <p>
-                        Desde hace más de una década y media, nos dedicamos a formar profesionales altamente
-                        capacitados,
-                        respondiendo a las exigencias de un mercado laboral en constante evolución. Nuestra institución
-                        se ha consolidado como un referente en educación superior técnica, gracias a nuestra metodología
-                        práctica y enfoque humano.
-                    </p>
-                    <p>
-                        Contamos con un respaldo académico sólido y convenios estratégicos que garantizan la calidad
-                        educativa que nuestros estudiantes merecen.
-                    </p>
-
-                    <div class="values-grid">
-                        <div class="value-item">
-                            <i class="fa-solid fa-bullseye"></i>
-                            <h4>Misión</h4>
-                        </div>
-                        <div class="value-item">
-                            <i class="fa-solid fa-eye"></i>
-                            <h4>Visión</h4>
-                        </div>
-                        <div class="value-item">
-                            <i class="fa-solid fa-gem"></i>
-                            <h4>Valores</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-img">
-                    <img src="assets/img/about-us.png" alt="Instalaciones modernas">
-                </div>
-            </div>
-        </section>
-
         <!-- Carreras Section -->
         <section id="carreras" class="programs">
             <div class="container">
@@ -332,6 +291,49 @@ include 'includes/header.php';
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Nosotros Section -->
+        <section id="nosotros" class="about">
+            <div class="container about-content">
+                <div class="about-text">
+                    <div class="section-header" style="text-align: left; margin: 0 0 30px 0;">
+                        <h2>Nuestra Historia</h2>
+                        <p>15 años construyendo futuro</p>
+                    </div>
+                    <p>
+                        Desde hace más de una década y media, nos dedicamos a formar profesionales altamente
+                        capacitados,
+                        respondiendo a las exigencias de un mercado laboral en constante evolución. Nuestra institución
+                        se ha consolidado como un referente en educación superior técnica, gracias a nuestra metodología
+                        práctica y enfoque humano.
+                    </p>
+                    <p>
+                        Contamos con un respaldo académico sólido y convenios estratégicos que garantizan la calidad
+                        educativa que nuestros estudiantes merecen.
+                    </p>
+
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <i class="fa-solid fa-bullseye"></i>
+                            <h4>Misión</h4>
+                        </div>
+                        <div class="value-item">
+                            <i class="fa-solid fa-eye"></i>
+                            <h4>Visión</h4>
+                        </div>
+                        <div class="value-item">
+                            <i class="fa-solid fa-gem"></i>
+                            <h4>Valores</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-img">
+                    <img src="assets/img/about-us.png" alt="Instalaciones modernas">
+                </div>
+            </div>
+        </section>
 
     </main>
 

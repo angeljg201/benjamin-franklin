@@ -13,6 +13,12 @@ include '../includes/header.php';
             padding: 100px 0 40px;
         }
     }
+
+    .section-header {
+        width: 100%;
+        max-width: 100%;
+        text-align: left;
+    }
 </style>
 <main class="course-page-wrapper">
     <!-- Hero Section -->
