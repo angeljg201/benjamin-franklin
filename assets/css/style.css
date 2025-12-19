@@ -1618,7 +1618,7 @@ nav ul li {
 .btn-whatsapp .btn-wa-text {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     line-height: 1;
 }
 
@@ -1708,6 +1708,6 @@ nav ul li {
 
 
 /*YO AGREGUE ESTO*/
-.pq-card{
+.pq-card {
     border-radius: 12px;
 }
