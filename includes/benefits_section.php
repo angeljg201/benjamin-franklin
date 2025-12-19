@@ -1,3 +1,10 @@
+<?php
+// Detect if current page is within /cursos/ directory
+$is_course = strpos($_SERVER['REQUEST_URI'], '/cursos/') !== false;
+$cert_text = $is_course 
+    ? "Al completar con éxito nuestro programa, recibirás un certificado oficial por el Ministerio de Educación y el Ministerio de Trabajo. ¡Acredita tu experiencia con nosotros!"
+    : "Al completar con éxito nuestro programa, recibirás un certificado oficial de la UNI. ¡Acredita tu experiencia con nosotros!";
+?>
 <style>
     .benefits-wrapper {
         margin-top: 60px;
@@ -189,7 +196,7 @@
             </div>
             <div class="benefit-content">
                 <h4>CERTIFICACIÓN DE PRESTIGIO</h4>
-                <p>Al completar con éxito nuestro programa, recibirás un certificado oficial de la UNI. ¡Acredita tu experiencia con nosotros!</p>
+                <p><?php echo $cert_text; ?></p>
             </div>
         </div>
     </div>

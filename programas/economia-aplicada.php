@@ -28,7 +28,7 @@ include '../includes/header.php';
                     <div class="hero-breadcrumb">INICIO • PROGRAMAS • ECONOMÍA APLICADA</div>
                     <span class="hero-badge">ESPECIALIZACIÓN</span>
                     <h1>Economía Aplicada</h1>
-                    <p>Domina las herramientas económicas para la toma de decisiones estratégicas, análisis de mercados y evaluación de proyectos de inversión en los sectores público y privado.</p>
+                    <p>El programa ofrece una formación práctica en el uso de herramientas económicas y financieras para la toma de decisiones estratégicas. Los participantes aprenderán sobre costos, mercados, precios, análisis macroeconómico y gestión de riesgos, fortaleciendo su capacidad para optimizar la gestión empresarial.</p>
                     
                     <div class="hero-stats-bar">
                         <div class="hero-stats-left">
@@ -71,10 +71,10 @@ include '../includes/header.php';
                         ¡Inscríbete hoy y comienza a transformar tu futuro con nosotros!
                     </p>
                     <div class="accordion">
-                        <div class="accordion-item"><button class="accordion-header">Mes 1: Introducción y Fundamentos <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Principios de economía aplicada.</li><li>Entorno económico global.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 2: Análisis de Mercados <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Comportamiento del consumidor y del productor.</li><li>Estructuras de mercado.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 3: Evaluación de Proyectos <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Metodologías de evaluación económica.</li><li>Análisis costo-beneficio.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 4: Toma de Decisiones Estratégicas <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Modelos de optimización.</li><li>Estrategias económicas en sectores clave.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">MÓDULO 1 – Economía Aplicada a la Gestión Empresarial <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Introducción a la economía y su aplicación en la gestión empresarial.</li><li>Análisis de costos de producción y eficiencia operativa.</li><li>Impacto del capital humano en la productividad.</li><li>Estrategias de costos y eficiencia económica.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">MÓDULO 2 – Mercado, Demanda y Estrategia Competitiva <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Elasticidad y análisis de demanda.</li><li>Competencia y estructura de mercados.</li><li>Estrategias de fijación de precios y discriminación de precios.</li><li>Teoría de juegos y comportamiento estratégico.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">MÓDULO 3 – Entorno Macroeconómico y Finanzas Empresariales <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Ciclos económicos y su impacto en la empresa.</li><li>Política fiscal y monetaria en la gestión empresarial.</li><li>Mercado financiero y gestión de riesgos empresariales.</li><li>Planeamiento financiero y estrategia empresarial.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">MÓDULO 4 – Proyecto Integrador y Tendencias Económicas <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Desarrollo del Proyecto Integrador.</li><li>Estrategias de crecimiento y sostenibilidad empresarial.</li><li>Tendencias económicas y su impacto en la gestión empresarial.</li><li>Presentación final del Proyecto Integrador y evaluación.</li></ul></div></div>
     </div>
 
                 </section>

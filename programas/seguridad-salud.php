@@ -28,7 +28,7 @@ include '../includes/header.php';
                     <div class="hero-breadcrumb">INICIO • PROGRAMAS • SEGURIDAD Y SALUD</div>
                     <span class="hero-badge">ESPECIALIZACIÓN</span>
                     <h1>Seguridad y Salud en el Trabajo</h1>
-                    <p>Especialízate en la prevención de riesgos laborales, normativa legal vigente (Ley 29783) y sistemas de gestión para proteger la integridad del talento humano y la productividad empresarial.</p>
+                    <p>El programa ofrece una formación práctica en prevención de riesgos y gestión de la salud ocupacional, basada en la norma ISO 45001:2018. Prepara a los participantes para implementar sistemas que promuevan entornos laborales seguros y saludables.</p>
                     
                     <div class="hero-stats-bar">
                         <div class="hero-stats-left">

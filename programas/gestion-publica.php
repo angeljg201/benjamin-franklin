@@ -28,7 +28,7 @@ include '../includes/header.php';
                     <div class="hero-breadcrumb">INICIO • PROGRAMAS • GESTIÓN PÚBLICA</div>
                     <span class="hero-badge">ESPECIALIZACIÓN</span>
                     <h1>Gestión Pública</h1>
-                    <p>Desarrolla capacidades para dirigir y administrar eficientemente las entidades del Estado, conociendo los sistemas administrativos, contrataciones y modernización de la gestión pública.</p>
+                    <p>El programa ofrece una formación práctica en administración pública, políticas públicas, gestión financiera, presupuesto e inversión pública. Los participantes desarrollarán competencias para liderar con eficiencia, transparencia e innovación en el sector público.</p>
                     
                     <div class="hero-stats-bar">
                         <div class="hero-stats-left">
@@ -71,10 +71,10 @@ include '../includes/header.php';
                         ¡Inscríbete hoy y comienza a transformar tu futuro con nosotros!
                     </p>
                     <div class="accordion">
-                        <div class="accordion-item"><button class="accordion-header">Mes 1: Modernización y Planeamiento <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Modernización del Estado.</li><li>Planeamiento Estratégico (CEPLAN).</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 2: Administración Financiera <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Presupuesto Público.</li><li>Tesorería y Contabilidad Gubernamental.</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 3: Gestión de Inversiones y Compras <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Inversión Pública (Invierte.pe).</li><li>Contrataciones del Estado (OSCE).</li></ul></div></div>
-                        <div class="accordion-item"><button class="accordion-header">Mes 4: Control y Ética Pública <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Control Gubernamental.</li><li>Ética y transparencia en la gestión pública.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">MÓDULO 1 – Fundamentos de la Gestión Pública <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Fundamentos de la Gestión Pública.</li><li>Estructura del Estado y organización del gobierno.</li><li>Modernización del Estado y reforma del sector público.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">MÓDULO 2 – Políticas Públicas y Planeamiento Estratégico <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Marco conceptual de las políticas públicas.</li><li>Planeamiento estratégico en la gestión pública.</li><li>Implementación y evaluación de políticas públicas.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">MÓDULO 3 – Presupuesto y Gestión Financiera Pública <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Presupuesto público y su marco normativo.</li><li>Presupuesto por Resultados (PpR).</li><li>Gestión financiera y control del gasto público.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">MÓDULO 4 – Inversión Pública y Gestión de Proyectos <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Marco normativo de la inversión pública en el Perú.</li><li>Ciclo de vida de un proyecto de inversión pública.</li><li>Gestión de cartera de proyectos y cierre de brechas.</li></ul></div></div>
     </div>
 
                 </section>
