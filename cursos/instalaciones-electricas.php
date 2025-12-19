@@ -13,9 +13,15 @@ include '../includes/header.php';
                     </div>
                     <div class="card-body">
                         <h3 class="card-course-title">Instalaciones Eléctricas</h3>
-                        <div class="card-price" style="display: flex; flex-direction: column; gap: 5px;">
+                        <div class="card-price visible" style="display: flex; flex-direction: column; gap: 5px;">
                              <div><span class="currency">S/</span> 330 <span class="modality">- Virtual</span></div>
                              <div><span class="currency">S/</span> 440 <span class="modality">- Presencial</span></div>
+                        </div>
+                        <div style="display: flex; gap: 8px; align-items: flex-start; margin-bottom: 20px; margin-top: 15px;">
+                            <i class="fa-solid fa-circle-check" style="color: #5b4efe; font-size: 1.1rem; margin-top: 3px;"></i>
+                            <p style="margin: 0; font-size: 0.9rem; color: #4b5563; line-height: 1.4;">
+                                Incluye materiales, prácticas, sesiones en vivo y certificación oficial del Ministerio de Educación y Ministerio del Trabajo.
+                            </p>
                         </div>
                         <div class="card-actions">
                             <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Comprar ahora</a>
@@ -54,7 +60,7 @@ include '../includes/header.php';
         <div class="container course-grid">
             <div class="course-content">
                 <div class="course-info-bar">
-                    <div class="info-item"><i class="fa-regular fa-calendar"></i><div><strong>Inicio</strong><span>¡Inicios mensuales!</span></div></div>
+                    <div class="info-item"><i class="fa-regular fa-calendar"></i><div><strong>Inicio</strong><span>¡Ahora mismo!</span></div></div>
                     <div class="info-item"><i class="fa-regular fa-clock"></i><div><strong>Duración</strong><span>2 Meses</span></div></div>
                     <div class="info-item"><i class="fa-solid fa-chalkboard-user"></i><div><strong>Modalidad</strong><span>Presencial y Virtual</span></div></div>
                 </div>

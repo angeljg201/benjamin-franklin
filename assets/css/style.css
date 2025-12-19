@@ -1576,7 +1576,11 @@ nav ul li {
 }
 
 .card-price {
-    display: none;
+    display: none !important;
+}
+
+.card-price.visible {
+    display: block !important;
 }
 
 .card-price .currency {
@@ -1710,4 +1714,8 @@ nav ul li {
 /*YO AGREGUE ESTO*/
 .pq-card {
     border-radius: 12px;
+}
+
+.card-price {
+    margin-bottom: 15px;
 }
