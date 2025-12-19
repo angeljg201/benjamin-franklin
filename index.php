@@ -263,6 +263,28 @@ include 'includes/header.php';
                                 <a href="programas/seguridad-salud.php" class="btn btn-primary" style="width: 100%; text-align: center;">Descubre el Programa</a>
                             </div>
                         </div>
+                    </article>
+
+                    <!-- Card 6: Contrataciones con el Estado -->
+                    <article class="program-card">
+                        <div class="program-img">
+                            <a href="programas/contrataciones-estado.php">
+                                <img src="assets/img/programas/programa-gestion-proyectos.jpg" alt="Contrataciones con el Estado">
+                            </a>
+                        </div>
+                        <div class="program-info">
+                            <h3>Programa de Especialización en Contrataciones con el Estado</h3>
+                            <ul class="program-details">
+                                <li><i class="fa-solid fa-calendar-days"></i> Inicio: 27 de Enero</li>
+                                <li><i class="fa-regular fa-clock"></i> 4 Meses</li>
+                                <li><i class="fa-solid fa-chalkboard-user"></i> 100% Virtual</li>
+                                <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
+                            </ul>
+                            <div class="card-footer">
+                                <a href="programas/contrataciones-estado.php" class="btn btn-primary" style="width: 100%; text-align: center;">Descubre el Programa</a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
                
 
