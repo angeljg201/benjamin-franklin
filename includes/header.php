@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo isset($pageTitle) ? $pageTitle : 'Instituto Profesional | Formación de Excelencia'; ?></title>
-    <meta name="description"
-        content="Institución educativa privada con más de 15 años de trayectoria. Formando profesionales para el mundo real.">
+    <meta name="description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Institución educativa privada con más de 15 años de trayectoria. Formando profesionales para el mundo real.'; ?>">
+    <link rel="icon" type="image/png" href="<?php echo $rootPath; ?>assets/img/favicon.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +20,16 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="<?php echo $rootPath; ?>assets/css/style.css">
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3PVV01C2Y6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3PVV01C2Y6');
+</script>
 </head>
 
 <body>

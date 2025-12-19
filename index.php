@@ -1,5 +1,6 @@
 <?php
-$pageTitle = "Instituto Profesional | Formación de Excelencia";
+$pageTitle = "Corporación Educativa Benjamin Franklin | Inicio";
+$pageDescription = "Corporación Educativa Benjamin Franklin con más de 25 años de experiencia formando profesionales. Docentes con más de 15 años de trayectoria, convenios con la UNI y la UNAP, y certificaciones oficiales reconocidas. Impulsa tu futuro con educación de calidad.";
 $rootPath = "./";
 $floatingExtra = '
     <a href="#banner-contacto" class="floating-btn btn-float-form" title="Ir al Formulario">
@@ -87,7 +88,7 @@ include 'includes/header.php';
                         </div>
                         <div class="b-feature">
                             <i class="fa-solid fa-check"></i>
-                            <span>Becas y financiamiento</span>
+                            <span>Certificaciones y Convenios</span>
                         </div>
                     </div>
                 </div>
