@@ -30,7 +30,7 @@ include '../includes/header.php';
                     <div class="hero-breadcrumb">INICIO • CURSOS • CONSTRUCCIÓN • DRYWALL</div>
                     <span class="hero-badge">CURSO</span>
                     <h1>Instalaciones de Drywall</h1>
-                    <p>El curso de Instalaciones de Drywall te capacita en la instalación, acabado y mantenimiento de sistemas de drywall, aplicando técnicas modernas y el uso adecuado de materiales, herramientas y equipos especializados. Desarrollarás habilidades prácticas altamente demandadas en el sector de la construcción, lo que te permitirá acceder a diversas oportunidades laborales, trabajar con mayor eficiencia y destacar profesionalmente, incorporando además conceptos actuales de innovación y sostenibilidad en los procesos constructivos.</p>
+                    <p>El curso de Instalaciones de Drywall te capacita en la instalación, acabado y mantenimiento de sistemas de drywall, aplicando técnicas modernas y el uso adecuado de materiales, herramientas y equipos especializados. Desarrollarás habilidades prácticas altamente demandadas en el sector de la construcción, lo que te permitirá acceder a diversas oportunidades laborales, trabajar con mayor eficiencia y destacar profesionalmente.</p>
                     
                     <div class="hero-stats-bar">
                         <div class="hero-stats-left">
@@ -64,12 +64,12 @@ include '../includes/header.php';
                 </div>
 
                 <section class="syllabus-section">
-                    <h2 class="section-title"><i class="fa-solid fa-book" style="margin-right: 10px;"></i> Plan de Estudios</h2>
-                    <p>
-                        Descubre nuestro plan de estudios en Instalaciones de Drywall.<br>
-                        Con una duración de 2 Meses, este programa consta de 8 módulos diseñados para brindarte una formación sólida y aplicada.<br>
-                        Adquirirás competencias técnicas y profesionales actualizadas, combinando fundamentos teóricos con experiencias prácticas guiadas por especialistas del sector.<br>
-                        Potencia tus habilidades, mejora tu perfil profesional y prepárate para nuevas oportunidades laborales.<br>
+                    <h2 class="syllabus-title"><i class="fa-solid fa-book"></i> Plan de Estudios</h2>
+                    <p class="syllabus-text">
+                        Descubre nuestro plan de estudios en Instalaciones de Drywall.
+                        Con una duración de 2 Meses, este programa consta de 8 módulos diseñados para brindarte una formación sólida y aplicada.
+                        Adquirirás competencias técnicas y profesionales actualizadas, combinando fundamentos teóricos con experiencias prácticas guiadas por especialistas del sector.
+                        Potencia tus habilidades, mejora tu perfil profesional y prepárate para nuevas oportunidades laborales.
                         ¡Inscríbete hoy y comienza a transformar tu futuro con nosotros!
                     </p>
                     <div class="accordion">

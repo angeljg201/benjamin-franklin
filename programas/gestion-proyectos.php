@@ -33,7 +33,7 @@ include '../includes/header.php';
             <div class="container">
                 <div class="hero-content">
                     <div class="hero-breadcrumb">INICIO • PROGRAMAS • GESTIÓN DE PROYECTOS</div>
-                    <span class="hero-badge">DIPLOMA</span>
+                    <span class="hero-badge">ESPECIALIZACIÓN</span>
                     <h1>Gestión de Proyectos</h1>
                     <p>El programa brinda una formación práctica en la planificación y control de proyectos bajo estándares internacionales y metodologías ágiles. Los participantes aprenderán a gestionar recursos, riesgos y equipos, asegurando resultados eficientes y el logro de los objetivos planteados.</p>
                     
@@ -69,12 +69,12 @@ include '../includes/header.php';
                 </div>
 
                 <section class="syllabus-section">
-                    <h2 class="section-title"><i class="fa-solid fa-book" style="margin-right: 10px;"></i> Plan de Estudios</h2>
-                    <p>
-                        Descubre nuestro plan de estudios en Gestión de Proyectos.<br>
-                        Con una duración de 4 Meses, este programa consta de 6 módulos diseñados para brindarte una formación sólida y aplicada.<br>
-                        Adquirirás competencias técnicas y profesionales actualizadas, combinando fundamentos teóricos con experiencias prácticas guiadas por especialistas del sector.<br>
-                        Potencia tus habilidades, mejora tu perfil profesional y prepárate para nuevas oportunidades laborales.<br>
+                    <h2 class="syllabus-title"><i class="fa-solid fa-book"></i> Plan de Estudios</h2>
+                    <p class="syllabus-text">
+                        Descubre nuestro plan de estudios en Gestión de Proyectos.
+                        Con una duración de 4 Meses, este programa consta de 6 módulos diseñados para brindarte una formación sólida y aplicada.
+                        Adquirirás competencias técnicas y profesionales actualizadas, combinando fundamentos teóricos con experiencias prácticas guiadas por especialistas del sector.
+                        Potencia tus habilidades, mejora tu perfil profesional y prepárate para nuevas oportunidades laborales.
                         ¡Inscríbete hoy y comienza a transformar tu futuro con nosotros!
                     </p>
                     <div class="accordion">

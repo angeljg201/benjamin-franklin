@@ -26,7 +26,7 @@ include '../includes/header.php';
             <div class="container">
                 <div class="hero-content">
                     <div class="hero-breadcrumb">INICIO • PROGRAMAS • SEGURIDAD Y SALUD</div>
-                    <span class="hero-badge">DIPLOMA</span>
+                    <span class="hero-badge">ESPECIALIZACIÓN</span>
                     <h1>Seguridad y Salud en el Trabajo</h1>
                     <p>Especialízate en la prevención de riesgos laborales, normativa legal vigente (Ley 29783) y sistemas de gestión para proteger la integridad del talento humano y la productividad empresarial.</p>
                     
@@ -62,12 +62,12 @@ include '../includes/header.php';
                 </div>
 
                 <section class="syllabus-section">
-                    <h2 class="section-title"><i class="fa-solid fa-book" style="margin-right: 10px;"></i> Plan de Estudios</h2>
-                    <p>
-                        Descubre nuestro plan de estudios en Seguridad y Salud en el Trabajo.<br>
-                        Con una duración de 4 Meses, este programa consta de 4 módulos diseñados para brindarte una formación sólida y aplicada.<br>
-                        Adquirirás competencias técnicas y profesionales actualizadas, combinando fundamentos teóricos con experiencias prácticas guiadas por especialistas del sector.<br>
-                        Potencia tus habilidades, mejora tu perfil profesional y prepárate para nuevas oportunidades laborales.<br>
+                    <h2 class="syllabus-title"><i class="fa-solid fa-book"></i> Plan de Estudios</h2>
+                    <p class="syllabus-text">
+                        Descubre nuestro plan de estudios en Seguridad y Salud en el Trabajo.
+                        Con una duración de 4 Meses, este programa consta de 4 módulos diseñados para brindarte una formación sólida y aplicada.
+                        Adquirirás competencias técnicas y profesionales actualizadas, combinando fundamentos teóricos con experiencias prácticas guiadas por especialistas del sector.
+                        Potencia tus habilidades, mejora tu perfil profesional y prepárate para nuevas oportunidades laborales.
                         ¡Inscríbete hoy y comienza a transformar tu futuro con nosotros!
                     </p>
                     <div class="accordion">

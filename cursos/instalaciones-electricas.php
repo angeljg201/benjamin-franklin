@@ -30,7 +30,7 @@ include '../includes/header.php';
                     <div class="hero-breadcrumb">INICIO • CURSOS • CONSTRUCCIÓN • ELECTRICIDAD</div>
                     <span class="hero-badge">CURSO</span>
                     <h1>Instalaciones Eléctricas</h1>
-                    <p>El curso de Instalaciones Eléctricas está diseñado para formar especialistas capaces de aplicar correctamente los principios y técnicas de una instalación eléctrica segura y eficiente. Aprenderás el uso adecuado de herramientas, materiales y equipos eléctricos, así como los procedimientos correctos para la instalación de componentes eléctricos en entornos residenciales y comerciales. Además, desarrollarás conocimientos clave en prevención de riesgos eléctricos, normas de seguridad y buenas prácticas, lo que te permitirá realizar trabajos confiables, reducir accidentes y aumentar tu empleabilidad en el sector técnico y de la construcción.</p>
+                    <p>El curso de Instalaciones Eléctricas está diseñado para formar especialistas capaces de aplicar correctamente los principios y técnicas de una instalación eléctrica segura y eficiente. Aprenderás el uso adecuado de herramientas, materiales y equipos eléctricos, así como los procedimientos correctos para la instalación de componentes eléctricos en entornos residenciales y comerciales.</p>
                     
                     <div class="hero-stats-bar">
                         <div class="hero-stats-left">
@@ -64,12 +64,12 @@ include '../includes/header.php';
                 </div>
 
                 <section class="syllabus-section">
-                    <h2 class="section-title"><i class="fa-solid fa-book" style="margin-right: 10px;"></i> Plan de Estudios</h2>
-                    <p>
-                        Descubre nuestro plan de estudios en Instalaciones Eléctricas.<br>
-                        Con una duración de 2 Meses, este programa consta de 8 módulos diseñados para brindarte una formación sólida y aplicada.<br>
-                        Adquirirás competencias técnicas y profesionales actualizadas, combinando fundamentos teóricos con experiencias prácticas guiadas por especialistas del sector.<br>
-                        Potencia tus habilidades, mejora tu perfil profesional y prepárate para nuevas oportunidades laborales.<br>
+                    <h2 class="syllabus-title"><i class="fa-solid fa-book"></i> Plan de Estudios</h2>
+                    <p class="syllabus-text">
+                        Descubre nuestro plan de estudios en Instalaciones Eléctricas.
+                        Con una duración de 2 Meses, este programa consta de 8 módulos diseñados para brindarte una formación sólida y aplicada.
+                        Adquirirás competencias técnicas y profesionales actualizadas, combinando fundamentos teóricos con experiencias prácticas guiadas por especialistas del sector.
+                        Potencia tus habilidades, mejora tu perfil profesional y prepárate para nuevas oportunidades laborales.
                         ¡Inscríbete hoy y comienza a transformar tu futuro con nosotros!
                     </p>
                     <div class="accordion">

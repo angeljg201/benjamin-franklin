@@ -26,7 +26,7 @@ include '../includes/header.php';
             <div class="container">
                 <div class="hero-content">
                     <div class="hero-breadcrumb">INICIO • PROGRAMAS • ECONOMÍA APLICADA</div>
-                    <span class="hero-badge">DIPLOMA</span>
+                    <span class="hero-badge">ESPECIALIZACIÓN</span>
                     <h1>Economía Aplicada</h1>
                     <p>Domina las herramientas económicas para la toma de decisiones estratégicas, análisis de mercados y evaluación de proyectos de inversión en los sectores público y privado.</p>
                     
@@ -62,12 +62,12 @@ include '../includes/header.php';
                 </div>
 
                 <section class="syllabus-section">
-                    <h2 class="section-title"><i class="fa-solid fa-book" style="margin-right: 10px;"></i> Plan de Estudios</h2>
-                    <p>
-                        Descubre nuestro plan de estudios en Economía Aplicada.<br>
-                        Con una duración de 4 Meses, este programa consta de 4 módulos diseñados para brindarte una formación sólida y aplicada.<br>
-                        Adquirirás competencias técnicas y profesionales actualizadas, combinando fundamentos teóricos con experiencias prácticas guiadas por especialistas del sector.<br>
-                        Potencia tus habilidades, mejora tu perfil profesional y prepárate para nuevas oportunidades laborales.<br>
+                    <h2 class="syllabus-title"><i class="fa-solid fa-book"></i> Plan de Estudios</h2>
+                    <p class="syllabus-text">
+                        Descubre nuestro plan de estudios en Economía Aplicada.
+                        Con una duración de 4 Meses, este programa consta de 4 módulos diseñados para brindarte una formación sólida y aplicada.
+                        Adquirirás competencias técnicas y profesionales actualizadas, combinando fundamentos teóricos con experiencias prácticas guiadas por especialistas del sector.
+                        Potencia tus habilidades, mejora tu perfil profesional y prepárate para nuevas oportunidades laborales.
                         ¡Inscríbete hoy y comienza a transformar tu futuro con nosotros!
                     </p>
                     <div class="accordion">
