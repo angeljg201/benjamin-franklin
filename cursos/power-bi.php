@@ -29,7 +29,7 @@ include '../includes/header.php';
                         </div>
 
                         <div class="card-actions">
-                            <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Comprar ahora</a>
+                            <a href="https://pagos.bf.edu.pe/" target="_blank" class="btn btn-primary full-width">COMPRAR AHORA</a>
                             <a href="https://wa.me/<?php echo $numeroWhatsApp; ?>?text=<?php echo urlencode($mensajeWhatsApp); ?>" target="_blank" class="btn btn-whatsapp full-width">
                                 <span class="btn-wa-text">
                                     <span class="wa-small">Solicitar información por</span>

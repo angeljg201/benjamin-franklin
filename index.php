@@ -300,7 +300,7 @@ include 'includes/header.php';
                 <div class="about-text">
                     <div class="section-header" style="text-align: left; margin: 0 0 30px 0;">
                         <h2>Nuestra Historia</h2>
-                        <p>15 años construyendo futuro</p>
+                        <p>Más de 25 años construyendo futuro</p>
                     </div>
                     <p>
                         Desde hace más de una década y media, nos dedicamos a formar profesionales altamente
