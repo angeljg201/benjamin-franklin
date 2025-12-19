@@ -14,7 +14,10 @@ include '../includes/header.php';
                     <div class="card-body">
                         <h3 class="card-course-title">Especialización en Gestión Pública</h3>
                         <div class="card-price"><span class="currency">S/</span> 450 <span class="modality">- Virtual</span></div>
-                        <p style="font-size: 0.9rem; color: #666; margin-bottom: 20px;">Matrícula: S/ 100.00</p>
+                        <div style="display: flex; gap: 8px; align-items: flex-start; margin-bottom: 20px; margin-top: 15px;">
+                            <i class="fa-solid fa-circle-check" style="color: #5b4efe; font-size: 1.1rem; margin-top: 3px;"></i>
+                            <p style="margin: 0; font-size: 0.9rem; color: #4b5563; line-height: 1.4;">Incluye materiales, prácticas, sesiones en vivo y certificación oficial UNI.</p>
+                        </div>
                         <div class="card-actions">
                             <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Inscribirme</a>
                             <a href="https://wa.me/51999999999" target="_blank" class="btn btn-whatsapp full-width">

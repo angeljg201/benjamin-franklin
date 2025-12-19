@@ -13,11 +13,7 @@ include '../includes/header.php';
                     </div>
                     <div class="card-body">
                         <h3 class="card-course-title">Especialización en Gestión de Proyectos</h3>
-                        <div class="card-price"><span class="currency">S/</span> 3,000 <span class="modality">- Virtual</span></div>
-                        <div style="display: flex; gap: 8px; align-items: flex-start; margin-bottom: 8px; margin-top: 10px;">
-                            <i class="fa-solid fa-circle-check" style="color: #5b4efe; font-size: 1.1rem; margin-top: 3px;"></i>
-                            <p style="margin: 0; font-size: 0.9rem; color: #4b5563; line-height: 1.4;">Reserva tu vacante con un pago inicial de S/ 1,000</p>
-                        </div>
+                        
                         <div style="display: flex; gap: 8px; align-items: flex-start; margin-bottom: 20px;">
                             <i class="fa-solid fa-circle-check" style="color: #5b4efe; font-size: 1.1rem; margin-top: 3px;"></i>
                             <p style="margin: 0; font-size: 0.9rem; color: #4b5563; line-height: 1.4;">Incluye materiales, prácticas, sesiones en vivo y certificación oficial UNI.</p>
