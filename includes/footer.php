@@ -13,7 +13,7 @@
                     </div>
 
                     <div class="location-links">
-                        <a href="#" class="location-link">
+                        <a href="<?php echo $rootPath; ?>contacto/index.php#ubicacion" class="location-link">
                             <i class="fa-solid fa-location-dot"></i>
                             Cómo llegar
                             <i class="fa-solid fa-chevron-right"></i>

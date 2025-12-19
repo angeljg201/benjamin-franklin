@@ -183,7 +183,7 @@ include '../includes/header.php';
     </section>
 
     <!-- Location Section (Reusing About Layout) -->
-    <section class="about" style="padding: 80px 0;">
+    <section id="ubicacion" class="about" style="padding: 80px 0;">
         <div class="container about-content">
             <!-- Left: Map (Using about-img container) -->
             <div class="about-img" style="height: 400px;">
