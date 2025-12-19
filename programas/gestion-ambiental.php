@@ -28,7 +28,7 @@ include '../includes/header.php';
                     <div class="hero-breadcrumb">INICIO • PROGRAMAS • GESTIÓN AMBIENTAL</div>
                     <span class="hero-badge">ESPECIALIZACIÓN</span>
                     <h1>Gestión Ambiental</h1>
-                    <p>Adquiere competencias para implementar sistemas de gestión ambiental bajo la norma ISO 14001, evaluar impactos ambientales y promover el desarrollo sostenible en las organizaciones.</p>
+                    <p>El programa ofrece una formación práctica en la aplicación de estrategias ambientales sostenibles. Los participantes aprenderán sobre legislación, evaluación de impactos, economía circular y auditoría ambiental, fortaleciendo sus capacidades para una gestión eficiente y responsable del entorno.</p>
                     
                     <div class="hero-stats-bar">
                         <div class="hero-stats-left">
