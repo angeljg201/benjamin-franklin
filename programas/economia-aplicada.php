@@ -17,7 +17,13 @@ include '../includes/header.php';
                         <p style="font-size: 0.9rem; color: #666; margin-bottom: 20px;">Matrícula: S/ 100.00</p>
                         <div class="card-actions">
                             <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Inscribirme</a>
-                            <a href="https://wa.me/51999999999" target="_blank" class="btn btn-whatsapp full-width">Hablar con Asesor <i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://wa.me/51999999999" target="_blank" class="btn btn-whatsapp full-width">
+                                <span class="btn-wa-text">
+                                    <span class="wa-small">Solicitar información por</span>
+                                    <span class="wa-large">WHATSAPP</span>
+                                </span>
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
                         </div>
                     </div>
                 </div>

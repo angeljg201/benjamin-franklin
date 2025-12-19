@@ -19,7 +19,13 @@ include '../includes/header.php';
                         </div>
                         <div class="card-actions">
                             <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Comprar ahora</a>
-                            <a href="https://wa.me/51999999999" target="_blank" class="btn btn-whatsapp full-width">Solicitar información por <br> <strong>WHATSAPP</strong> <i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://wa.me/51999999999" target="_blank" class="btn btn-whatsapp full-width">
+                                <span class="btn-wa-text">
+                                    <span class="wa-small">Solicitar información por</span>
+                                    <span class="wa-large">WHATSAPP</span>
+                                </span>
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
