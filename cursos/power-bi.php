@@ -55,15 +55,6 @@ Incluye manejo de Power Query, modelado de datos, DAX básico e intermedio, inte
                             <i class="fa-solid fa-user-group"></i> 510 Alumnos capacitados en este curso
                         </div>
                     </div>
-
-                    <div class="hero-share">
-                        <span>Compartir:</span>
-                        <div class="hero-share-icons">
-                            <a href="#" class="share-icon"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="#" class="share-icon"><i class="fa-brands fa-whatsapp"></i></a>
-                            <a href="#" class="share-icon"><i class="fa-brands fa-twitter"></i></a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -79,7 +70,6 @@ Incluye manejo de Power Query, modelado de datos, DAX básico e intermedio, inte
                     <div class="info-item"><i class="fa-regular fa-calendar"></i><div><strong>Inicio</strong><span>13 de Enero</span></div></div>
                     <div class="info-item"><i class="fa-regular fa-clock"></i><div><strong>Duración</strong><span>4 Semanas</span></div></div>
                     <div class="info-item"><i class="fa-solid fa-chalkboard-user"></i><div><strong>Modalidad</strong><span>100% Virtual</span></div></div>
-                    <div class="info-item"><i class="fa-solid fa-certificate"></i><div><strong>Certificación</strong><span>Oficial</span></div></div>
                 </div>
 
                 <!-- Syllabus (Temario) -->

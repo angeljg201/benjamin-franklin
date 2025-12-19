@@ -41,15 +41,6 @@ include '../includes/header.php';
                             <i class="fa-solid fa-user-group"></i> 349 Alumnos capacitados en este curso
                         </div>
                     </div>
-
-                    <div class="hero-share">
-                        <span>Compartir:</span>
-                        <div class="hero-share-icons">
-                            <a href="#" class="share-icon"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="#" class="share-icon"><i class="fa-brands fa-whatsapp"></i></a>
-                            <a href="#" class="share-icon"><i class="fa-brands fa-twitter"></i></a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -60,7 +51,6 @@ include '../includes/header.php';
                     <div class="info-item"><i class="fa-regular fa-calendar"></i><div><strong>Inicio</strong><span>¡Inicios mensuales!</span></div></div>
                     <div class="info-item"><i class="fa-regular fa-clock"></i><div><strong>Duración</strong><span>2 Meses</span></div></div>
                     <div class="info-item"><i class="fa-solid fa-chalkboard-user"></i><div><strong>Modalidad</strong><span>Presencial y Virtual</span></div></div>
-                    <div class="info-item"><i class="fa-regular fa-file"></i><div><strong>Certificado</strong><span>Digital y Físico</span></div></div>
                 </div>
 
                 <section class="syllabus-section">

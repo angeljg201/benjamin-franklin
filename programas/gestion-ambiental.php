@@ -39,15 +39,6 @@ include '../includes/header.php';
                             <i class="fa-solid fa-user-group"></i> 310 Alumnos capacitados en este programa
                         </div>
                     </div>
-
-                    <div class="hero-share">
-                        <span>Compartir:</span>
-                        <div class="hero-share-icons">
-                            <a href="#" class="share-icon"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="#" class="share-icon"><i class="fa-brands fa-whatsapp"></i></a>
-                            <a href="#" class="share-icon"><i class="fa-brands fa-twitter"></i></a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -55,9 +46,9 @@ include '../includes/header.php';
         <div class="container course-grid">
             <div class="course-content">
                 <div class="course-info-bar">
+                    <div class="info-item"><i class="fa-regular fa-calendar"></i><div><strong>Inicio</strong><span>¡Inicios mensuales!</span></div></div>
                     <div class="info-item"><i class="fa-regular fa-clock"></i><div><strong>Duración</strong><span>6 Meses</span></div></div>
                     <div class="info-item"><i class="fa-solid fa-chalkboard-user"></i><div><strong>Modalidad</strong><span>Híbrido</span></div></div>
-                    <div class="info-item"><i class="fa-solid fa-certificate"></i><div><strong>Créditos</strong><span>24 Académicos</span></div></div>
                 </div>
 
                 <section class="syllabus-section">
