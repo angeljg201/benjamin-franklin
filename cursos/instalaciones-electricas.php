@@ -1,6 +1,8 @@
 <?php
 $pageTitle = "Instalaciones Eléctricas Domiciliarias - Benjamin Franklin";
 $rootPath = "../";
+$numeroWhatsApp = "51995364552";
+$mensajeWhatsApp = "Hola, estoy en la página web y deseo acceder al CURSO: *Instalaciones Eléctricas* y obtener mi CERTIFICADO.";
 include '../includes/header.php';
 ?>
 
@@ -25,7 +27,7 @@ include '../includes/header.php';
                         </div>
                         <div class="card-actions">
                             <a href="<?php echo $rootPath; ?>index.php#contacto" class="btn btn-primary full-width">Comprar ahora</a>
-                            <a href="https://wa.me/51999999999" target="_blank" class="btn btn-whatsapp full-width">
+                            <a href="https://wa.me/<?php echo $numeroWhatsApp; ?>?text=<?php echo urlencode($mensajeWhatsApp); ?>" target="_blank" class="btn btn-whatsapp full-width">
                                 <span class="btn-wa-text">
                                     <span class="wa-small">Solicitar información por</span>
                                     <span class="wa-large">WHATSAPP</span>

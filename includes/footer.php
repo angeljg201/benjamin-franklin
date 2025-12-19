@@ -53,7 +53,7 @@
                     <h3>SOBRE BENJAMIN FRANKLIN</h3> <!-- Nombre genérico o específico según contexto -->
 
                     <div class="institution-details">
-                        <p>INSTITUTO DE EDUCACIÓN SUPERIOR</p>
+                        <p>CORPORACIÓN EDUCATIVA BENJAMIN FRANKLIN</p>
                         <p>RUC: 20518638956</p>
                     </div>
 

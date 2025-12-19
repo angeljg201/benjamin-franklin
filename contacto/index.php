@@ -25,7 +25,7 @@ include '../includes/header.php';
                 <h2 style="color: var(--primary-color); font-size: 2.5rem; margin-bottom: 20px; line-height: 1.2;">¿Tienes alguna consulta?</h2>
                 <p class="banner-subtitle" style="margin-bottom: 30px;">Déjanos tus datos y nos comunicaremos contigo a la brevedad posible.</p>
                 
-                <a href="https://wa.me/51995114947" target="_blank" class="btn btn-whatsapp" style="display: inline-flex; align-items: center; gap: 10px; padding: 15px 30px;">
+                <a href="https://wa.me/51995364552?text=<?php echo urlencode('¡Hola! Estoy en la pagina web y me gustaría obtener más información.'); ?>" target="_blank" class="btn btn-whatsapp" style="display: inline-flex; align-items: center; gap: 10px; padding: 15px 30px;">
                     <i class="fa-brands fa-whatsapp" style="font-size: 1.2rem;"></i> Contactar por WhatsApp
                 </a>
             </div>
