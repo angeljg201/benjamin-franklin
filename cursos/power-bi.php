@@ -84,9 +84,16 @@ Incluye manejo de Power Query, modelado de datos, DAX básico e intermedio, inte
 
                 <!-- Syllabus (Temario) -->
                 <section class="syllabus-section">
-                    <h2 class="section-title">Plan de Estudios</h2>
+                    <h2 class="section-title"><i class="fa-solid fa-book" style="margin-right: 10px;"></i> Plan de Estudios</h2>
                     <p class="section-subtitle">Lo que aprenderás en este curso</p>
 
+                    <p>
+                        Descubre nuestro plan de estudios en Análisis de Datos con POWER BI.<br>
+                        Con una duración de 4 Semanas, este programa consta de 8 módulos diseñados para brindarte una formación sólida y aplicada.<br>
+                        Adquirirás competencias técnicas y profesionales actualizadas, combinando fundamentos teóricos con experiencias prácticas guiadas por especialistas del sector.<br>
+                        Potencia tus habilidades, mejora tu perfil profesional y prepárate para nuevas oportunidades laborales.<br>
+                        ¡Inscríbete hoy y comienza a transformar tu futuro con nosotros!
+                    </p>
                     <div class="accordion">
                         <!-- Módulo 1 -->
                         <div class="accordion-item">
@@ -191,7 +198,7 @@ Incluye manejo de Power Query, modelado de datos, DAX básico e intermedio, inte
                                 </ul>
                             </div>
                         </div>
-                    </div>
+    </div>
                 </section>
 
                 <?php include '../includes/benefits_section.php'; ?>

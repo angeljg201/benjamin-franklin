@@ -64,7 +64,14 @@ include '../includes/header.php';
                 </div>
 
                 <section class="syllabus-section">
-                    <h2 class="section-title">Plan de Estudios</h2>
+                    <h2 class="section-title"><i class="fa-solid fa-book" style="margin-right: 10px;"></i> Plan de Estudios</h2>
+                    <p>
+                        Descubre nuestro plan de estudios en Instalaciones Eléctricas.<br>
+                        Con una duración de 2 Meses, este programa consta de 8 módulos diseñados para brindarte una formación sólida y aplicada.<br>
+                        Adquirirás competencias técnicas y profesionales actualizadas, combinando fundamentos teóricos con experiencias prácticas guiadas por especialistas del sector.<br>
+                        Potencia tus habilidades, mejora tu perfil profesional y prepárate para nuevas oportunidades laborales.<br>
+                        ¡Inscríbete hoy y comienza a transformar tu futuro con nosotros!
+                    </p>
                     <div class="accordion">
                         <div class="accordion-item"><button class="accordion-header">Módulo I: Fundamentos y herramientas del trabajo eléctrico <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Introducción.</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">Módulo II: Circuitos eléctricos y canalizaciones en instalaciones <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Fundamentos.</li></ul></div></div>

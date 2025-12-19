@@ -62,13 +62,21 @@ include '../includes/header.php';
                 </div>
 
                 <section class="syllabus-section">
-                    <h2 class="section-title">Plan de Estudios</h2>
+                    <h2 class="section-title"><i class="fa-solid fa-book" style="margin-right: 10px;"></i> Plan de Estudios</h2>
+                    <p>
+                        Descubre nuestro plan de estudios en Economía Aplicada.<br>
+                        Con una duración de 4 Meses, este programa consta de 4 módulos diseñados para brindarte una formación sólida y aplicada.<br>
+                        Adquirirás competencias técnicas y profesionales actualizadas, combinando fundamentos teóricos con experiencias prácticas guiadas por especialistas del sector.<br>
+                        Potencia tus habilidades, mejora tu perfil profesional y prepárate para nuevas oportunidades laborales.<br>
+                        ¡Inscríbete hoy y comienza a transformar tu futuro con nosotros!
+                    </p>
                     <div class="accordion">
                         <div class="accordion-item"><button class="accordion-header">Mes 1: Introducción y Fundamentos <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Principios de economía aplicada.</li><li>Entorno económico global.</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">Mes 2: Análisis de Mercados <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Comportamiento del consumidor y del productor.</li><li>Estructuras de mercado.</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">Mes 3: Evaluación de Proyectos <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Metodologías de evaluación económica.</li><li>Análisis costo-beneficio.</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">Mes 4: Toma de Decisiones Estratégicas <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Modelos de optimización.</li><li>Estrategias económicas en sectores clave.</li></ul></div></div>
-                    </div>
+    </div>
+
                 </section>
                 
                 <?php include '../includes/benefits_section.php'; ?>

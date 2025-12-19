@@ -61,7 +61,14 @@ include '../includes/header.php';
                 </div>
 
                 <section class="syllabus-section">
-                    <h2 class="section-title">Plan de Estudios</h2>
+                    <h2 class="section-title"><i class="fa-solid fa-book" style="margin-right: 10px;"></i> Plan de Estudios</h2>
+                    <p>
+                        Descubre nuestro plan de estudios en Gestión Ambiental.<br>
+                        Con una duración de 6 Meses, este programa consta de 6 módulos diseñados para brindarte una formación sólida y aplicada.<br>
+                        Adquirirás competencias técnicas y profesionales actualizadas, combinando fundamentos teóricos con experiencias prácticas guiadas por especialistas del sector.<br>
+                        Potencia tus habilidades, mejora tu perfil profesional y prepárate para nuevas oportunidades laborales.<br>
+                        ¡Inscríbete hoy y comienza a transformar tu futuro con nosotros!
+                    </p>
                     <div class="accordion">
                         <div class="accordion-item"><button class="accordion-header">Mes 1: Introducción a la Gestión Ambiental <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Problemática ambiental global.</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">Mes 2: Normativa Legal Ambiental <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>LGA y reglamentos sectoriales.</li></ul></div></div>
@@ -69,7 +76,8 @@ include '../includes/header.php';
                         <div class="accordion-item"><button class="accordion-header">Mes 4: Manejo de Residuos Sólidos <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Gestión integral y reciclaje.</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">Mes 5: Tratamiento de Efluentes <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>LMP y ECAs.</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">Mes 6: Norma ISO 14001:2015 <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Implementación y auditoría.</li></ul></div></div>
-                    </div>
+    </div>
+
                 </section>
                 
                 <?php include '../includes/benefits_section.php'; ?>

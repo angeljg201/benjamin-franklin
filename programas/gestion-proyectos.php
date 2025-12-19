@@ -69,7 +69,14 @@ include '../includes/header.php';
                 </div>
 
                 <section class="syllabus-section">
-                    <h2 class="section-title">Plan de Estudios</h2>
+                    <h2 class="section-title"><i class="fa-solid fa-book" style="margin-right: 10px;"></i> Plan de Estudios</h2>
+                    <p>
+                        Descubre nuestro plan de estudios en Gestión de Proyectos.<br>
+                        Con una duración de 4 Meses, este programa consta de 6 módulos diseñados para brindarte una formación sólida y aplicada.<br>
+                        Adquirirás competencias técnicas y profesionales actualizadas, combinando fundamentos teóricos con experiencias prácticas guiadas por especialistas del sector.<br>
+                        Potencia tus habilidades, mejora tu perfil profesional y prepárate para nuevas oportunidades laborales.<br>
+                        ¡Inscríbete hoy y comienza a transformar tu futuro con nosotros!
+                    </p>
                     <div class="accordion">
                         <div class="accordion-item"><button class="accordion-header">MÓDULO 1 – Fundamentos de Gestión de Proyectos <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Introducción a la Gestión de Proyectos y PMBOK 7ma Edición.</li><li>Ciclo de vida del proyecto y fases del proceso de dirección.</li><li>Metodologías ágiles vs. tradicionales en gestión de proyectos.</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">MÓDULO 2 – Planificación y Ejecución <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Definición del alcance, EDT/WBS y estructuración del proyecto.</li><li>Planificación del cronograma: herramientas y técnicas.</li><li>Estimación y gestión de costos en proyectos.</li></ul></div></div>
@@ -77,7 +84,8 @@ include '../includes/header.php';
                         <div class="accordion-item"><button class="accordion-header">MÓDULO 4 – Liderazgo y Equipos <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Liderazgo en proyectos</li><li>Gestión de interesados</li><li>Comunicación efectiva y resolución de conflictos</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">MÓDULO 5 – Herramientas y Transformación Digital <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>MS Project, Jira y Trello</li><li>Gestión de portafolios y PMO</li><li>Metodologías ágiles avanzadas (Scrum, Kanban, Lean)</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">MÓDULO 6 – Proyecto Final <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Taller práctico (simulación)</li><li>Aplicación de metodologías híbridas</li><li>Presentación y evaluación del proyecto final</li></ul></div></div>
-                    </div>
+    </div>
+
                 </section>
                 
                 <?php include '../includes/benefits_section.php'; ?>
