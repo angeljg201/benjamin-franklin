@@ -44,7 +44,7 @@ include '../includes/header.php';
                     <div class="program-info">
                         <h3>Instalaciones Eléctricas</h3>
                         <ul class="program-details">
-                            <li><i class="fa-solid fa-calendar-days"></i> Inicio: Mensual</li>
+                            <li><i class="fa-solid fa-calendar-days"></i> Inicio: ¡Ahora mismo!</li>
                             <li><i class="fa-regular fa-clock"></i> 2 Meses</li>
                             <li><i class="fa-solid fa-chalkboard-user"></i> Presencial y Virtual</li>
                             <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
@@ -65,7 +65,7 @@ include '../includes/header.php';
                     <div class="program-info">
                         <h3>Instalaciones de Drywall</h3>
                         <ul class="program-details">
-                            <li><i class="fa-solid fa-calendar-days"></i> Inicio: Mensual</li>
+                            <li><i class="fa-solid fa-calendar-days"></i> Inicio: ¡Ahora mismo!</li>
                             <li><i class="fa-regular fa-clock"></i> 2 Meses</li>
                             <li><i class="fa-solid fa-chalkboard-user"></i> Presencial y Virtual</li>
                             <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
@@ -86,7 +86,7 @@ include '../includes/header.php';
                     <div class="program-info">
                         <h3>Análisis de Datos con Power BI</h3>
                         <ul class="program-details">
-                            <li><i class="fa-solid fa-calendar-days"></i> Inicio: Inmediato</li>
+                            <li><i class="fa-solid fa-calendar-days"></i> Inicio: ¡Ahora mismo!</li>
                             <li><i class="fa-regular fa-clock"></i> 3 Meses</li>
                             <li><i class="fa-solid fa-chalkboard-user"></i> 100% Virtual</li>
                             <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
