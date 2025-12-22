@@ -6,7 +6,8 @@ $mensajeWhatsApp = "Hola, estoy en la página web y deseo acceder al CURSO: *Ins
 include '../includes/header.php';
 ?>
 
-    <main class="course-page-wrapper">
+    <main>
+        <div class="course-page-wrapper">
             <aside class="course-sidebar">
                 <div class="sticky-card">
                     <div class="card-image-header">
@@ -85,47 +86,45 @@ include '../includes/header.php';
                         <div class="accordion-item"><button class="accordion-header">Módulo VIII: Presentación de proyecto <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Evaluación final.</li></ul></div></div>
                     </div>
                 </section>
-            </section>
                 
                 <?php include '../includes/benefits_section.php'; ?>
-                
-                <!-- CERTIFICATION SECTION -->
-                <section class="certification-section">
-                    <div class="container">
-                        <div class="cert-grid">
-                            <div class="cert-content">
-                                <div class="cert-header">
-                                    <i class="fa-regular fa-circle-check"></i>
-                                    <h2>CERTIFICACIÓN</h2>
-                                </div>
-                                
-                                <p class="cert-intro">
-                                    Al culminar satisfactoriamente y aprobar el curso, el alumno obtendrá:
-                                </p>
-                                
-                                <div class="cert-box">
-                                    <i class="fa-solid fa-chevron-right"></i>
-                                    <h3>Certificado del Curso de Instalación de Drywall</h3>
-                                </div>
-                                
-                                <p class="cert-description">
-                                    La certificación en Instalación de Drywall valida tus conocimientos y habilidades prácticas para ejecutar correctamente sistemas de construcción en seco, permitiéndote desempeñarte de manera profesional, segura y eficiente en obras de edificación, remodelación y acabados interiores.
-                                </p>
-                            </div>
-                            
-                            <div class="cert-image-container">
-                                <span class="cert-image-label">Imagen Referencial del Certificado</span>
-                                <img src="../assets/img/certificados/certificado-instalaciones-drywall.jpg" alt="Certificado Drywall" class="cert-img">
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <?php include '../includes/payment_methods.php'; ?>
             </div>
-            
-
+        </div>
 
         </div>
+
+        <!-- CERTIFICATION SECTION -->
+        <section class="certification-section">
+            <div class="container">
+                <div class="cert-grid">
+                    <div class="cert-content">
+                        <div class="cert-header">
+                            <i class="fa-regular fa-circle-check"></i>
+                            <h2>CERTIFICACIÓN</h2>
+                        </div>
+                        
+                        <p class="cert-intro">
+                            Al culminar satisfactoriamente y aprobar el curso, el alumno obtendrá:
+                        </p>
+                        
+                        <div class="cert-box">
+                            <i class="fa-solid fa-chevron-right"></i>
+                            <h3>Certificado del Curso de Instalación de Drywall</h3>
+                        </div>
+                        
+                        <p class="cert-description">
+                            La certificación en Instalación de Drywall valida tus conocimientos y habilidades prácticas para ejecutar correctamente sistemas de construcción en seco, permitiéndote desempeñarte de manera profesional, segura y eficiente en obras de edificación, remodelación y acabados interiores.
+                        </p>
+                    </div>
+                    
+                    <div class="cert-image-container">
+                        <span class="cert-image-label">Imagen Referencial del Certificado</span>
+                        <img src="../assets/img/certificados/certificado-instalaciones-drywall.jpg" alt="Certificado Drywall" class="cert-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <?php include '../includes/payment_methods.php'; ?>
     </main>
     <script>document.querySelectorAll('.accordion-header').forEach(b=>{b.addEventListener('click',()=>{b.classList.toggle('active');const c=b.nextElementSibling;c.style.maxHeight=b.classList.contains('active')?c.scrollHeight+"px":0;b.querySelector('i').style.transform=b.classList.contains('active')?"rotate(180deg)":"rotate(0deg)";});});</script>
 
