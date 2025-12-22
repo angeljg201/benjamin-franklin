@@ -88,6 +88,38 @@ include '../includes/header.php';
             </section>
                 
                 <?php include '../includes/benefits_section.php'; ?>
+                
+                <!-- CERTIFICATION SECTION -->
+                <section class="certification-section">
+                    <div class="container">
+                        <div class="cert-grid">
+                            <div class="cert-content">
+                                <div class="cert-header">
+                                    <i class="fa-regular fa-circle-check"></i>
+                                    <h2>CERTIFICACIÓN</h2>
+                                </div>
+                                
+                                <p class="cert-intro">
+                                    Al culminar satisfactoriamente y aprobar el curso, el alumno obtendrá:
+                                </p>
+                                
+                                <div class="cert-box">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                    <h3>Certificado del Curso de Instalación de Drywall</h3>
+                                </div>
+                                
+                                <p class="cert-description">
+                                    La certificación en Instalación de Drywall valida tus conocimientos y habilidades prácticas para ejecutar correctamente sistemas de construcción en seco, permitiéndote desempeñarte de manera profesional, segura y eficiente en obras de edificación, remodelación y acabados interiores.
+                                </p>
+                            </div>
+                            
+                            <div class="cert-image-container">
+                                <span class="cert-image-label">Imagen Referencial del Certificado</span>
+                                <img src="../assets/img/certificados/certificado-instalaciones-drywall.jpg" alt="Certificado Drywall" class="cert-img">
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <?php include '../includes/payment_methods.php'; ?>
             </div>
             

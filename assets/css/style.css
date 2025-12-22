@@ -2150,29 +2150,201 @@ nav ul li {
         height: auto;
     }
 }
+
 /* --- REFACTORED INLINE STYLES FOR DESKTOP STABILITY --- */
-.programs-hero-section h1 { font-size: 3.5rem; line-height: 1.1; margin-bottom: 30px; color: var(--primary-color); }
-.programs-hero-section .hero-description { font-size: 1.15rem; color: #4b5563; max-width: 900px; line-height: 1.7; opacity: 0.9; }
+.programs-hero-section h1 {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+}
 
-.faq-item h3 { font-size: 1.35rem; font-weight: 700; margin-bottom: 15px; color: var(--primary-color); }
-.faq-item p { font-size: 1.1rem; line-height: 1.7; color: var(--text-dark); opacity: 0.9; }
+.programs-hero-section .hero-description {
+    font-size: 1.15rem;
+    color: #4b5563;
+    max-width: 900px;
+    line-height: 1.7;
+    opacity: 0.9;
+}
 
-.banner-text h2.contact-page-title { font-size: 2.5rem; line-height: 1.2; }
+.faq-item h3 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+.faq-item p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-dark);
+    opacity: 0.9;
+}
+
+.banner-text h2.contact-page-title {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
 
 /* --- MOBILE TYPOGRAPHY OPTIMIZATION --- */
 @media (max-width: 768px) {
+
     /* Primary Headings */
-    h1, .hero h1, .programs-hero-section h1, .course-hero h1 { font-size: 1.75rem !important; line-height: 1.2 !important; margin-bottom: 15px !important; }
+    h1,
+    .hero h1,
+    .programs-hero-section h1,
+    .course-hero h1 {
+        font-size: 1.75rem !important;
+        line-height: 1.2 !important;
+        margin-bottom: 15px !important;
+    }
 
     /* Section Headings */
-    h2, .section-header h2, .banner-text h2, .banner-text h2.contact-page-title { font-size: 1.5rem !important; line-height: 1.3 !important; margin-bottom: 20px !important; }
+    h2,
+    .section-header h2,
+    .banner-text h2,
+    .banner-text h2.contact-page-title {
+        font-size: 1.5rem !important;
+        line-height: 1.3 !important;
+        margin-bottom: 20px !important;
+    }
 
     /* Subtitles / H3 */
-    h3, .program-info h3, .about-text h3, .faq-item h3, .pq-content h3 { font-size: 1.25rem !important; line-height: 1.4 !important; margin-bottom: 10px !important; }
+    h3,
+    .program-info h3,
+    .about-text h3,
+    .faq-item h3,
+    .pq-content h3 {
+        font-size: 1.25rem !important;
+        line-height: 1.4 !important;
+        margin-bottom: 10px !important;
+    }
 
     /* Body Text */
-    p, .hero p, .programs-hero-section .hero-description, .about-text p, .faq-item p, .banner-subtitle, .syllabus-text, .syllabus-text p { font-size: 1rem !important; line-height: 1.6 !important; }
+    p,
+    .hero p,
+    .programs-hero-section .hero-description,
+    .about-text p,
+    .faq-item p,
+    .banner-subtitle,
+    .syllabus-text,
+    .syllabus-text p {
+        font-size: 1rem !important;
+        line-height: 1.6 !important;
+    }
 
     /* Special Cases */
-    .section-header h2::after { margin-top: 15px !important; }
+    .section-header h2::after {
+        margin-top: 15px !important;
+    }
+}
+
+/* --- CERTIFICATION SECTION (Drywall) --- */
+.certification-section {
+    background-color: #0183C9;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.cert-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.cert-header i {
+    font-size: 3rem;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.cert-header h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.cert-header h2::after {
+    display: none;
+}
+
+.cert-intro {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.cert-box {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+.cert-box i {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.cert-box h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.cert-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #f0f0f0;
+    text-align: justify;
+}
+
+.cert-image-container {
+    text-align: right;
+}
+
+.cert-image-label {
+    display: block;
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.cert-img {
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .cert-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .cert-image-container,
+    .cert-image-label {
+        text-align: center;
+    }
+
+    .cert-header h2 {
+        font-size: 2rem;
+    }
 }
