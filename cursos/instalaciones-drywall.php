@@ -16,8 +16,6 @@ include '../includes/header.php';
                     <div class="card-body">
                         <h3 class="card-course-title">Instalaciones de Drywall</h3>
                         <div class="card-price visible" style="display: flex; flex-direction: column; gap: 5px;">
-                             <div><span class="currency">S/</span> 330 <span class="modality">- Virtual</span></div>
-                             <div><span class="currency">S/</span> 480 <span class="modality">- Presencial</span></div>
                         </div>
                         <div style="display: flex; gap: 8px; align-items: flex-start; margin-bottom: 20px; margin-top: 15px;">
                             <i class="fa-solid fa-circle-check" style="color: #5b4efe; font-size: 1.1rem; margin-top: 3px;"></i>

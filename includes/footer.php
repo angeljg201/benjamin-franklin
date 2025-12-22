@@ -32,6 +32,7 @@
                     <div class="contact-details">
                         <p>Central telefónica: 01 254-0591</p>
                         <p>Correo electrónico: informes@bf.edu.pe</p>
+                        <p>WhatsApp: +51 995 114 947</p>
                     </div>
 
                     <div class="contact-actions">
