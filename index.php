@@ -113,7 +113,7 @@ include 'includes/header.php';
 
                         <div class="form-group">
                             <label>Celular</label>
-                            <input type="tel" name="phone" placeholder="999 999 999" required>
+                            <input type="tel" name="phone" placeholder="Ingresa tu número de celular" required>
                         </div>
 
                         <div class="form-group">
