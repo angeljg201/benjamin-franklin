@@ -1402,9 +1402,9 @@ nav ul li {
 
     /* 4. FIXED TEXT (Incluye materiales...) */
     /* Target the exact div structure */
+    /* 4. FIXED TEXT (Incluye materiales...) */
     .card-body>div[style*="display: flex"] {
         order: 10;
-        /* Bottom most */
         background: #fff;
         width: 100%;
         padding: 10px 15px;
@@ -1417,60 +1417,58 @@ nav ul li {
         justify-content: center;
         gap: 8px;
         font-size: 0.85rem;
+        color: #333;
+        /* Ensure readability on white fixed bar */
     }
 
     /* 3. FLOAT BUTTON (WhatsApp) */
     .card-actions {
         order: 5;
-        /* Above text */
         pointer-events: auto;
         padding: 0 20px 15px 20px;
-        /* Spacing from bottom text */
         display: flex;
         flex-direction: column;
         gap: 10px;
         align-items: flex-end;
-        /* Align right or stretch? "Flotante" fits end usually or center. Let's Stretch. */
     }
 
     .card-actions .btn {
         width: 100%;
-        /* Stretch full width feels more "App like" */
         border-radius: 50px;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     }
 
-    /* Hide Comprar button if strictly following "Only WhatsApp Floating"? 
-       User said "Botón ... WhatsApp ... Ser flotante". 
-       I will Hide Primary button to clear the view, assuming user wants focus on WA. */
+    /* Hide Comprar button if strictly following "Only WhatsApp Floating" */
     .card-actions .btn-primary {
         display: none;
     }
 
+    /* Remove Custom Green Override - inherit desktop style */
     .btn-whatsapp {
-        background-color: #25D366 !important;
-        color: white !important;
-        border: none !important;
         justify-content: center;
     }
 
-    /* Ensure only specified text shows? The dynamic text is fine. */
 
-
-    /* Course Hero Adjustments for proper spacing */
+    /* Course Hero Adjustments */
     .course-hero {
         padding-top: 30px;
-        /* Space between Image and Title */
         padding-bottom: 20px;
-        background-color: #fff;
-        /* White bg for clean look */
-        color: #333;
-        /* Dark text */
+        /* Remove white bg override, maintain desktop colors */
     }
 
-    /* Force text colors for white background */
+    /* Remove Forced text colors overrides */
+    /* Let them inherit from the wrapper/hero */
+
+    /* Apply Hero Background to Wrapper to simulate the hero context for unwrapped items */
+    .course-page-wrapper {
+        background-color: #000c24;
+        /* Match desktop .course-hero color */
+        color: white;
+        /* Match desktop .course-hero text color */
+        overflow: hidden;
+    }
+
     .hero-breadcrumb {
-        color: #666 !important;
         margin-bottom: 15px;
     }
 
@@ -1479,14 +1477,12 @@ nav ul li {
     }
 
     .course-hero h1 {
-        color: #000 !important;
         font-size: 1.8rem;
         line-height: 1.2;
         margin-bottom: 15px;
     }
 
     .course-hero p {
-        color: #4b5563 !important;
         font-size: 1rem;
         margin-bottom: 20px;
     }
