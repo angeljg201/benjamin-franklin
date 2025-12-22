@@ -70,7 +70,7 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="bottom-content">
-                    <p>&copy; Instituto Superior Benjamin Franklin - Todos los derechos reservados</p>
+                    <p>&copy; Corporación Educativa Benjamin Franklin - Todos los derechos reservados</p>
                     <div class="social-links-circle">
                         <span>SÍGUENOS EN:</span>
                         <a href="https://www.facebook.com/corporacioneducativabenjaminfranklin" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a>

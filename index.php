@@ -269,14 +269,12 @@ include 'includes/header.php';
                     <article class="program-card">
                         <div class="program-img">
                             <a href="programas/contrataciones-estado.php">
-                                <img src="assets/img/programas/programa-gestion-proyectos.jpg" alt="Contrataciones con el Estado">
+                                <img src="assets/img/programas/programa-contrataciones-estado.jpg" alt="Contrataciones con el Estado">
                             </a>
                         </div>
                         <div class="program-info">
                             <h3>Programa de Especialización en Contrataciones con el Estado</h3>
                             <ul class="program-details">
-                                <li><i class="fa-solid fa-calendar-days"></i> Inicio: 27 de Enero</li>
-                                <li><i class="fa-regular fa-clock"></i> 4 Meses</li>
                                 <li><i class="fa-solid fa-chalkboard-user"></i> 100% Virtual</li>
                                 <li><i class="fa-solid fa-certificate"></i> Certificación Oficial</li>
                             </ul>

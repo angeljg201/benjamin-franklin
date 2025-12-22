@@ -6,11 +6,28 @@ $mensajeWhatsApp = "Hola, estoy en la página web y deseo acceder al PROGRAMA: *
 include '../includes/header.php';
 ?>
 
+<style>
+    @media (min-width: 901px) {
+        /* Layout específico para Contrataciones con el Estado */
+        .hero-content-expanded {
+            max-width: calc(100% - 390px) !important; /* Ancho dinámico restando sidebar + gap */
+        }
+        .hero-content-expanded p {
+            max-width: 100% !important; /* Desbloquear límite de 700px */
+            padding-right: 0;
+        }
+    }
+    @media (max-width: 900px) {
+        .hero-content-expanded p {
+            max-width: 100% !important;
+        }
+    }
+</style>
     <main class="course-page-wrapper">
             <aside class="course-sidebar">
                 <div class="sticky-card">
                     <div class="card-image-header">
-                        <img src="<?php echo $rootPath; ?>assets/img/programas/programa-gestion-proyectos.jpg" alt="Contrataciones con el Estado">
+                        <img src="<?php echo $rootPath; ?>assets/img/programas/programa-contrataciones-estado.jpg" alt="Contrataciones con el Estado">
 
                     </div>
                     <div class="card-body">
@@ -35,7 +52,7 @@ include '../includes/header.php';
             </aside>
         <section class="course-hero">
             <div class="container">
-                <div class="hero-content">
+                <div class="hero-content hero-content-expanded">
                     <div class="hero-breadcrumb">INICIO • PROGRAMAS • CONTRATACIONES CON EL ESTADO</div>
                     <span class="hero-badge">ESPECIALIZACIÓN</span>
                     <h1>Programa de Especialización en Contrataciones con el Estado</h1>
