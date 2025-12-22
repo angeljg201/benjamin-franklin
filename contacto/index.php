@@ -22,7 +22,7 @@ include '../includes/header.php';
             <!-- Left Content: Text -->
             <div class="banner-text">
                 <span style="color: var(--secondary-color); font-weight: 700; display: block; margin-bottom: 10px;">¿NECESITAS MÁS INFORMACIÓN?</span>
-                <h2 style="color: var(--primary-color); font-size: 2.5rem; margin-bottom: 20px; line-height: 1.2;">¿Tienes alguna consulta?</h2>
+                <h2 class="contact-page-title" style="color: var(--primary-color); margin-bottom: 20px; line-height: 1.2;">¿Tienes alguna consulta?</h2>
                 <p class="banner-subtitle" style="margin-bottom: 30px;">Déjanos tus datos y nos comunicaremos contigo a la brevedad posible.</p>
                 
                 <a href="https://wa.me/51995364552?text=<?php echo urlencode('¡Hola! Estoy en la pagina web y me gustaría obtener más información.'); ?>" target="_blank" class="btn btn-whatsapp" style="display: inline-flex; align-items: center; gap: 10px; padding: 15px 30px;">
