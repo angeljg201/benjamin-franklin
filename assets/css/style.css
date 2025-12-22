@@ -1334,12 +1334,15 @@ nav ul li {
 
     .course-page-wrapper {
         position: static;
+        display: flex;
+        flex-direction: column;
     }
 
     .course-grid {
         display: grid;
         grid-template-columns: 1fr;
         padding-right: 0;
+        order: 3;
     }
 
 
@@ -1350,6 +1353,7 @@ nav ul li {
         margin: 0;
         padding: 0;
         z-index: 100;
+        order: 1;
         /* Ensure image is above if needed */
     }
 
@@ -1451,8 +1455,9 @@ nav ul li {
 
     /* Course Hero Adjustments */
     .course-hero {
-        padding-top: 30px;
+        padding-top: 0;
         padding-bottom: 20px;
+        order: 2;
         /* Remove white bg override, maintain desktop colors */
     }
 

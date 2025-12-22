@@ -4,6 +4,8 @@ $is_course = strpos($_SERVER['REQUEST_URI'], '/cursos/') !== false;
 $cert_text = $is_course 
     ? "Al completar con éxito nuestro programa, recibirás un certificado oficial por el Ministerio de Educación y el Ministerio de Trabajo. ¡Acredita tu experiencia con nosotros!"
     : "Al completar con éxito nuestro programa, recibirás un certificado oficial de la UNI. ¡Acredita tu experiencia con nosotros!";
+
+$course_type_text = $is_course ? "Curso de Especialización" : "Programa de Especialización";
 ?>
 <style>
     .benefits-wrapper {
@@ -150,7 +152,9 @@ $cert_text = $is_course
     <div class="benefits-header">
         <h2 class="benefits-title"><i class="fa-regular fa-circle-question"></i> ¿POR QUÉ NOSOTROS?</h2>
         <p class="benefits-intro">
-            Nuestro <strong>Programa de Especialización</strong> ofrece una <strong>experiencia educativa de calidad</strong>, enriquecida con un enfoque práctico y especializado. Nuestro compromiso es brindarte las herramientas necesarias para destacarte en este sector dinámico y competitivo. <strong>Únete a nosotros y lleva tu carrera al siguiente nivel.</strong>
+        <p class="benefits-intro">
+            Nuestro <strong><?php echo $course_type_text; ?></strong> ofrece una <strong>experiencia educativa de calidad</strong>, enriquecida con un enfoque práctico y especializado. Nuestro compromiso es brindarte las herramientas necesarias para destacarte en este sector dinámico y competitivo. <strong>Únete a nosotros y lleva tu carrera al siguiente nivel.</strong>
+        </p>
         </p>
         <h3 class="benefits-subtitle">Beneficios</h3>
     </div>
