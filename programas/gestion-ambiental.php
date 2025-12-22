@@ -57,7 +57,7 @@ include '../includes/header.php';
         <div class="container course-grid">
             <div class="course-content">
                 <div class="course-info-bar">
-                    <div class="info-item"><i class="fa-regular fa-calendar"></i><div><strong>Inicio</strong><span>¡Inicios mensuales!</span></div></div>
+                    <div class="info-item"><i class="fa-regular fa-calendar"></i><div><strong>Inicio</strong><span>24 de Enero</span></div></div>
                     <div class="info-item"><i class="fa-regular fa-clock"></i><div><strong>Duración</strong><span>6 Meses</span></div></div>
                     <div class="info-item"><i class="fa-solid fa-chalkboard-user"></i><div><strong>Modalidad</strong><span>Híbrido</span></div></div>
                 </div>

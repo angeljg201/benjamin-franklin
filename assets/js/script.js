@@ -23,18 +23,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const mobileToggles = document.querySelectorAll('.mobile-toggle');
 
     mobileToggles.forEach(toggle => {
-        toggle.addEventListener('click', (e) => {
-            e.preventDefault();
-            e.stopPropagation(); // CRITICAL: Stop event from bubbling to link or other handlers
+        // Remove potential duplicate listeners by cloning (optional but safe) or just ensuring single strict listener
+        toggle.addEventListener('click', function (e) {
+            e.preventDefault(); // Prevent any default action
+            e.stopPropagation(); // Stop bubbling to parent elements
+            e.stopImmediatePropagation(); // Stop other listeners on this element
 
-            // Toggle the 'active-mobile-menu' class on the PARENT LI
-            const parentLi = toggle.closest('.has-submenu');
+            // Find the parent list item
+            const parentLi = this.closest('.has-submenu');
+
             if (parentLi) {
-                // Optional: Close other open menus (accordion behavior)
-                // document.querySelectorAll('.has-submenu.active-mobile-menu').forEach(item => {
-                //     if (item !== parentLi) item.classList.remove('active-mobile-menu');
-                // });
-
+                // Strict Toggle
                 parentLi.classList.toggle('active-mobile-menu');
             }
         });
