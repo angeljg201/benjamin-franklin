@@ -1368,17 +1368,7 @@ nav ul li {
 
     /* 1. IMAGE (Top) */
     .card-image-header {
-        width: 100vw;
-        /* Full viewport width */
-        margin-left: -50vw;
-        /* Trick for full width inside container */
-        margin-right: -50vw;
-        position: relative;
-        left: 50%;
-        right: 50%;
-        height: auto;
-        border-radius: 0;
-        margin-bottom: 0;
+        display: none;
     }
 
     /* 2. CONTENT FLOW (Natural) */
