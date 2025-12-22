@@ -190,6 +190,11 @@ nav a:hover::after {
     cursor: pointer;
 }
 
+/* STRICT ISOLATION: Hide mobile elements on Desktop */
+.mobile-toggle {
+    display: none;
+}
+
 /* Hero Section */
 .hero {
     height: 90vh;
@@ -372,6 +377,31 @@ section {
 
 /* Responsive */
 @media (max-width: 768px) {
+
+    /* Mobile Typography Optimization */
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .section-header h2 {
+        font-size: 1.75rem;
+        /* Reduced from 2.5rem */
+        margin-bottom: 25px;
+    }
+
+    /* Fix Header Layout: Separate Logo and Hamburger */
+    header .container {
+        justify-content: space-between;
+    }
+
     .mobile-menu-btn {
         display: block;
         color: var(--primary-color);
@@ -396,15 +426,102 @@ section {
     nav ul {
         flex-direction: column;
         align-items: center;
-        gap: 25px;
+        gap: 0;
+        /* Removing gap to let items handle their own spacing */
+        width: 100%;
     }
 
+    nav ul li {
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Mobile Link Styling */
     nav a {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+        padding: 15px 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav a:hover::after {
+        width: 0;
+        /* Disable desktop hover effect line on mobile */
+    }
+
+    /* Hide the desktop arrow icon in mobile to avoid confusion */
+    nav ul li a .fa-chevron-down {
+        display: none;
+    }
+
+    /* Mobile Submenu Toggle Arrow */
+    .mobile-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        /* Big clickable area */
+        height: 44px;
+        position: absolute;
+        top: 5px;
+        /* Adjust based on padding */
+        right: 10px;
+        z-index: 10;
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.02);
+        /* Slight hint it's clickable */
+        border-radius: 4px;
+        color: var(--secondary-color);
+    }
+
+    /* Submenu Logic - Accordion */
+    .submenu {
+        position: static;
+        /* Stack naturally */
+        background: #f9f9f9;
+        box-shadow: none;
+        width: 100%;
+        display: none;
+        /* Hidden by default */
+        padding: 0;
+        opacity: 1;
+        /* Reset desktop transition */
+        visibility: visible;
+        transform: none;
+    }
+
+    .submenu li {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    }
+
+    .submenu li a {
+        padding: 12px 20px;
+        font-size: 1rem;
+        color: #555;
+    }
+
+    /* Show submenu when Active */
+    .has-submenu.active-mobile-menu .submenu {
+        display: block;
+    }
+
+    /* Rotate arrow when active */
+    .has-submenu.active-mobile-menu .mobile-toggle i {
+        transform: rotate(180deg);
+        transition: transform 0.3s ease;
     }
 
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
     }
 
     .hero-buttons {

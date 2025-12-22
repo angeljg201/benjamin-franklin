@@ -19,7 +19,26 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Sticky Header Effect (Optional but good for UX)
+    // NEW: Independent Mobile Submenu Logic
+    const mobileToggles = document.querySelectorAll('.mobile-toggle');
+
+    mobileToggles.forEach(toggle => {
+        toggle.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation(); // CRITICAL: Stop event from bubbling to link or other handlers
+
+            // Toggle the 'active-mobile-menu' class on the PARENT LI
+            const parentLi = toggle.closest('.has-submenu');
+            if (parentLi) {
+                // Optional: Close other open menus (accordion behavior)
+                // document.querySelectorAll('.has-submenu.active-mobile-menu').forEach(item => {
+                //     if (item !== parentLi) item.classList.remove('active-mobile-menu');
+                // });
+
+                parentLi.classList.toggle('active-mobile-menu');
+            }
+        });
+    });
     const header = document.querySelector('header');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {

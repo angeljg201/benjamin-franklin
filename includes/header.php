@@ -51,6 +51,8 @@
 
                     <li class="has-submenu">
                         <a href="<?php echo $rootPath; ?>/nosotros/index.php">Nosotros <i class="fa-solid fa-chevron-down"></i></a>
+                        <!-- Mobile Only Toggle -->
+                        <span class="mobile-toggle"><i class="fa-solid fa-chevron-down"></i></span>
                         <ul class="submenu">
                             <li><a href="<?php echo $rootPath; ?>nosotros/index.php#quienes-somos">¿Quiénes somos?</a></li>
                             <li><a href="<?php echo $rootPath; ?>nosotros/index.php#resena-historica">Reseña histórica</a></li>
@@ -62,6 +64,8 @@
 
                     <li class="has-submenu">
                         <a href="<?php echo $rootPath; ?>index.php#carreras">Programas <i class="fa-solid fa-chevron-down"></i></a>
+                        <!-- Mobile Only Toggle -->
+                        <span class="mobile-toggle"><i class="fa-solid fa-chevron-down"></i></span>
                         <ul class="submenu">
                             <li><a href="<?php echo $rootPath; ?>programas/gestion-proyectos.php">Gestión de Proyectos</a></li>
                             <li><a href="<?php echo $rootPath; ?>programas/gestion-publica.php">Gestión Pública</a></li>
@@ -73,6 +77,8 @@
 
                     <li class="has-submenu">
                         <a href="<?php echo $rootPath; ?>cursos/index.php">Cursos <i class="fa-solid fa-chevron-down"></i></a>
+                        <!-- Mobile Only Toggle -->
+                        <span class="mobile-toggle"><i class="fa-solid fa-chevron-down"></i></span>
                         <ul class="submenu">
                             <li><a href="<?php echo $rootPath; ?>cursos/instalaciones-electricas.php">Instalaciones Eléctricas</a></li>
                             <li><a href="<?php echo $rootPath; ?>cursos/instalaciones-drywall.php">Instalaciones de Drywall</a></li>
