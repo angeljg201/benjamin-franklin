@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Análisis de Datos con POWER BI - Benjamin Franklin";
 $rootPath = "../";
-$numeroWhatsApp = "51987900634";
+$numeroWhatsApp = "51937784193";
 $mensajeWhatsApp = "Hola, estoy en la página web y deseo acceder al CURSO: *Análisis de Datos con POWER BI* y obtener mi CERTIFICADO.";
 include '../includes/header.php';
 ?>

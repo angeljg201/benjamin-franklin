@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Gestión de Proyectos - Benjamin Franklin";
 $rootPath = "../";
-$numeroWhatsApp = "51987900634";
+$numeroWhatsApp = "51956704678";
 $mensajeWhatsApp = "Hola, estoy en la página web y deseo acceder al CURSO: *Especialización en Gestión de Proyectos* y obtener mi CERTIFICADO.";
 include '../includes/header.php';
 ?>

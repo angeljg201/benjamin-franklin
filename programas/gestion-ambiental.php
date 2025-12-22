@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Gestión Ambiental - Benjamin Franklin";
 $rootPath = "../";
-$numeroWhatsApp = "51987900634";
+$numeroWhatsApp = "51920732561";
 $mensajeWhatsApp = "Hola, estoy en la página web y deseo acceder al CURSO: *Especialización en Gestión Ambiental* y obtener mi CERTIFICADO.";
 include '../includes/header.php';
 ?>
