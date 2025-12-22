@@ -124,7 +124,12 @@ include '../includes/header.php';
                 </div>
             </div>
         </section>
-        <?php include '../includes/payment_methods.php'; ?>
+        
+        <div class="container course-grid" style="min-height: auto; margin-top: 0; margin-bottom: 0px;">
+            <div class="course-content">
+                <?php include '../includes/payment_methods.php'; ?>
+            </div>
+        </div>
     </main>
     <script>document.querySelectorAll('.accordion-header').forEach(b=>{b.addEventListener('click',()=>{b.classList.toggle('active');const c=b.nextElementSibling;c.style.maxHeight=b.classList.contains('active')?c.scrollHeight+"px":0;b.querySelector('i').style.transform=b.classList.contains('active')?"rotate(180deg)":"rotate(0deg)";});});</script>
 
