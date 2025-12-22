@@ -1719,3 +1719,169 @@ nav ul li {
 .card-price {
     margin-bottom: 15px;
 }
+
+/* Responsive Optimization for Courses and Programs (Mobile) */
+@media (max-width: 768px) {
+
+    /* Global Section Adjustments */
+    section {
+        padding: 30px 0;
+    }
+
+    .container {
+        padding: 0 15px;
+        /* Maximizing width for mobile */
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Course Hero Adjustments */
+    .course-hero {
+        padding: 100px 0 30px 0;
+        height: auto;
+    }
+
+    .course-hero h1 {
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+
+    .course-hero p {
+        font-size: 1rem;
+        text-align: left;
+        padding-right: 0;
+    }
+
+    .hero-stats-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .hero-breadcrumb {
+        font-size: 0.7rem;
+        margin-bottom: 20px;
+        line-height: 1.4;
+    }
+
+    /* Course Layout Adjustments */
+    .course-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding-right: 0;
+    }
+
+    .course-content {
+        width: 100%;
+        order: 2;
+    }
+
+    /* Sidebar / Sticky Card Mobile */
+    .course-sidebar {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 30px;
+        position: relative;
+        top: 0;
+        right: 0;
+        order: 1;
+    }
+
+    .sticky-card {
+        position: relative;
+        top: 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        border-radius: 8px;
+        /* Smooth corners */
+    }
+
+    .card-image-header {
+        height: auto;
+        /* Allow image to scale naturally */
+        max-height: 250px;
+    }
+
+    /* Info Bar */
+    .course-info-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+        background: #f8f9fa;
+        border-radius: 8px;
+        border: none;
+        width: 100%;
+    }
+
+    .info-item {
+        width: 100%;
+    }
+
+    /* Syllabus & Accordion */
+    .syllabus-section {
+        padding-top: 10px;
+    }
+
+    .syllabus-text {
+        text-align: left;
+        font-size: 1rem;
+        width: 100%;
+        padding: 0;
+    }
+
+    .accordion-header {
+        padding: 15px;
+        font-size: 0.95rem;
+        line-height: 1.4;
+    }
+
+    .accordion-body ul {
+        padding: 15px 15px 15px 25px;
+    }
+
+    /* Program Specific Tweaks */
+    .program-info h3 {
+        font-size: 1.1rem;
+    }
+
+    /* Por que estudiar Tweaks */
+    .por-que-estudiar .pq-header h2 {
+        font-size: 1.25rem;
+    }
+
+    .pq-card {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 15px;
+        gap: 12px;
+    }
+
+    .pq-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        flex-shrink: 0;
+        /* Prevent shrinking */
+    }
+
+    /* Stats & Benefits */
+    .hero-stats-left,
+    .hero-stats-right {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    /* Improve Image Behavior */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
