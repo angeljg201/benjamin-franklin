@@ -110,13 +110,13 @@
         <h2>Métodos de Pago</h2>
     </div>
 
-    <!-- Visa Section -->
+    <!-- Visa Section
     <h3 class="payment-subtitle">Compra al instante con tarjeta de débito o crédito</h3>
     <div class="payment-card">
         <img src="<?php echo $rootPath; ?>assets/img/pagos/metodos-de-pago-visa.png" alt="Visa">
         <p>Paga ahora este curso por la pasarela de pagos de Benjamin Franklin</p>
         <a href="<?php echo $rootPath; ?>index.php#contacto" class="payment-action-btn">COMPRAR AHORA</a>
-    </div>
+    </div> -->
 
     <!-- BCP Section -->
     <h3 class="payment-subtitle">Pagos vía depósito a nivel nacional (Perú)</h3>
