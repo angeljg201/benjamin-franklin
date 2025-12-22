@@ -1344,11 +1344,168 @@ nav ul li {
 
 
     .course-sidebar {
+        /* Natural flow: Sidebar is physically first in HTML so Image is first */
         position: static;
         width: 100%;
-        margin-top: 80px;
-        /* Clear fixed header */
-        margin-bottom: 30px;
+        margin: 0;
+        padding: 0;
+        z-index: 100;
+        /* Ensure image is above if needed */
+    }
+
+    /* Remove card styling from the wrapper to let image be full width */
+    .sticky-card {
+        position: static;
+        box-shadow: none;
+        border: none;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    /* 1. IMAGE (Top) */
+    .card-image-header {
+        width: 100vw;
+        /* Full viewport width */
+        margin-left: -50vw;
+        /* Trick for full width inside container */
+        margin-right: -50vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        height: auto;
+        border-radius: 0;
+        margin-bottom: 0;
+    }
+
+    /* 2. CONTENT FLOW (Natural) */
+    /* Sidebar body contains items we need to move/hide */
+    .card-body {
+        /* Fixed container at bottom */
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+        pointer-events: none;
+        /* Allow clicking through empty space */
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        background: transparent;
+    }
+
+    /* Hide redundant elements in mobile */
+    .card-course-title,
+    .card-price {
+        display: none !important;
+    }
+
+    /* 4. FIXED TEXT (Incluye materiales...) */
+    /* Target the exact div structure */
+    .card-body>div[style*="display: flex"] {
+        order: 10;
+        /* Bottom most */
+        background: #fff;
+        width: 100%;
+        padding: 10px 15px;
+        margin: 0 !important;
+        border-top: 1px solid #eee;
+        pointer-events: auto;
+        text-align: center;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+        display: flex !important;
+        justify-content: center;
+        gap: 8px;
+        font-size: 0.85rem;
+    }
+
+    /* 3. FLOAT BUTTON (WhatsApp) */
+    .card-actions {
+        order: 5;
+        /* Above text */
+        pointer-events: auto;
+        padding: 0 20px 15px 20px;
+        /* Spacing from bottom text */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-end;
+        /* Align right or stretch? "Flotante" fits end usually or center. Let's Stretch. */
+    }
+
+    .card-actions .btn {
+        width: 100%;
+        /* Stretch full width feels more "App like" */
+        border-radius: 50px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Hide Comprar button if strictly following "Only WhatsApp Floating"? 
+       User said "Botón ... WhatsApp ... Ser flotante". 
+       I will Hide Primary button to clear the view, assuming user wants focus on WA. */
+    .card-actions .btn-primary {
+        display: none;
+    }
+
+    .btn-whatsapp {
+        background-color: #25D366 !important;
+        color: white !important;
+        border: none !important;
+        justify-content: center;
+    }
+
+    /* Ensure only specified text shows? The dynamic text is fine. */
+
+
+    /* Course Hero Adjustments for proper spacing */
+    .course-hero {
+        padding-top: 30px;
+        /* Space between Image and Title */
+        padding-bottom: 20px;
+        background-color: #fff;
+        /* White bg for clean look */
+        color: #333;
+        /* Dark text */
+    }
+
+    /* Force text colors for white background */
+    .hero-breadcrumb {
+        color: #666 !important;
+        margin-bottom: 15px;
+    }
+
+    .hero-badge {
+        margin-bottom: 15px;
+    }
+
+    .course-hero h1 {
+        color: #000 !important;
+        font-size: 1.8rem;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+
+    .course-hero p {
+        color: #4b5563 !important;
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    /* Safety padding at bottom of page so content isn't covered by fixed footer */
+    body {
+        padding-bottom: 160px;
+        /* Approx height of fixed footer elements */
+    }
+
+    .course-page-wrapper {
+        overflow: hidden;
+        /* Fix horizontal scroll from the negative margins on image */
+        background: #fff;
+    }
+
+    .container {
+        padding: 0 20px;
+        /* Ensure generic padding */
     }
 }
 
