@@ -6,7 +6,8 @@ $mensajeWhatsApp = "Hola, estoy en la página web y deseo acceder al CURSO: *Esp
 include '../includes/header.php';
 ?>
 
-    <main class="course-page-wrapper">
+    <main>
+        <div class="course-page-wrapper">
             <aside class="course-sidebar">
                 <div class="sticky-card">
                     <div class="card-image-header">
@@ -76,16 +77,51 @@ include '../includes/header.php';
                         <div class="accordion-item"><button class="accordion-header">MÓDULO 2 – Políticas Públicas y Planeamiento Estratégico <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Marco conceptual de las políticas públicas.</li><li>Planeamiento estratégico en la gestión pública.</li><li>Implementación y evaluación de políticas públicas.</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">MÓDULO 3 – Presupuesto y Gestión Financiera Pública <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Presupuesto público y su marco normativo.</li><li>Presupuesto por Resultados (PpR).</li><li>Gestión financiera y control del gasto público.</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">MÓDULO 4 – Inversión Pública y Gestión de Proyectos <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Marco normativo de la inversión pública en el Perú.</li><li>Ciclo de vida de un proyecto de inversión pública.</li><li>Gestión de cartera de proyectos y cierre de brechas.</li></ul></div></div>
-    </div>
-
+                    </div>
                 </section>
                 
                 <?php include '../includes/benefits_section.php'; ?>
+            </div>
+        </div>
+
+        </div>
+
+        <!-- CERTIFICATION SECTION -->
+        <section class="certification-section bg-burgundy">
+            <div class="container">
+                <div class="cert-grid">
+                    <div class="cert-content">
+                        <div class="cert-header">
+                            <i class="fa-regular fa-circle-check"></i>
+                            <h2>CERTIFICACIÓN</h2>
+                        </div>
+                        
+                        <p class="cert-intro">
+                            Al culminar satisfactoriamente y aprobar el programa, el alumno obtendrá:
+                        </p>
+                        
+                        <div class="cert-box">
+                            <i class="fa-solid fa-chevron-right"></i>
+                            <h3>Certificado de Especialización en Gestión Pública</h3>
+                        </div>
+                        
+                        <p class="cert-description">
+                            La certificación en Gestión Pública valida tus competencias en administración estatal, políticas públicas y gestión financiera, facultándote para desempeñarte con eficiencia, transparencia y liderazgo en entidades gubernamentales.
+                        </p>
+                    </div>
+                    
+                    <div class="cert-image-container">
+                        <span class="cert-image-label">Imagen Referencial del Certificado</span>
+                        <img src="../assets/img/certificados/uni/certificado-gestion-publica.jpg" alt="Certificado Gestión Pública" class="cert-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="container course-grid" style="min-height: auto; margin-top: 0; margin-bottom: 0px;">
+            <div class="course-content">
                 <?php include '../includes/payment_methods.php'; ?>
             </div>
-            
-
-
         </div>
     </main>
     <script>document.querySelectorAll('.accordion-header').forEach(b=>{b.addEventListener('click',()=>{b.classList.toggle('active');const c=b.nextElementSibling;c.style.maxHeight=b.classList.contains('active')?c.scrollHeight+"px":0;b.querySelector('i').style.transform=b.classList.contains('active')?"rotate(180deg)":"rotate(0deg)";});});</script>

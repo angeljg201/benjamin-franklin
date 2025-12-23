@@ -2356,3 +2356,8 @@ nav ul li {
 .certification-section {
     margin-top: 40px;
 }
+
+/* Utility for Burgundy Background */
+.bg-burgundy {
+    background-color: #7A0028 !important;
+}

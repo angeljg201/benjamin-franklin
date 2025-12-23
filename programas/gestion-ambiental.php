@@ -6,7 +6,8 @@ $mensajeWhatsApp = "Hola, estoy en la página web y deseo acceder al CURSO: *Esp
 include '../includes/header.php';
 ?>
 
-    <main class="course-page-wrapper">
+    <main>
+        <div class="course-page-wrapper">
             <aside class="course-sidebar">
                 <div class="sticky-card">
                     <div class="card-image-header">
@@ -85,11 +86,47 @@ include '../includes/header.php';
                 </section>
                 
                 <?php include '../includes/benefits_section.php'; ?>
+            </div>
+        </div>
+
+        </div>
+
+        <!-- CERTIFICATION SECTION -->
+        <section class="certification-section bg-burgundy">
+            <div class="container">
+                <div class="cert-grid">
+                    <div class="cert-content">
+                        <div class="cert-header">
+                            <i class="fa-regular fa-circle-check"></i>
+                            <h2>CERTIFICACIÓN</h2>
+                        </div>
+                        
+                        <p class="cert-intro">
+                            Al culminar satisfactoriamente y aprobar el programa, el alumno obtendrá:
+                        </p>
+                        
+                        <div class="cert-box">
+                            <i class="fa-solid fa-chevron-right"></i>
+                            <h3>Certificado de Especialización en Gestión Ambiental</h3>
+                        </div>
+                        
+                        <p class="cert-description">
+                            La certificación en Gestión Ambiental valida tus conocimientos en estrategias sostenibles, evaluación de impacto y normativa ambiental, permitiéndote liderar iniciativas responsables y eficientes en organizaciones públicas y privadas.
+                        </p>
+                    </div>
+                    
+                    <div class="cert-image-container">
+                        <span class="cert-image-label">Imagen Referencial del Certificado</span>
+                        <img src="../assets/img/certificados/uni/certificado-gestion-ambiental.jpg" alt="Certificado Gestión Ambiental" class="cert-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="container course-grid" style="min-height: auto; margin-top: 0; margin-bottom: 0px;">
+            <div class="course-content">
                 <?php include '../includes/payment_methods.php'; ?>
             </div>
-            
-
-
         </div>
     </main>
     <script>document.querySelectorAll('.accordion-header').forEach(b=>{b.addEventListener('click',()=>{b.classList.toggle('active');const c=b.nextElementSibling;c.style.maxHeight=b.classList.contains('active')?c.scrollHeight+"px":0;b.querySelector('i').style.transform=b.classList.contains('active')?"rotate(180deg)":"rotate(0deg)";});});</script>

@@ -6,8 +6,8 @@ $mensajeWhatsApp = "Hola, estoy en la página web y deseo acceder al CURSO: *An�
 include '../includes/header.php';
 ?>
 
-    <!-- Course Page Container -->
-    <main class="course-page-wrapper">
+    <main>
+        <div class="course-page-wrapper">
             <aside class="course-sidebar">
                 <div class="sticky-card">
                     <div class="card-image-header">
@@ -20,7 +20,7 @@ include '../includes/header.php';
                         <div style="display: flex; gap: 8px; align-items: flex-start; margin-bottom: 20px;">
                             <i class="fa-solid fa-circle-check" style="color: #5b4efe; font-size: 1.1rem; margin-top: 3px;"></i>
                             <p style="margin: 0; font-size: 0.9rem; color: #4b5563; line-height: 1.4;">
-                                Incluye materiales, prácticas, sesiones en vivo y certificación oficial del Ministerio de Educación y Ministerio del Trabajo.
+                                Incluye materiales, prácticas, sesiones en vivo y certificación oficial UNI.
                             </p>
                         </div>
 
@@ -37,8 +37,6 @@ include '../includes/header.php';
                     </div>
                 </div>
             </aside>
-        
-        <!-- Hero Section -->
         <section class="course-hero">
             <div class="container">
                 <div class="hero-content">
@@ -61,20 +59,14 @@ Incluye manejo de Power Query, modelado de datos, DAX básico e intermedio, inte
             </div>
         </section>
 
-        <!-- Main Grid Layout -->
         <div class="container course-grid">
-            
-            <!-- Left Column: Content -->
             <div class="course-content">
-                
-                <!-- Info Bar (Icons) -->
                 <div class="course-info-bar">
                     <div class="info-item"><i class="fa-regular fa-calendar"></i><div><strong>Inicio</strong><span>13 de Enero</span></div></div>
                     <div class="info-item"><i class="fa-regular fa-clock"></i><div><strong>Duración</strong><span>4 Semanas</span></div></div>
                     <div class="info-item"><i class="fa-solid fa-chalkboard-user"></i><div><strong>Modalidad</strong><span>100% Virtual</span></div></div>
                 </div>
 
-                <!-- Syllabus (Temario) -->
                 <section class="syllabus-section">
                     <h2 class="syllabus-title"><i class="fa-solid fa-book"></i> Plan de Estudios</h2>
                     <p class="syllabus-text">
@@ -85,141 +77,61 @@ Incluye manejo de Power Query, modelado de datos, DAX básico e intermedio, inte
                         ¡Inscríbete hoy y comienza a transformar tu futuro con nosotros!
                     </p>
                     <div class="accordion">
-                        <!-- Módulo 1 -->
-                        <div class="accordion-item">
-                            <button class="accordion-header">
-                                MÓDULO 1 – Introducción a Power BI y Conceptos de BI <i class="fa-solid fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-body">
-                                <ul>
-                                    <li>Componentes de Power BI.</li>
-                                    <li>Ecosistema de Business Intelligence.</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!-- Módulo 2 -->
-                        <div class="accordion-item">
-                            <button class="accordion-header">
-                                MÓDULO 2 – Transformación y Limpieza de Datos (Power Query) <i class="fa-solid fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-body">
-                                <ul>
-                                    <li>ETL.</li>
-                                    <li>Eliminación de errores y transformación avanzada.</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!-- Módulo 3 -->
-                        <div class="accordion-item">
-                            <button class="accordion-header">
-                                MÓDULO 3 – Modelado de Datos (I): Diseño y Relaciones <i class="fa-solid fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-body">
-                                <ul>
-                                    <li>Modelos estrella.</li>
-                                    <li>Relaciones uno-a-muchos y muchos-a-muchos.</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!-- Módulo 4 -->
-                        <div class="accordion-item">
-                            <button class="accordion-header">
-                                MÓDULO 4 – Introducción a DAX <i class="fa-solid fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-body">
-                                <ul>
-                                    <li>Medidas.</li>
-                                    <li>Columnas calculadas.</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!-- Módulo 5 -->
-                        <div class="accordion-item">
-                            <button class="accordion-header">
-                                MÓDULO 5 – Visualización y Diseño de Informes <i class="fa-solid fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-body">
-                                <ul>
-                                    <li>Gráficos, KPIs, segmentadores.</li>
-                                    <li>Mejores prácticas de diseño.</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!-- Módulo 6 -->
-                        <div class="accordion-item">
-                            <button class="accordion-header">
-                                MÓDULO 6 – DAX Intermedio y Time Intelligence <i class="fa-solid fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-body">
-                                <ul>
-                                    <li>Cálculos dinámicos.</li>
-                                    <li>Medidas de comparación temporal.</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!-- Módulo 7 -->
-                        <div class="accordion-item">
-                            <button class="accordion-header">
-                                MÓDULO 7 – Funcionalidades Avanzadas e Inteligencia Artificial <i class="fa-solid fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-body">
-                                <ul>
-                                    <li>Predicciones.</li>
-                                    <li>Integración con IA.</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!-- Módulo 8 -->
-                        <div class="accordion-item">
-                            <button class="accordion-header">
-                                MÓDULO 8 – Proyecto Integrador <i class="fa-solid fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-body">
-                                <ul>
-                                    <li>Construcción de dashboard profesional.</li>
-                                    <li>Retroalimentación final.</li>
-                                </ul>
-                            </div>
-                        </div>
-    </div>
+                        <div class="accordion-item"><button class="accordion-header">MÓDULO 1 – Introducción a Power BI y Conceptos de BI <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Componentes de Power BI.</li><li>Ecosistema de Business Intelligence.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">MÓDULO 2 – Transformación y Limpieza de Datos (Power Query) <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>ETL.</li><li>Eliminación de errores y transformación avanzada.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">MÓDULO 3 – Modelado de Datos (I): Diseño y Relaciones <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Modelos estrella.</li><li>Relaciones uno-a-muchos y muchos-a-muchos.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">MÓDULO 4 – Introducción a DAX <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Medidas.</li><li>Columnas calculadas.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">MÓDULO 5 – Visualización y Diseño de Informes <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Gráficos, KPIs, segmentadores.</li><li>Mejores prácticas de diseño.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">MÓDULO 6 – DAX Intermedio y Time Intelligence <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Cálculos dinámicos.</li><li>Medidas de comparación temporal.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">MÓDULO 7 – Funcionalidades Avanzadas e Inteligencia Artificial <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Predicciones.</li><li>Integración con IA.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">MÓDULO 8 – Proyecto Integrador <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Construcción de dashboard profesional.</li><li>Retroalimentación final.</li></ul></div></div>
+                    </div>
                 </section>
-
+                
                 <?php include '../includes/benefits_section.php'; ?>
-                <?php include '../includes/payment_methods.php'; ?>
-
             </div>
-            
-
-
-
+        </div>
 
         </div>
 
+        <!-- CERTIFICATION SECTION -->
+        <section class="certification-section bg-burgundy">
+            <div class="container">
+                <div class="cert-grid">
+                    <div class="cert-content">
+                        <div class="cert-header">
+                            <i class="fa-regular fa-circle-check"></i>
+                            <h2>CERTIFICACIÓN</h2>
+                        </div>
+                        
+                        <p class="cert-intro">
+                            Al culminar satisfactoriamente y aprobar el curso, el alumno obtendrá:
+                        </p>
+                        
+                        <div class="cert-box">
+                            <i class="fa-solid fa-chevron-right"></i>
+                            <h3>Certificado de Especialización en Análisis de Datos con Power BI</h3>
+                        </div>
+                        
+                        <p class="cert-description">
+                            La certificación en Power BI valida tu dominio en el análisis y visualización de datos, permitiéndote transformar información compleja en reportes estratégicos para la toma de decisiones empresariales.
+                        </p>
+                    </div>
+                    
+                    <div class="cert-image-container">
+                        <span class="cert-image-label">Imagen Referencial del Certificado</span>
+                        <img src="../assets/img/certificados/uni/certificado-power-bi.jpg" alt="Certificado Power BI" class="cert-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="container course-grid" style="min-height: auto; margin-top: 0; margin-bottom: 0px;">
+            <div class="course-content">
+                <?php include '../includes/payment_methods.php'; ?>
+            </div>
+        </div>
     </main>
-
-    <script>
-        // Specific script for accordion
-        document.querySelectorAll('.accordion-header').forEach(button => {
-            button.addEventListener('click', () => {
-                const accordionContent = button.nextElementSibling;
-                button.classList.toggle('active');
-                
-                if (button.classList.contains('active')) {
-                    accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
-                    button.querySelector('i').style.transform = "rotate(180deg)";
-                } else {
-                    accordionContent.style.maxHeight = 0;
-                    button.querySelector('i').style.transform = "rotate(0deg)";
-                }
-            });
-        });
-    </script>
+    <script>document.querySelectorAll('.accordion-header').forEach(b=>{b.addEventListener('click',()=>{b.classList.toggle('active');const c=b.nextElementSibling;c.style.maxHeight=b.classList.contains('active')?c.scrollHeight+"px":0;b.querySelector('i').style.transform=b.classList.contains('active')?"rotate(180deg)":"rotate(0deg)";});});</script>
 
 <?php include '../includes/footer.php'; ?>

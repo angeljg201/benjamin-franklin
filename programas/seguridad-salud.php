@@ -6,7 +6,8 @@ $mensajeWhatsApp = "Hola, estoy en la página web y deseo acceder al CURSO: *Esp
 include '../includes/header.php';
 ?>
 
-    <main class="course-page-wrapper">
+    <main>
+        <div class="course-page-wrapper">
             <aside class="course-sidebar">
                 <div class="sticky-card">
                     <div class="card-image-header">
@@ -72,22 +73,57 @@ include '../includes/header.php';
                         ¡Inscríbete hoy y comienza a transformar tu futuro con nosotros!
                     </p>
                     <div class="accordion">
-<div class="accordion-item"><button class="accordion-header">MÓDULO 1 – Fundamentos de Seguridad y Salud en el Trabajo <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Conceptos básicos de SST: peligro, riesgo, accidente, incidente.</li><li>Importancia de la SST en las organizaciones.</li><li>Enfoque de la cultura preventiva en las organizaciones.</li><li>Introducción a la ISO 45001:2018 y su aplicabilidad.</li><li>Responsabilidad social y seguridad ocupacional.</li></ul></div></div>
+                        <div class="accordion-item"><button class="accordion-header">MÓDULO 1 – Fundamentos de Seguridad y Salud en el Trabajo <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Conceptos básicos de SST: peligro, riesgo, accidente, incidente.</li><li>Importancia de la SST en las organizaciones.</li><li>Enfoque de la cultura preventiva en las organizaciones.</li><li>Introducción a la ISO 45001:2018 y su aplicabilidad.</li><li>Responsabilidad social y seguridad ocupacional.</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">MÓDULO 2 – Marco Normativo y Responsabilidades en SST <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Marco normativo nacional: Ley de SST y su reglamento en Perú y Latinoamérica.</li><li>Normas internacionales y estándares aplicables: ISO 45001 y OHSAS 18001.</li><li>Responsabilidad legal del empleador y del trabajador.</li><li>Rol de entidades fiscalizadoras: SUNAFIL, MINTRA, MINSA, OEFA.</li><li>Multas, sanciones y obligaciones empresariales en SST.</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">MÓDULO 3 – Identificación de Peligros y Evaluación de Riesgos <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Metodologías de identificación de peligros.</li><li>Evaluación de riesgos laborales y matriz IPERC.</li><li>Diseño e implementación de controles de riesgos.</li><li>Riesgos físicos, químicos, biológicos, psicosociales y ergonómicos.</li><li>Taller práctico: Aplicación de IPERC en un sector productivo.</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">MÓDULO 4 – Sistema de Gestión de Seguridad y Salud en el Trabajo <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Implementación del SG-SST basado en ISO 45001.</li><li>Principios del ciclo PHVA (Planear, Hacer, Verificar, Actuar).</li><li>Diseño de políticas y objetivos en seguridad laboral.</li><li>Integración del SG-SST con otros sistemas de gestión.</li><li>Taller práctico: Diagnóstico de implementación de un SG-SST.</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">MÓDULO 5 – Vigilancia de la Salud y Ergonomía <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Factores de riesgo ocupacional y enfermedades profesionales.</li><li>Vigilancia médica y exámenes ocupacionales.</li><li>Estrategias de prevención de enfermedades laborales.</li><li>Ergonomía aplicada al puesto de trabajo.</li><li>Taller práctico: Evaluación ergonómica en un ambiente laboral.</li></ul></div></div>
                         <div class="accordion-item"><button class="accordion-header">MÓDULO 6 – Emergencias, Respuesta y Simulacros <i class="fa-solid fa-chevron-down"></i></button><div class="accordion-body"><ul><li>Análisis y gestión de emergencias laborales.</li><li>Elaboración de planes de respuesta ante emergencias.</li><li>Brigadas de emergencia y simulacros en la empresa.</li><li>Procedimientos ante incendios, derrames y evacuaciones.</li><li>Taller práctico: Simulación de respuesta ante emergencias.</li></ul></div></div>
-    </div>
-
+                    </div>
                 </section>
                 
                 <?php include '../includes/benefits_section.php'; ?>
+            </div>
+        </div>
+
+        </div>
+
+        <!-- CERTIFICATION SECTION -->
+        <section class="certification-section bg-burgundy">
+            <div class="container">
+                <div class="cert-grid">
+                    <div class="cert-content">
+                        <div class="cert-header">
+                            <i class="fa-regular fa-circle-check"></i>
+                            <h2>CERTIFICACIÓN</h2>
+                        </div>
+                        
+                        <p class="cert-intro">
+                            Al culminar satisfactoriamente y aprobar el programa, el alumno obtendrá:
+                        </p>
+                        
+                        <div class="cert-box">
+                            <i class="fa-solid fa-chevron-right"></i>
+                            <h3>Certificado de Especialización en Seguridad y Salud en el Trabajo</h3>
+                        </div>
+                        
+                        <p class="cert-description">
+                            La certificación en Seguridad y Salud valida tus competencias en prevención de riesgos y normativa legal, impulsando tu capacidad para garantizar entornos laborales seguros y cumplir con los estándares exigidos.
+                        </p>
+                    </div>
+                    
+                    <div class="cert-image-container">
+                        <span class="cert-image-label">Imagen Referencial del Certificado</span>
+                        <img src="../assets/img/certificados/uni/certificado-seguridad-salud.jpg" alt="Certificado SST" class="cert-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="container course-grid" style="min-height: auto; margin-top: 0; margin-bottom: 0px;">
+            <div class="course-content">
                 <?php include '../includes/payment_methods.php'; ?>
             </div>
-            
-
-
         </div>
     </main>
     <script>document.querySelectorAll('.accordion-header').forEach(b=>{b.addEventListener('click',()=>{b.classList.toggle('active');const c=b.nextElementSibling;c.style.maxHeight=b.classList.contains('active')?c.scrollHeight+"px":0;b.querySelector('i').style.transform=b.classList.contains('active')?"rotate(180deg)":"rotate(0deg)";});});</script>
