@@ -94,7 +94,7 @@ include 'includes/header.php';
                 </div>
 
                 <div class="banner-form-card">
-                    <form action="#" class="lead-form" id="submit-to-google-sheet">
+                    <form name="submit-to-google-sheet" id="submit-to-google-sheet" class="lead-form">
                         <div class="form-row">
                             <div class="form-group">
                                 <label>Nombres</label>
@@ -147,6 +147,20 @@ include 'includes/header.php';
 
                         <button type="submit" class="btn btn-secondary btn-block">¡Contáctenme!</button>
                     </form>
+
+                    <!-- Success Message Container -->
+                    <div id="success-message" class="success-container" style="display: none;">
+                        <div class="success-content">
+                            <div class="success-icon">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                            <h3>¡Solicitud Recibida con Éxito!</h3>
+                            <p>Gracias por confiar en la Corporación Educativa Benjamin Franklin. Un asesor académico se pondrá en contacto contigo en las próximas 24 horas para brindarte toda la información detallada. ¡Tu futuro profesional comienza aquí!</p>
+                            <button id="btn-back-form" class="btn btn-success-back">
+                                <i class="fa-solid fa-rotate-left"></i> Volver al formulario
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -359,3 +373,65 @@ include 'includes/header.php';
     </main>
 
 <?php include 'includes/footer.php'; ?>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwe5qXI-uv2491ySCc01EsfvWGbAazlcRohhlXKlAsT1t6AfdxVh4641McehARPT0wC/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const successMessage = document.getElementById('success-message');
+    const submitButton = form.querySelector('button[type="submit"]');
+    const backButton = document.getElementById('btn-back-form');
+
+    if (form) {
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            
+            // Capture original text dynamically
+            const originalBtnText = submitButton.innerHTML;
+            
+            // Loading State
+            submitButton.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
+            submitButton.disabled = true;
+
+            // Use no-cors mode to safely send data without CORS errors
+            fetch(scriptURL, { 
+                method: 'POST', 
+                body: new FormData(form),
+                mode: 'no-cors' 
+            })
+            .then(() => {
+                // Success Flow (Always triggered if request sent)
+                form.style.display = 'none';
+                successMessage.style.display = 'flex';
+                
+                // Reset button state
+                submitButton.innerHTML = originalBtnText;
+                submitButton.disabled = false;
+            })
+            .catch(error => {
+                // Network Error Handling
+                console.error('Error!', error.message);
+                submitButton.innerHTML = originalBtnText;
+                submitButton.disabled = false;
+                alert('Error de conexión. Por favor, verifica tu internet.');
+            });
+        });
+    }
+
+    if (backButton) {
+        backButton.addEventListener('click', () => {
+            // Reset form
+            form.reset();
+            
+            // Reset dynamic select
+            const specificProgramSelect = document.getElementById('specific-program');
+            if (specificProgramSelect) {
+                specificProgramSelect.innerHTML = '<option value="" disabled selected>Selecciona primero el tipo</option>';
+                specificProgramSelect.disabled = true;
+            }
+
+            // Toggle visibility
+            successMessage.style.display = 'none';
+            form.style.display = 'block';
+        });
+    }
+</script>
