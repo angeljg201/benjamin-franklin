@@ -54,7 +54,7 @@ include '../includes/header.php';
             <div class="container">
                 <div class="hero-content hero-content-expanded">
                     <div class="hero-breadcrumb">INICIO • PROGRAMAS • CONTRATACIONES CON EL ESTADO</div>
-                    <span class="hero-badge">ESPECIALIZACIÓN</span>
+                    <span class="hero-badge">DIPLOMA</span>
                     <h1>Programa de Especialización en Contrataciones con el Estado</h1>
                     <p>El programa desarrolla competencias teóricas y prácticas para gestionar eficientemente los procesos de contratación del Estado, desde la planificación hasta la ejecución contractual, el uso de plataformas digitales, la gestión de riesgos y la solución de controversias.</p>
                     

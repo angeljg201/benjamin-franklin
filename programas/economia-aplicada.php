@@ -37,7 +37,7 @@ include '../includes/header.php';
             <div class="container">
                 <div class="hero-content">
                     <div class="hero-breadcrumb">INICIO • PROGRAMAS • ECONOMÍA APLICADA</div>
-                    <span class="hero-badge">ESPECIALIZACIÓN</span>
+                    <span class="hero-badge">DIPLOMA</span>
                     <h1>Economía Aplicada</h1>
                     <p>El programa ofrece una formación práctica en el uso de herramientas económicas y financieras para la toma de decisiones estratégicas. Los participantes aprenderán sobre costos, mercados, precios, análisis macroeconómico y gestión de riesgos, fortaleciendo su capacidad para optimizar la gestión empresarial.</p>
                     

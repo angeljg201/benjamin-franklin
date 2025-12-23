@@ -37,7 +37,7 @@ include '../includes/header.php';
             <div class="container">
                 <div class="hero-content">
                     <div class="hero-breadcrumb">INICIO • PROGRAMAS • SEGURIDAD Y SALUD</div>
-                    <span class="hero-badge">ESPECIALIZACIÓN</span>
+                    <span class="hero-badge">DIPLOMA</span>
                     <h1>Seguridad y Salud en el Trabajo</h1>
                     <p>El programa ofrece una formación práctica en prevención de riesgos y gestión de la salud ocupacional, basada en la norma ISO 45001:2018. Prepara a los participantes para implementar sistemas que promuevan entornos laborales seguros y saludables.</p>
                     

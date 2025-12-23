@@ -1606,15 +1606,19 @@ nav ul li {
 /* Update Badge to match "Diploma" pill */
 .hero-badge {
     background-color: #fca311;
-    /* Golden/Orange */
-    color: #000;
-    padding: 6px 16px;
+    background: linear-gradient(135deg, #fca311 0%, #e89200 100%);
+    color: #fff;
+    padding: 8px 20px;
     border-radius: 50px;
-    font-weight: 700;
-    font-size: 0.8rem;
+    font-weight: 800;
+    font-size: 1rem;
     display: inline-block;
     margin-bottom: 20px;
     text-transform: uppercase;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 15px rgba(252, 163, 17, 0.4);
+    letter-spacing: 0.5px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 

@@ -37,7 +37,7 @@ include '../includes/header.php';
             <div class="container">
                 <div class="hero-content">
                     <div class="hero-breadcrumb">INICIO • PROGRAMAS • GESTIÓN DE PROYECTOS</div>
-                    <span class="hero-badge">ESPECIALIZACIÓN</span>
+                    <span class="hero-badge">DIPLOMA</span>
                     <h1>Gestión de Proyectos</h1>
                     <p>El programa brinda una formación práctica en la planificación y control de proyectos bajo estándares internacionales y metodologías ágiles. Los participantes aprenderán a gestionar recursos, riesgos y equipos, asegurando resultados eficientes y el logro de los objetivos planteados.</p>
                     
