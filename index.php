@@ -395,73 +395,89 @@ include 'includes/header.php';
     const phoneError = document.getElementById('phone-error');
     const privacyError = document.getElementById('privacy-error');
 
-    // Función para manejar el envío
+    // Regex Definitions
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const phoneRegex = /^\d{9}$/;
+
+    // Función de validación por campo
+    function validateField(input, errorElement, validationFn) {
+        if (!validationFn(input.value.trim())) {
+            errorElement.style.display = 'block';
+            return false;
+        } else {
+            errorElement.style.display = 'none';
+            return true;
+        }
+    }
+
     if (form) {
-        // Limpiar errores al escribir
-        if(form.email) form.email.addEventListener('input', () => emailError.style.display = 'none');
-        if(form.phone) form.phone.addEventListener('input', () => phoneError.style.display = 'none');
-        if(form.privacy) form.privacy.addEventListener('change', () => privacyError.style.display = 'none');
+        // --- 1. VALIDACIÓN EN TIEMPO REAL (Blur & Input) ---
+        
+        // Email
+        if (form.email) {
+            form.email.addEventListener('blur', () => validateField(form.email, emailError, val => emailRegex.test(val)));
+            form.email.addEventListener('input', () => emailError.style.display = 'none'); // Ocultar al corregir
+        }
 
+        // Phone
+        if (form.phone) {
+            form.phone.addEventListener('blur', () => validateField(form.phone, phoneError, val => phoneRegex.test(val)));
+            form.phone.addEventListener('input', () => phoneError.style.display = 'none'); // Ocultar al corregir
+        }
+
+        // Privacy
+        if (form.privacy) {
+            form.privacy.addEventListener('change', () => {
+                if (form.privacy.checked) privacyError.style.display = 'none';
+                else privacyError.style.display = 'block';
+            });
+        }
+
+        // --- 2. INTERCEPTAR SUBMIT ---
         form.addEventListener('submit', e => {
-            e.preventDefault();
+            e.preventDefault(); // SIEMPRE prevenimos el default
             
-            // --- VALIDACIÓN ESTRICTA ---
-            let isValid = true;
-            
-            // 1. Email (Regex básico)
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            if (!emailRegex.test(form.email.value.trim())) {
-                emailError.style.display = 'block';
-                isValid = false;
-            }
+            // Validar TODO antes de enviar
+            let isEmailValid = validateField(form.email, emailError, val => emailRegex.test(val));
+            let isPhoneValid = validateField(form.phone, phoneError, val => phoneRegex.test(val));
+            let isPrivacyValid = form.privacy.checked;
 
-            // 2. Celular (Exactamente 9 dígitos numéricos)
-            const phoneRegex = /^\d{9}$/;
-            if (!phoneRegex.test(form.phone.value.trim())) {
-                phoneError.style.display = 'block';
-                isValid = false;
-            }
-
-            // 3. Privacidad (Checked)
-            if (!form.privacy.checked) {
+            if (!isPrivacyValid) {
                 privacyError.style.display = 'block';
-                isValid = false;
             }
 
-            if (!isValid) return; // Alto si hay errores
+            // Si hay algún error, NO SE ENVÍA
+            if (!isEmailValid || !isPhoneValid || !isPrivacyValid) {
+                return;
+            }
 
-            // --- ENVÍO OPTIMISTA & SILENCIOSO ---
+            // --- 3. ENVÍO (Solo si validaciones Ok) ---
             const originalBtnText = submitButton.innerHTML;
             
             // Loader
             submitButton.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
             submitButton.disabled = true;
 
-            // Fetch (no-cors)
+            // Fetch Optimista (Silencioso)
             fetch(scriptURL, { 
                 method: 'POST', 
                 body: new FormData(form),
                 mode: 'no-cors' 
             })
             .then(() => {
-                // Flujo Normal (Aunque con no-cors siempre entra aquí o catch red)
-                // NO HACE FALTA esperar, el usuario pidió ocultar inmediatamente.
+                // Flujo silencioso
             })
             .catch(error => {
-                console.error('Error interno (silencioso):', error);
-                // No mostramos alerta.
+                console.error('Error interno:', error);
             })
             .finally(() => {
-                // SIEMPRE mostramos éxito (Optimista)
-                // Ocultar form, mostrar éxito
+                // Transición a Éxito (Siempre, para no bloquear UX si la red falla)
                 form.style.display = 'none';
                 successMessage.style.display = 'flex';
                 
-                // Restaurar botón (por si acaso el usuario vuelve atrás de alguna forma rara, o para reset)
+                // Reset UI
                 submitButton.innerHTML = originalBtnText;
                 submitButton.disabled = false;
-                
-                // Resetear form en background
                 form.reset();
             });
         });
@@ -470,7 +486,6 @@ include 'includes/header.php';
     // Botón Volver
     if (backButton) {
         backButton.addEventListener('click', () => {
-            // Reset form
             form.reset();
             
             // Reset dynamic select
@@ -480,12 +495,12 @@ include 'includes/header.php';
                 specificProgramSelect.disabled = true;
             }
             
-            // Ocultar errores residuales
+            // Ocultar errores
             if(emailError) emailError.style.display = 'none';
             if(phoneError) phoneError.style.display = 'none';
             if(privacyError) privacyError.style.display = 'none';
 
-            // Toggle visibility
+            // Toggle visuals
             successMessage.style.display = 'none';
             form.style.display = 'block';
         });
