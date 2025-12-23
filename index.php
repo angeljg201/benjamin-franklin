@@ -109,11 +109,17 @@ include 'includes/header.php';
                         <div class="form-group">
                             <label>Correo Electrónico</label>
                             <input type="email" name="email" placeholder="ejemplo@correo.com" required>
+                                <div id="email-error" style="color: #dc3545; display: none; font-size: 0.85em; margin-top: 5px;">
+                                    Ingresa un correo electrónico válido
+                                </div>
                         </div>
 
                         <div class="form-group">
                             <label>Celular</label>
-                            <input type="tel" name="phone" placeholder="Ingresa tu número de celular" required>
+                            <input type="tel" name="phone" placeholder="Ingresa tu número de celular" required maxlength="9">
+                                <div id="phone-error" style="color: #dc3545; display: none; font-size: 0.85em; margin-top: 5px;">
+                                    El número debe tener exactamente 9 dígitos
+                                </div>
                         </div>
 
                         <div class="form-group">
@@ -143,6 +149,9 @@ include 'includes/header.php';
                                 <span class="check-text">He leído y acepto las <strong>políticas de
                                         privacidad</strong>.</span>
                             </label>
+                            <div id="privacy-error" style="color: #dc3545; display: none; font-size: 0.85em; margin-top: 5px;">
+                                Debes aceptar las políticas de privacidad
+                            </div>
                         </div>
 
                         <button type="submit" class="btn btn-secondary btn-block">¡Contáctenme!</button>
@@ -381,42 +390,84 @@ include 'includes/header.php';
     const submitButton = form.querySelector('button[type="submit"]');
     const backButton = document.getElementById('btn-back-form');
 
+    // Elementos de error
+    const emailError = document.getElementById('email-error');
+    const phoneError = document.getElementById('phone-error');
+    const privacyError = document.getElementById('privacy-error');
+
+    // Función para manejar el envío
     if (form) {
+        // Limpiar errores al escribir
+        if(form.email) form.email.addEventListener('input', () => emailError.style.display = 'none');
+        if(form.phone) form.phone.addEventListener('input', () => phoneError.style.display = 'none');
+        if(form.privacy) form.privacy.addEventListener('change', () => privacyError.style.display = 'none');
+
         form.addEventListener('submit', e => {
             e.preventDefault();
             
-            // Capture original text dynamically
+            // --- VALIDACIÓN ESTRICTA ---
+            let isValid = true;
+            
+            // 1. Email (Regex básico)
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(form.email.value.trim())) {
+                emailError.style.display = 'block';
+                isValid = false;
+            }
+
+            // 2. Celular (Exactamente 9 dígitos numéricos)
+            const phoneRegex = /^\d{9}$/;
+            if (!phoneRegex.test(form.phone.value.trim())) {
+                phoneError.style.display = 'block';
+                isValid = false;
+            }
+
+            // 3. Privacidad (Checked)
+            if (!form.privacy.checked) {
+                privacyError.style.display = 'block';
+                isValid = false;
+            }
+
+            if (!isValid) return; // Alto si hay errores
+
+            // --- ENVÍO OPTIMISTA & SILENCIOSO ---
             const originalBtnText = submitButton.innerHTML;
             
-            // Loading State
+            // Loader
             submitButton.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando...';
             submitButton.disabled = true;
 
-            // Use no-cors mode to safely send data without CORS errors
+            // Fetch (no-cors)
             fetch(scriptURL, { 
                 method: 'POST', 
                 body: new FormData(form),
                 mode: 'no-cors' 
             })
             .then(() => {
-                // Success Flow (Always triggered if request sent)
+                // Flujo Normal (Aunque con no-cors siempre entra aquí o catch red)
+                // NO HACE FALTA esperar, el usuario pidió ocultar inmediatamente.
+            })
+            .catch(error => {
+                console.error('Error interno (silencioso):', error);
+                // No mostramos alerta.
+            })
+            .finally(() => {
+                // SIEMPRE mostramos éxito (Optimista)
+                // Ocultar form, mostrar éxito
                 form.style.display = 'none';
                 successMessage.style.display = 'flex';
                 
-                // Reset button state
+                // Restaurar botón (por si acaso el usuario vuelve atrás de alguna forma rara, o para reset)
                 submitButton.innerHTML = originalBtnText;
                 submitButton.disabled = false;
-            })
-            .catch(error => {
-                // Network Error Handling
-                console.error('Error!', error.message);
-                submitButton.innerHTML = originalBtnText;
-                submitButton.disabled = false;
-                alert('Error de conexión. Por favor, verifica tu internet.');
+                
+                // Resetear form en background
+                form.reset();
             });
         });
     }
 
+    // Botón Volver
     if (backButton) {
         backButton.addEventListener('click', () => {
             // Reset form
@@ -428,6 +479,11 @@ include 'includes/header.php';
                 specificProgramSelect.innerHTML = '<option value="" disabled selected>Selecciona primero el tipo</option>';
                 specificProgramSelect.disabled = true;
             }
+            
+            // Ocultar errores residuales
+            if(emailError) emailError.style.display = 'none';
+            if(phoneError) phoneError.style.display = 'none';
+            if(privacyError) privacyError.style.display = 'none';
 
             // Toggle visibility
             successMessage.style.display = 'none';
