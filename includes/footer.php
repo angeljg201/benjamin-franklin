@@ -18,7 +18,7 @@
                             Cómo llegar
                             <i class="fa-solid fa-chevron-right"></i>
                         </a>
-                        <a href="#" class="location-link">
+                        <a href="<?php echo $rootPath; ?>contacto/index.php#ubicacion" class="location-link">
                             Ver mapa del campus
                             <i class="fa-solid fa-chevron-right"></i>
                         </a>
@@ -59,7 +59,7 @@
                     </div>
 
                     <ul class="footer-nav">
-                        <li><a href="#">Mapa del sitio <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="<?php echo $rootPath; ?>contacto/index.php#ubicacion">Mapa del sitio <i class="fa-solid fa-chevron-right"></i></a></li>
                         <li><a href="#">Términos y condiciones de uso <i class="fa-solid fa-chevron-right"></i></a></li>
                         <li><a href="#">Política de privacidad <i class="fa-solid fa-chevron-right"></i></a>
                         </li>
