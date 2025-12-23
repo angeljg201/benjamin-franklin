@@ -119,7 +119,7 @@ include '../includes/header.php';
                     
                     <div class="cert-image-container">
                         <span class="cert-image-label">Imagen Referencial del Certificado</span>
-                        <img src="../assets/img/certificados/certificado-instalaciones-drywall.jpg" alt="Certificado Drywall" class="cert-img">
+                        <img src="../assets/img/certificados/benjamin/certificado-instalaciones-drywall.jpg" alt="Certificado Drywall" class="cert-img">
                     </div>
                 </div>
             </div>
